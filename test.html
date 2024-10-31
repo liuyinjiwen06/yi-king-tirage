@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- 引入字体 -->
+        <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;600;700&family=ZCOOL+QingKe+HuangYou&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com"></script>
+        
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        fontFamily: {
+                            oxanium: ['Oxanium', 'cursive'],
+                            zcool: ['ZCOOL QingKe HuangYou', 'cursive'],
+                            noto: ['Noto Sans SC', 'sans-serif'],
+                        },
+                    },
+                },
+            }
+        </script>
+        
+        <style>
+ @font-face {
+        font-family: 'TengXiang';  /* 这里的名字可以自定义，之后使用这个名字引用字体 */
+        src: url('/font/TengXiangHeiJian-W4-1.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+            /* 标题样式 */
+            h1[lang="en"], h2[lang="en"], h3[lang="en"], h4[lang="en"] {
+                font-family: 'Oxanium', cursive !important;
+            }
+            
+            h1[lang="zh"], h2[lang="zh"], h3[lang="zh"] {
+                font-family: 'TengXiang', sans-serif !important;
+            }
+    
+            /* 正文样式 */
+            p[lang="en"] {
+                font-family: 'Oxanium', cursive !important;
+            }
+            
+            p[lang="zh"] {
+                font-family: 'Noto Sans SC', sans-serif !important;
+            }
+        </style>
+    </head>
+<body>
+    <div class="bg-gray-50">
+    <div class="max-w-4xl mx-auto bg-gray-50 p-4 md:p-8">
+        <!-- 顶部图片 -->
+        <div class="text-center mb-8">
+            <img src="/api/placeholder/800/300" alt="header illustration" class="w-full max-h-[300px] min-h-[300px] object-cover rounded-xl shadow-md" />
+        </div>
+
+        <!-- 标题区域 -->
+        <div class="text-center mb-12">
+            <h1 lang="en" class="text-3xl md:text-5xl font-bold mb-3">Travel Is No Cure for the Mind</h1>
+            <h2 lang="zh" class="text-2xl md:text-4xl text-gray-700 mb-4">旅行无法治愈心灵</h2>
+            <div class="space-x-4">
+                <span lang="zh" class="bg-gray-200 px-3 py-1 rounded text-md">More To That</span>
+                <span>|</span>
+                <span lang="zh" class="bg-gray-200 px-3 py-1 rounded text-md">Medium</span>
+            </div>
+        </div>
+
+        <!-- 正文对照区域 -->
+        <div id="content-section"></div>
+
+        <!-- 词汇解析区域 -->
+        <div id="vocabulary-section" class="bg-white rounded-lg shadow-md p-6 mb-8">
+            <h3 lang="zh" class="text-2xl font-bold mb-6">
+                <span  class="bg-gray-800 text-white px-3 py-1 rounded">单词派对</span>
+            </h3>
+            <div class="space-y-6 text-xl" id="vocab-list">
+                <!-- 词汇内容将通过数组动态插入 -->
+            </div>
+        </div>
+
+        <!-- 复杂句式解析区域 -->
+        <div id="complex-sentences" class="bg-white rounded-lg shadow-md p-6 mb-8">
+            <h3 lang="zh" class="text-2xl font-bold mb-6">复杂句式解释</h3>
+            <div class="space-y-4" id="sentence-list">
+                <!-- 句式解释将通过数组动态插入 -->
+            </div>
+        </div>
+
+        <!-- 专业术语解析区域 -->
+        <div id="terminology" class="bg-white rounded-lg shadow-md p-6 mb-8">
+            <h3 lang="zh" class="text-2xl font-bold mb-6">专业术语解释</h3>
+            <div class="space-y-4" id="term-list">
+                <!-- 术语解释将通过数组动态插入 -->
+            </div>
+        </div>
+
+        <!-- 底部标签 -->
+        <div class="flex gap-4">
+            <span class="bg-gray-800 text-white px-4 py-1 rounded text-md">精选外刊</span>
+            <span class="bg-black text-white px-4 py-1 rounded text-md">Enjoy Reading</span>
+        </div>
+    </div>
+    </div>
+<script>
+// 正文内容数组
+const content = [
+    {
+        title: {
+            en: "The Box of Daily Experience",
+            cn: "日常体验的盒子"
+        },
+        paragraphs: [
+            {
+                en: "At this moment, you might be in various places, but most likely, you're just going through another day. You check off tasks, and the day moves forward in a continuous sequence of actions and brief respites.",
+                cn: "此刻，你可能身处不同的地方，但很可能你正经历着平凡的一天。你一项项完成任务，日子在一连串的行动和短暂的休息中继续。"
+            }
+        ]
+    }
+];
+
+// 词汇数组
+const vocabulary = [
+    {
+        word: "check off",
+        phonetic: "/tʃek ɒf/",
+        meaning: "勾选，核对",
+        examples: [
+            "I need to check off all the tasks on my to-do list before the end of the day."
+        ]
+    },
+    {
+        word: "dream of",
+        phonetic: "/driːm əv/",
+        meaning: "梦想着，渴望",
+        examples: [
+            "She has always dreamed of traveling the world and experiencing different cultures."
+        ]
+    },
+    // ... 其他词汇
+];
+
+// 复杂句式数组
+const complexSentences = [
+    {
+        sentence: "The majority of tasks involved, totalling 61.7% of time spent, have lower potential for exposure",
+        explanations: [
+            '这是一个包含插入语的句子。主干是"The majority of tasks have lower potential"',
+            '"totalling 61.7% of time spent"是补充说明，用逗号隔开'
+        ]
+    }
+];
+
+// 专业术语数组
+const terminology = [
+    {
+        term: "LLMs (Large Language Models)",
+        explanation: "大语言模型，是一种人工智能技术"
+    },
+    {
+        term: "panel",
+        explanation: '在此处指图表的分区，类似于"部分"或"区域"的含义'
+    }
+];
+
+document.addEventListener('DOMContentLoaded', function() {
+    // 渲染正文
+    const contentSection = document.getElementById('content-section');
+    content.forEach(section => {
+        const sectionDiv = document.createElement('div');
+        sectionDiv.className = 'bg-white rounded-xl shadow-md p-6 mb-8';
+        
+        sectionDiv.innerHTML = `
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <h3 lang="en" class="font-bold mb-4 text-2xl">${section.title.en}</h3>
+                    ${section.paragraphs.map(p => `
+                        <p lang="en" class="text-lg md:text-xl !leading-loose mb-4">${p.en}</p>
+                    `).join('')}
+                </div>
+                <div class="text-gray-600">
+                    <h3 lang="zh" class="font-bold mb-4 text-2xl">${section.title.cn}</h3>
+                    ${section.paragraphs.map(p => `
+                        <p lang="zh" class="text-lg md:text-xl !leading-loose mb-4">${p.cn}</p>
+                    `).join('')}
+                </div>
+            </div>
+        `;
+        contentSection.appendChild(sectionDiv);
+    });
+
+// 渲染词汇
+const vocabList = document.getElementById('vocab-list');
+    vocabulary.forEach(item => {
+        const vocabDiv = document.createElement('div');
+        vocabDiv.className = 'grid grid-cols-1 md:grid-cols-2 gap-0 pb-4 border-b last:border-b-0';
+        
+        vocabDiv.innerHTML = `
+            <div>
+                <div class="flex items-center gap-3 mb-2">
+                    <div  class="w-5 h-5 border-2 border-gray-300 rounded-full"></div>
+                    <h4 lang="en" class="text-2xl font-semibold">${item.word}</h4>
+                </div>
+                <div class="ml-8">
+                    <p lang="en" class="text-gray-500 text-xl">${item.phonetic}</p>
+                    <p lang="en" class="text-gray-600 text-2xl">${item.meaning}</p>
+                </div>
+            </div>
+            <div class="space-y-2">
+                ${item.examples.map(example => `
+                    <p lang="en" class="text-gray-500 text-2xl">${example}</p>
+                `).join('')}
+            </div>
+        `;
+        vocabList.appendChild(vocabDiv);
+    });
+
+    // 渲染复杂句式
+    const sentenceList = document.getElementById('sentence-list');
+    complexSentences.forEach(item => {
+        const sentenceDiv = document.createElement('div');
+        sentenceDiv.className = 'mb-6';
+        
+        sentenceDiv.innerHTML = `
+            <p lang="en" class="font-semibold mb-3 text-2xl">${item.sentence}</p>
+            <div class="space-y-2 ml-4">
+                ${item.explanations.map(exp => `
+                    <p lang="en" class="text-gray-600 text-xl">• ${exp}</p>
+                `).join('')}
+            </div>
+        `;
+        sentenceList.appendChild(sentenceDiv);
+    });
+
+    // 渲染专业术语
+    const termList = document.getElementById('term-list');
+    terminology.forEach(item => {
+        const termDiv = document.createElement('div');
+        termDiv.className = 'mb-4';
+        
+        termDiv.innerHTML = `
+            <p lang="en" class="font-semibold mb-1 text-2xl">${item.term}</p>
+            <p lang="en" class="text-gray-600 ml-4 text-xl">${item.explanation}</p>
+        `;
+        termList.appendChild(termDiv);
+    });
+});
+</script>
+</body>
+</html>
+
