@@ -46,8 +46,8 @@
                 class="relative w-32 h-32 rounded-full  overflow-hidden transition-transform duration-500 hover:scale-110 cursor-pointer"
                 @click="performReading"
               >
-              <img 
-  src="../../asset/coin.png" 
+             <img 
+  src="@/asset/coin.png" 
   :alt="$t('divination.coinAlt')"
   class="w-full h-full object-cover"
 />
