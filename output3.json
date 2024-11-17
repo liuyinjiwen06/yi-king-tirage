@@ -1,0 +1,230 @@
+    "1": {
+        "name": "Hexagram Qian",
+        "chineseName": "乾",
+        "pronunciation": "qián",
+        "keywords": ["creation", "power", "leadership", "perseverance", "strength", "initiative"],
+        "interpretation": {
+            "general": {
+                "overview": "Hexagram Qian symbolizes pure creative energy and the power of beginnings. Like the movement of Heaven, it represents the most pure and strong creative force.",
+                "principle": "The movement of Heaven is strong and unceasing. Just like the ongoing operation of Heaven, it reminds us to constantly move forward and self-improve.",
+                "warning": "When reaching the peak, decline is inevitable. Beware of arrogance and remain humble even in favorable circumstances."
+            },
+            "structure": {
+                "upperTrigram": "Heaven",
+                "lowerTrigram": "Heaven",
+                "image": "The movement of Heaven is strong. The superior man constantly strives for self-improvement.",
+                "meaning": "The unceasing movement of the sky teaches us to constantly strive for self-improvement and elevation."
+            },
+            "lifeAspects": {
+                "career": {
+                    "title": "Career",
+                    "situation": "Situational development of career",
+                    "guidance": "Great prosperity and success, everything is going smoothly, the career is flourishing with opportunities for expansion",
+                    "advice": "Fully utilize your talents, maintain a humble attitude, and steadily move forward",
+                    "warning": "Beware of becoming arrogant and complacent, and guard against the inevitable decline"
+                },
+                "wealth": {
+                    "title": "Wealth",
+                    "situation": "Financial status",
+                    "guidance": "There are great opportunities for upward development, financial fortunes are prosperous",
+                    "advice": "Giving is better than receiving, seize investment opportunities",
+                    "warning": "Avoid greed and reckless actions, uphold business ethics"
+                },
+                "relationships": {
+                    "title": "Interpersonal relationships",
+                    "situation": "State of interpersonal relationships",
+                    "guidance": "Strong leadership, with charisma and influence",
+                    "advice": "Treat others with a humble attitude, build harmonious relationships",
+                    "warning": "Be cautious of becoming too forceful and losing gentleness, strive to balance yin and yang"
+                },
+                "health": {
+                    "title": "Health",
+                    "situation": "Physical condition",
+                    "guidance": "Energetic and physically strong",
+                    "advice": "Maintain exercise habits, focus on health preservation",
+                    "warning": "Be cautious of overexertion, pay attention to rest and regeneration"
+},
+    "2": {
+        "name": "Hexagram Kun",
+        "chineseName": "坤",
+        "pronunciation": "kūn",
+        "keywords": ["compliance", "tolerance", "nourishment", "gentleness", "virtue", "bearing"],
+        "interpretation": {
+            "general": {
+                "overview": "Hexagram Kun symbolizes the foundational power of the earth, displaying qualities of receptivity and nourishment. It is the perfect complement to Hexagram Qian, showcasing the power of gentleness and tolerance.",
+                "principle": "The terrain is Kun, and the superior man carries what is heavy with virtue. Just like the earth accommodating all beings, it teaches us to embrace all with generous virtues.",
+                "warning": "Excessive compliance may lead to lack of self-determination, one must maintain self-judgment amid compliance."
+            },
+            "structure": {
+                "upperTrigram": "Earth",
+                "lowerTrigram": "Earth",
+                "image": "The terrain is Kun, and the superior man carries what is heavy with virtue.",
+                "meaning": "The situation of the earth is flat and expansive, following the course of nature. It reminds us to undertake significant responsibilities with profound virtues."
+            },
+            "lifeAspects": {
+                "career": {
+                    "title": "Career",
+                    "situation": "Career development",
+                    "guidance": "Use gentleness to overcome rigidity, use stillness to control movement, great things can be achieved through cooperation",
+                    "advice": "Emphasize teamwork, maintain a humble attitude",
+                    "warning": "Avoid acting alone and seeking personal glory, avoid going it alone"
+                },
+                "wealth": {
+                    "title": "Wealth",
+                    "situation": "Financial status",
+                    "guidance": "Manage steadily, spend within means, reap abundant rewards",
+                    "advice": "Prioritize stability, accumulate wealth",
+                    "warning": "Avoid risks, progress steadily and cautiously"
+                },
+                "relationships": {
+                    "title": "Interpersonal relationships",
+                    "situation": "Status of interpersonal relationships",
+                    "guidance": "Treat others with a heart of tolerance, navigate the world with a gentle demeanor",
+                    "advice": "Maintain a gentle and humble attitude, build harmonious relationships",
+                    "warning": "Beware of excessive retreat, maintain moderate principles"
+                },
+                "health": {
+                    "title": "Health",
+                    "situation": "Physical condition",
+                    "guidance": "Focus on recuperation, engage in gentle exercises",
+                    "advice": "Maintain a regular schedule, focus on nourishing oneself",
+                    "warning": "Be cautious of overexertion, pay attention to rest and recovery"
+},
+    "3": {
+        "name": "Hexagram Zhun",
+        "chineseName": "屯",
+        "pronunciation": "zhūn",
+        "keywords": ["starting point", "chaos", "difficulty", "growth", "breakthrough", "accumulation of power"],
+        "interpretation": {
+            "general": {
+                "overview": "Hexagram Zhun symbolizes the initial state of chaos, like a seed breaking through the soil. This is the moment when all things begin to take shape, with obstacles but full of vitality.",
+                "principle": "Clouds and thunder gather, the superior man cultivates virtue. The initial stage of difficulties is a necessary path, requiring wisdom and patience to overcome obstacles.",
+                "warning": "In the initial stage, rushing is not advisable, instead steady progress is key."
+            },
+            "structure": {
+                "upperTrigram": "Water",
+                "lowerTrigram": "Thunder",
+                "image": "Clouds and thunder gather, the superior man cultivates virtue.",
+                "meaning": "Clouds gather above, thunder rumbles below, symbolizing the chaos and restlessness of the initial period, teaching us to govern chaos with wisdom."
+            },
+            "lifeAspects": {
+                "career": {
+                    "title": "Career",
+                    "situation": "Career development is in the initial stage",
+                    "guidance": "Caution is needed in the beginning, gradual progress is preferred",
+                    "advice": "Stay grounded, move forward steadily",
+                    "warning": "Avoid rushing for quick success, patience and accumulation are necessary"
+                },
+                "wealth": {
+                    "title": "Wealth",
+                    "situation": "Financial status",
+                    "guidance": "Entrepreneurship is challenging, steady management is required",
+                    "advice": "Act within your means, invest cautiously",
+                    "warning": "Rushing ahead is not advisable, be cautious of risks"
+                },
+                "relationships": {
+                    "title": "Interpersonal relationships",
+                    "situation": "Early stage of relationship development",
+                    "guidance": "Treat others with sincerity, build trust",
+                    "advice": "Maintain an open and inclusive attitude",
+                    "warning": "Beware of malicious interference, focus on relationship maintenance"
+                },
+                "health": {
+                    "title": "Health",
+                    "situation": "Physical condition",
+                    "guidance": "Focus on wellness, maintain vitality",
+                    "advice": "Establish good habits, lay a solid foundation",
+                    "warning": "Avoid excessive fatigue, maintain vigor"
+},
+    "4": {
+        "name": "Hexagram Meng",
+        "chineseName": "蒙",
+        "pronunciation": "méng",
+        "keywords": ["enlightenment", "learning", "guidance", "education", "awakening", "growth"],
+        "interpretation": {
+            "general": {
+                "overview": "Hexagram Meng symbolizes the process of enlightenment and education, like a spring emerging from the mountain, it shows the thirst for knowledge and growth. Education and guidance are key themes at the moment.",
+                "principle": "A spring emerges from under the mountain, that is Meng; the superior man cultivates virtue through education. The spring water gushes from under the mountain, symbolizing the enlightenment of knowledge and the cultivation of virtue.",
+                "warning": "Avoid aiming too high, instead stay grounded and progress step by step."
+            },
+            "structure": {
+                "upperTrigram": "Mountain",
+                "lowerTrigram": "Water",
+                "image": "A spring emerges from under the mountain, that is Meng.",
+                "meaning": "The image of water springing from under the mountain reminds us that even in ignorance there is potential wisdom, which needs to be gradually revealed through education and guidance."
+            },
+            "lifeAspects": {
+                "career": {
+                    "title": "Career",
+                    "situation": "Currently in a stage of learning and accumulation",
+                    "guidance": "Seek advice humbly, study diligently, establish a solid foundation",
+                    "advice": "Find good teachers and friends, set the right direction",
+                    "warning": "Do not rush for success, focus on solid learning"
+                },
+                "wealth": {
+                    "title": "Wealth",
+                    "situation": "Financial knowledge needs improvement",
+                    "guidance": "Learn financial knowledge, start steadily",
+                    "advice": "Learn through practice, accumulate experience",
+                    "warning": "Avoid hasty investments, seek to understand first"
+                },
+                "relationships": {
+                    "title": "Interpersonal relationships",
+                    "situation": "In a stage of learning and social interaction",
+                    "guidance": "Approach others with a humble attitude",
+                    "advice": "Learn from those with experience",
+                    "warning": "Avoid being self-righteous, be open to input"
+                },
+                "health": {
+                    "title": "Health",
+                    "situation": "Need to learn about health knowledge",
+                    "guidance": "Adopt good lifestyle habits",
+                    "advice": "Learn about health preservation, regulate daily routines",
+                    "warning": "Prevention is better than cure, pay attention to rest and balance"
+},
+    "5": {
+        "name": "Hexagram Xu",
+        "chineseName": "需",
+        "pronunciation": "xū",
+        "keywords": ["waiting", "opportunity", "preparation", "accumulation", "nourishment", "moderation"],
+        "interpretation": {
+            "general": {
+                "overview": "Hexagram Xu symbolizes the need for waiting and preparation, like clouds waiting in the sky for the right moment to bring refreshing rain. It teaches us the wisdom of waiting.",
+                "principle": "Clouds in the sky waiting for rain, Xu; The superior man enjoys his food and drink. Clouds gather in the sky waiting for rainfall, reminding us to maintain patience and readiness.",
+                "warning": "Waiting is not idle, one should actively prepare and enrich oneself."
+            },
+            "structure": {
+                "upperTrigram": "Water",
+                "lowerTrigram": "Heaven",
+                "image": "Clouds waiting in the sky, Xu",
+                "meaning": "The clouds gathering in the sky teach us the value of patient waiting and seizing the opportunity, while maintaining a pleasant attitude."
+            },
+            "lifeAspects": {
+                "career": {
+                    "title": "Career",
+                    "situation": "Opportunities have not matured",
+                    "guidance": "Prepare actively and wait patiently for the right moment",
+                    "advice": "Enrich yourself and strengthen your abilities",
+                    "warning": "Do not act rashly, wait for the right time"
+                },
+                "wealth": {
+                    "title": "Wealth",
+                    "situation": "Not yet time for investment opportunities",
+                    "guidance": "Accumulate capital and wait for the opportunity",
+                    "advice": "Manage finances prudently, build up strength",
+                    "warning": "Avoid rushing in, guard against losses"
+                },
+                "relationships": {
+                    "title": "Interpersonal relationships",
+                    "situation": "Relationships need time to cultivate",
+                    "guidance": "Manage relationships with a calm attitude",
+                    "advice": "Maintain patience, wait for fate",
+                    "warning": "Do not force it, let it flow naturally"
+                },
+                "health": {
+                    "title": "Health",
+                    "situation": "In need of rest and recuperation",
+                    "guidance": "Pay attention to diet and daily routines",
+                    "advice": "Maintain regular daily routines, balance body and mind",
+                    "warning": "Prevention is better than cure, timely maintenance"
+}

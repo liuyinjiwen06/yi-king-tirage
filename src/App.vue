@@ -91,81 +91,171 @@
         </div>
       </div>
 
-      <!-- 结果显示区域 -->
-      <div 
-        v-if="currentHexagram && showResult" 
-        class="bg-white rounded-2xl shadow-lg p-8 transition-all duration-500"
-        :class="{ 'opacity-0 translate-y-4': !showResult, 'opacity-100 translate-y-0': showResult }"
-      >
-        <!-- 卦象标题 -->
-        <div class="text-center mb-8">
-          <h2 class="text-3xl font-bold mb-2 text-[#2C1810]">
-            {{ currentHexagram.name }}
-          </h2>
-          <div class="text-lg text-gray-600 mb-2">
-            {{ $t('hexagram.number', { number: hexagram }) }}
-          </div>
-          <div class="text-xl text-[#C8503C]">
-            {{ currentHexagram.chineseName }} ({{ currentHexagram.pronunciation }})
-          </div>
+<!-- 结果显示区域 -->
+<div 
+  v-if="currentHexagram && showResult" 
+  class="space-y-6 py-4 max-w-4xl mx-auto"
+>
+  <!-- 卦象总览 -->
+  <div class="bg-white rounded-2xl p-6 shadow-sm">
+    <div class="flex items-center space-x-2 mb-4">
+      <h3 class="text-xl font-semibold text-[#C8503C]">{{ t('results.generalReading') }}</h3>
+      <span class="text-gray-500 text-sm">{{ t('results.hexagramNumber', { number: currentHexagram.number }) }}</span>
+    </div>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="md:col-span-2">
+        <h4 class="font-medium text-gray-900 mb-2">
+          {{ currentHexagram.name }} ({{ currentHexagram.pronunciation }})
+        </h4>
+        <p class="text-gray-600 mb-4">
+          {{ currentHexagram.interpretation.general.overview }}
+        </p>
+
+<!-- keywords 部分 -->
+<div class="flex flex-wrap gap-2">
+  <span class="px-2 py-1 bg-gray-100 text-gray-600 rounded text-sm">
+    {{ t(`${currentHexagram.number}.keywords[0]`) }}
+  </span>
+  <span class="px-2 py-1 bg-gray-100 text-gray-600 rounded text-sm">
+    {{ t(`${currentHexagram.number}.keywords[1]`) }}
+  </span>
+  <span class="px-2 py-1 bg-gray-100 text-gray-600 rounded text-sm">
+    {{ t(`${currentHexagram.number}.keywords[2]`) }}
+  </span>
+  <span class="px-2 py-1 bg-gray-100 text-gray-600 rounded text-sm">
+    {{ t(`${currentHexagram.number}.keywords[3]`) }}
+  </span>
+</div>
+
+      </div>
+      <div class="border-l pl-6">
+        <h4 class="font-medium text-gray-900 mb-2">{{ t('results.structures') }}</h4>
+        <div class="space-y-2 text-gray-600">
+          <p>{{ t('results.structure.upperTrigram') }}：{{ currentHexagram.interpretation.structure.upperTrigram }}</p>
+          <p>{{ t('results.structure.lowerTrigram') }}：{{ currentHexagram.interpretation.structure.lowerTrigram }}</p>
+          <p>{{ t('results.structure.image') }}：{{ currentHexagram.interpretation.structure.image }}</p>
         </div>
+      </div>
+    </div>
+  </div>
 
-        <!-- 解释内容 -->
-        <div class="space-y-6">
-          <!-- 总体解释 -->
-          <div class="bg-white rounded-lg p-4 shadow-sm">
-            <h4 class="text-lg font-semibold mb-2 text-[#C8503C]">{{ $t('hexagram.interpretation.overview') }}</h4>
-            <p class="text-gray-700">{{ hexagramInterpretation.general }}</p>
+  <!-- 卦象详解 -->
+  <div class="bg-white rounded-2xl p-6 shadow-sm">
+    <h3 class="text-xl font-semibold text-[#C8503C] mb-4">{{ t('results.interpretation.title') }}</h3>
+    <div class="space-y-6">
+      <!-- 基本含义 -->
+      <div>
+        <h4 class="font-bold text-gray-900 mb-2">{{ t('results.interpretation.basicMeaning') }}</h4>
+        <div class="pl-4 border-l-2 border-gray-200">
+          <p class="text-gray-600">
+            {{ currentHexagram.interpretation.structure.meaning }}
+          </p>
+        </div>
+      </div>
+
+      <!-- 现实启示 -->
+      <div>
+        <h4 class="font-bold text-gray-900 mb-2">{{ t('results.interpretation.realityImplications') }}</h4>
+        <div class="grid md:grid-cols-2 gap-4">
+          <!-- 处境解析 -->
+          <div class="bg-gray-50 p-4 rounded">
+            <h5 class="font-medium text-gray-700 mb-2">{{ t('results.interpretation.situationAnalysis') }}</h5>
+            <p class="text-gray-600">
+              {{ currentHexagram.interpretation.general.principle }}
+            </p>
           </div>
-
-          <!-- 结构信息 -->
-          <div class="bg-white rounded-lg p-4 shadow-sm">
-            <h4 class="text-lg font-semibold mb-2 text-[#C8503C]">{{ $t('hexagram.interpretation.structure.title') }}</h4>
-            <div class="space-y-2">
-              <p class="text-gray-700">
-                <span class="font-medium">{{ $t('hexagram.interpretation.structure.trigrams') }}:</span> 
-                <template v-if="$i18n.locale === 'zh'">
-      "{{ hexagramInterpretation.structure.upperTrigram }}"在
-      "{{ hexagramInterpretation.structure.lowerTrigram }}"上
-    </template>
-    <template v-else-if="$i18n.locale === 'en'">
-      {{ hexagramInterpretation.structure.upperTrigram }} over
-      {{ hexagramInterpretation.structure.lowerTrigram }}
-    </template>
-    <template v-else>
-      {{ hexagramInterpretation.structure.upperTrigram }} sur
-      {{ hexagramInterpretation.structure.lowerTrigram }}
-    </template>
-              </p>
-              <p class="text-gray-700">
-                <span class="font-medium">{{ $t('hexagram.interpretation.structure.image') }}:</span> 
-                {{ hexagramInterpretation.structure.image }}
-              </p>
-              <p class="text-gray-700">{{ hexagramInterpretation.structure.meaning }}</p>
-            </div>
-          </div>
-
-          <!-- 详细解释 -->
-          <div class="bg-white rounded-lg p-4 shadow-sm">
-            <h4 class="text-lg font-semibold mb-2 text-[#C8503C]">{{ $t('hexagram.interpretation.details.title') }}</h4>
-            <div class="space-y-3">
-              <p class="text-gray-700">
-                <span class="font-medium">{{ $t('hexagram.interpretation.details.situation') }}:</span> 
-                {{ hexagramInterpretation.interpretation.situation }}
-              </p>
-              <p class="text-gray-700">
-                <span class="font-medium">{{ $t('hexagram.interpretation.details.evolution') }}:</span> 
-                {{ hexagramInterpretation.interpretation.evolution }}
-              </p>
-              <p class="text-gray-700">
-                <span class="font-medium">{{ $t('hexagram.interpretation.details.advice') }}:</span> 
-                {{ hexagramInterpretation.interpretation.advice }}
-              </p>
-            </div>
+          <!-- 发展趋势 -->
+          <div class="bg-gray-50 p-4 rounded">
+            <h5 class="font-medium text-gray-700 mb-2">{{ t('results.interpretation.developmentTrend') }}</h5>
+            <p class="text-gray-600">
+              {{ currentHexagram.interpretation.general.warning }}
+            </p>
           </div>
         </div>
       </div>
 
+      <!-- 生活指引 -->
+      <div>
+        <h4 class="font-bold text-gray-900 mb-2">{{ t('results.lifeAspects') }}</h4>
+        <div class="space-y-4">
+          <!-- 事业发展 -->
+          <div class="bg-gray-50 p-4 rounded">
+            <h5 class="font-medium text-[#C8503C] mb-2">{{ currentHexagram.interpretation.lifeAspects.career.title }}</h5>
+            <p class="text-gray-600 mb-2">{{ t('results.lifeGuidance.situation') }}：{{ currentHexagram.interpretation.lifeAspects.career.situation }}</p>
+            <p class="text-gray-600 mb-2">{{ t('results.lifeGuidance.guidance') }}：{{ currentHexagram.interpretation.lifeAspects.career.guidance }}</p>
+            <p class="text-gray-600 mb-2">{{ t('results.lifeGuidance.advice') }}：{{ currentHexagram.interpretation.lifeAspects.career.advice }}</p>
+            <p class="text-gray-600">{{ t('results.lifeGuidance.warning') }}：{{ currentHexagram.interpretation.lifeAspects.career.warning }}</p>
+          </div>
+
+          <!-- 财富管理 -->
+          <div class="bg-gray-50 p-4 rounded">
+            <h5 class="font-medium text-[#C8503C] mb-2">{{ currentHexagram.interpretation.lifeAspects.wealth.title }}</h5>
+            <p class="text-gray-600 mb-2">{{ t('results.lifeGuidance.situation') }}：{{ currentHexagram.interpretation.lifeAspects.wealth.situation }}</p>
+            <p class="text-gray-600 mb-2">{{ t('results.lifeGuidance.guidance') }}：{{ currentHexagram.interpretation.lifeAspects.wealth.guidance }}</p>
+            <p class="text-gray-600 mb-2">{{ t('results.lifeGuidance.advice') }}：{{ currentHexagram.interpretation.lifeAspects.wealth.advice }}</p>
+            <p class="text-gray-600">{{ t('results.lifeGuidance.warning') }}：{{ currentHexagram.interpretation.lifeAspects.wealth.warning }}</p>
+          </div>
+
+          <!-- 人际关系 -->
+          <div class="bg-gray-50 p-4 rounded">
+            <h5 class="font-medium text-[#C8503C] mb-2">{{ currentHexagram.interpretation.lifeAspects.relationships.title }}</h5>
+            <p class="text-gray-600 mb-2">{{ t('results.lifeGuidance.situation') }}：{{ currentHexagram.interpretation.lifeAspects.relationships.situation }}</p>
+            <p class="text-gray-600 mb-2">{{ t('results.lifeGuidance.guidance') }}：{{ currentHexagram.interpretation.lifeAspects.relationships.guidance }}</p>
+            <p class="text-gray-600 mb-2">{{ t('results.lifeGuidance.advice') }}：{{ currentHexagram.interpretation.lifeAspects.relationships.advice }}</p>
+            <p class="text-gray-600">{{ t('results.lifeGuidance.warning') }}：{{ currentHexagram.interpretation.lifeAspects.relationships.warning }}</p>
+          </div>
+
+          <!-- 健康养生 -->
+          <div class="bg-gray-50 p-4 rounded">
+            <h5 class="font-medium text-[#C8503C] mb-2">{{ currentHexagram.interpretation.lifeAspects.health.title }}</h5>
+            <p class="text-gray-600 mb-2">{{ t('results.lifeGuidance.situation') }}：{{ currentHexagram.interpretation.lifeAspects.health.situation }}</p>
+            <p class="text-gray-600 mb-2">{{ t('results.lifeGuidance.guidance') }}：{{ currentHexagram.interpretation.lifeAspects.health.guidance }}</p>
+            <p class="text-gray-600 mb-2">{{ t('results.lifeGuidance.advice') }}：{{ currentHexagram.interpretation.lifeAspects.health.advice }}</p>
+            <p class="text-gray-600">{{ t('results.lifeGuidance.warning') }}：{{ currentHexagram.interpretation.lifeAspects.health.warning }}</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 具体建议 -->
+      <div >
+        <h4 class="font-bold text-gray-900 mb-2">{{ t('results.suggestions') }}</h4>
+        <div class="grid md:grid-cols-2 gap-4">
+          <div class="bg-gray-50 p-4 rounded">
+            <h5 class="text-gray-700 mb-2">{{ t('results.actions') }}</h5>
+            <ul class="list-disc list-inside space-y-2">
+    <li>{{ t(`${currentHexagram.number}.interpretation.suggestions.actions[0]`) }}</li>
+    <li>{{ t(`${currentHexagram.number}.interpretation.suggestions.actions[1]`) }}</li>
+    <li>{{ t(`${currentHexagram.number}.interpretation.suggestions.actions[2]`) }}</li>
+    <li>{{ t(`${currentHexagram.number}.interpretation.suggestions.actions[3]`) }}</li>
+  </ul>
+          </div>
+          <div class="bg-gray-50 p-4 rounded">
+            <h5 class="text-gray-700 mb-2">{{ t('results.cautions') }}</h5>
+            <ul class="list-disc list-inside space-y-2">
+    <li>{{ t(`${currentHexagram.number}.interpretation.suggestions.cautions[0]`) }}</li>
+    <li>{{ t(`${currentHexagram.number}.interpretation.suggestions.cautions[1]`) }}</li>
+    <li>{{ t(`${currentHexagram.number}.interpretation.suggestions.cautions[2]`) }}</li>
+    <li>{{ t(`${currentHexagram.number}.interpretation.suggestions.cautions[3]`) }}</li>
+  </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 反思问题 -->
+  <div class="bg-white rounded-2xl p-6 shadow-sm">
+    <h3 class="text-xl font-semibold text-[#C8503C] mb-4">{{ t('results.reflections') }}</h3>
+    <ul class="list-disc list-inside space-y-2">
+    <li>{{ t(`${currentHexagram.number}.interpretation.reflections[0]`) }}</li>
+    <li>{{ t(`${currentHexagram.number}.interpretation.reflections[1]`) }}</li>
+    <li>{{ t(`${currentHexagram.number}.interpretation.reflections[2]`) }}</li>
+    <li>{{ t(`${currentHexagram.number}.interpretation.reflections[3]`) }}</li>
+  </ul>
+  </div>
+</div>
+       
+    
       <!-- 信息内容区域 -->
       <div v-if="!isReading" class="bg-[#F5F5F0] pt-8 pb-16 max-w-4xl mx-auto">
         <!-- 历史与传统 -->
@@ -240,6 +330,7 @@
 
 
 
+
       </div>
 
       
@@ -248,33 +339,98 @@
 </template>
 
 <script setup>
-import { ref, watch } from 'vue'  // 添加 watch 的导入
-
+import { ref, watch } from 'vue'
 import { useI18n } from 'vue-i18n'
 import LanguageSwitcher from './components/LanguageSwitcher.vue'
 import { getHexagramData } from './data/hexagrams'
 
-const { t, locale } = useI18n()  // 获取 locale
-
-// 监听语言变化
-watch(locale, (newLocale) => {
-  // 如果当前有显示卦象，则更新其内容
-  if (hexagram.value) {
-    currentHexagram.value = getHexagramData(hexagram.value, newLocale)
-    hexagramName.value = currentHexagram.value.name
-    hexagramInterpretation.value = currentHexagram.value.interpretation
-  }
-})
+const { t, locale } = useI18n()
 
 // 响应式状态
 const readings = ref([])
 const hexagram = ref(null)
-const hexagramName = ref('')
-const hexagramInterpretation = ref(null)
 const currentHexagram = ref(null)
 const isReading = ref(false)
 const showResult = ref(false)
 const showCoins = ref(false)
+
+// 监听语言变化
+watch(locale, (newLocale) => {
+  console.log('Language changed to:', newLocale)
+  if (hexagram.value) {
+    updateHexagramData(hexagram.value)
+  }
+})
+
+import { onMounted } from 'vue'
+
+onMounted(() => {
+  console.log(t('1.name'))
+  console.log(t('1.interpretation.general.overview'))
+})
+
+// 更新卦象数据
+// updateHexagramData函数
+const updateHexagramData = (hexagramNumber) => {
+  const hexagramData = getHexagramData(hexagramNumber)
+  currentHexagram.value = {
+    number: hexagramData.number,
+    name: t(`${hexagramNumber}.name`),
+    chineseName: t(`${hexagramNumber}.chineseName`),
+    pronunciation: t(`${hexagramNumber}.pronunciation`),
+    keywords: hexagramData.keywords,
+    interpretation: {
+      general: {
+        overview: t(`${hexagramNumber}.interpretation.general.overview`),
+        principle: t(`${hexagramNumber}.interpretation.general.principle`),
+        warning: t(`${hexagramNumber}.interpretation.general.warning`)
+      },
+      structure: {
+        upperTrigram: t(`${hexagramNumber}.interpretation.structure.upperTrigram`),
+        lowerTrigram: t(`${hexagramNumber}.interpretation.structure.lowerTrigram`),
+        image: t(`${hexagramNumber}.interpretation.structure.image`),
+        meaning: t(`${hexagramNumber}.interpretation.structure.meaning`)
+      },
+      lifeAspects: {
+        career: {
+          title: t(`${hexagramNumber}.interpretation.lifeAspects.career.title`),
+          situation: t(`${hexagramNumber}.interpretation.lifeAspects.career.situation`),
+          guidance: t(`${hexagramNumber}.interpretation.lifeAspects.career.guidance`),
+          advice: t(`${hexagramNumber}.interpretation.lifeAspects.career.advice`),
+          warning: t(`${hexagramNumber}.interpretation.lifeAspects.career.warning`)
+        },
+        wealth: {
+          title: t(`${hexagramNumber}.interpretation.lifeAspects.wealth.title`),
+          situation: t(`${hexagramNumber}.interpretation.lifeAspects.wealth.situation`),
+          guidance: t(`${hexagramNumber}.interpretation.lifeAspects.wealth.guidance`),
+          advice: t(`${hexagramNumber}.interpretation.lifeAspects.wealth.advice`),
+          warning: t(`${hexagramNumber}.interpretation.lifeAspects.wealth.warning`)
+        },
+        relationships: {
+          title: t(`${hexagramNumber}.interpretation.lifeAspects.relationships.title`),
+          situation: t(`${hexagramNumber}.interpretation.lifeAspects.relationships.situation`),
+          guidance: t(`${hexagramNumber}.interpretation.lifeAspects.relationships.guidance`),
+          advice: t(`${hexagramNumber}.interpretation.lifeAspects.relationships.advice`),
+          warning: t(`${hexagramNumber}.interpretation.lifeAspects.relationships.warning`)
+        },
+        health: {
+          title: t(`${hexagramNumber}.interpretation.lifeAspects.health.title`),
+          situation: t(`${hexagramNumber}.interpretation.lifeAspects.health.situation`),
+          guidance: t(`${hexagramNumber}.interpretation.lifeAspects.health.guidance`),
+          advice: t(`${hexagramNumber}.interpretation.lifeAspects.health.advice`),
+          warning: t(`${hexagramNumber}.interpretation.lifeAspects.health.warning`)
+        }
+      },
+      suggestions: {
+        actions: t(`${hexagramNumber}.interpretation.suggestions.actions`, [], { array: true }),
+        cautions: t(`${hexagramNumber}.interpretation.suggestions.cautions`, [], { array: true })
+      },
+      reflections: t(`${hexagramNumber}.interpretation.reflections`, [], { array: true })
+    }
+  }
+}
+
+
 
 // 开始占卦
 const startReading = () => {
@@ -309,12 +465,10 @@ const calculateHexagram = () => {
   const binaryString = readings.value.map(r => r === 'yang' ? '1' : '0').join('')
   const hexagramNumber = parseInt(binaryString, 2) + 1
   hexagram.value = hexagramNumber
-  // 传入当前语言
-  currentHexagram.value = getHexagramData(hexagramNumber, locale.value)
-  hexagramName.value = currentHexagram.value.name
-  hexagramInterpretation.value = currentHexagram.value.interpretation
+  updateHexagramData(hexagramNumber)
 }
 </script>
+
 <style scoped>
 .line-enter-active {
   transition: all 0.5s ease-out;

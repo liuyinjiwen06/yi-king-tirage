@@ -26,6 +26,40 @@ export default {
         }
       }
     },
+    results: {
+      hexagramNumber: 'Hexagramme {number}',
+      generalReading: 'General Reading',
+      structures: 'Structure Analysis',
+      lifeAspects: 'Life Aspects',
+      career: 'Career',
+      wealth: 'Wealth',
+      relationships: 'Relationships',
+      health: 'Health',
+      suggestions: 'Suggestions',
+      actions: 'Recommended Actions',
+      cautions: 'Points of Caution',
+      reflections: 'Self-Reflection Questions',
+      structure: {
+        title: 'Structure',
+        upperTrigram: 'Upper Trigram',
+        lowerTrigram: 'Lower Trigram',
+        image: 'Hexagram Image'
+      },
+      interpretation: {
+        title: 'Hexagram Interpretation',
+        basicMeaning: 'Basic Meaning',
+        realityImplications: 'Reality Implications',
+        situationAnalysis: 'Situation Analysis',
+        developmentTrend: 'Development Trend'
+      },
+      lifeGuidance: {
+        title: 'Life Guidance',
+        situation: 'Situation',
+        guidance: 'Guidance',
+        advice: 'Advice',
+        warning: 'Warning'
+      }
+    },
     information: {
       history: {
         title: 'I Ching: Ancient Wisdom Through Time',

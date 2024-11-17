@@ -111,6 +111,41 @@ export default {
       }
     }
   },
+  results: {
+    hexagramNumber: 'Hexagramme {number}',
+    generalReading: 'Lecture Générale',
+    structures: 'Analyse Structurelle',
+    lifeAspects: 'Aspects de la Vie',
+    career: 'Carrière',
+    wealth: 'Richesse',
+    relationships: 'Relations',
+    health: 'Santé',
+    suggestions: 'Suggestions',
+    actions: 'Actions Recommandées',
+    cautions: 'Points de Prudence',
+    reflections: 'Questions de Réflexion',
+    structure: {
+      title: 'Structure',
+      upperTrigram: 'Trigramme Supérieur',
+      lowerTrigram: 'Trigramme Inférieur',
+      image: 'Image de l\'Hexagramme'
+    },
+    interpretation: {
+      title: 'Interprétation de l\'Hexagramme',
+      basicMeaning: 'Signification Fondamentale',
+      realityImplications: 'Implications Réelles',
+      situationAnalysis: 'Analyse de la Situation',
+      developmentTrend: 'Tendance de Développement'
+    },
+    lifeGuidance: {
+      title: 'Guide de Vie',
+      situation: 'Situation',
+      guidance: 'Orientation',
+      advice: 'Conseil',
+      warning: 'Avertissement'
+    }
+  },
+
   information: {
     history: {
       title: 'Le Yi King : Un Oracle Millénaire pour Votre Tirage',

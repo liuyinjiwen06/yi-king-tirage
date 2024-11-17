@@ -1,4 +1,3 @@
-export default {
     "1": {
         "name": "Hexagram Qian",
         "chineseName": "乾",
@@ -74,7 +73,9 @@ export default {
                 "How can I maintain humility within strength?"
             ]
         }
-    }, 
+    }
+},
+{
     "2": {
         "name": "Hexagram Kun",
         "chineseName": "坤",
@@ -150,7 +151,9 @@ export default {
                 "What needs nurturing and support in the current environment?"
             ]
         }
-    },
+    }
+},
+{
     "3": {
         "name": "Hexagram Zhun",
         "chineseName": "屯",
@@ -226,7 +229,9 @@ export default {
                 "How to maintain a positive attitude in adversity?"
             ]
         }
-    },
+    }
+},
+{
     "4": {
         "name": "Hexagram Meng",
         "chineseName": "蒙",
@@ -302,7 +307,9 @@ export default {
                 "Is my current direction of study correct?"
             ]
         }
-    },
+    }
+},
+{
     "5": {
         "name": "Hexagram Xu",
         "chineseName": "需",
@@ -378,7 +385,9 @@ export default {
                 "How can I maintain a positive attitude while waiting?"
             ]
         }
-    },
+    }
+},
+{
     "6": {
         "name": "Hexagram Song",
         "chineseName": "讼",
@@ -454,7 +463,9 @@ export default {
                 "How can disputes be prevented from arising?"
             ]
         }
-    },
+    }
+},
+{
     "7": {
         "name": "Hexagram Shi",
         "chineseName": "师",
@@ -530,7 +541,9 @@ export default {
                 "Does my team have a common goal?"
             ]
         }
-    },
+    }
+},
+{
     "8": {
         "name": "Hexagram Bi",
         "chineseName": "比",
@@ -606,7 +619,9 @@ export default {
                 "Am I treating every relationship sincerely?"
             ]
         }
-    },
+    }
+},
+{
     "9": {
         "name": "Hexagram Xiao Chu",
         "chineseName": "小畜",
@@ -682,7 +697,9 @@ export default {
                 "How can I cultivate virtues and abilities at this stage?"
             ]
         }
-    },
+    }
+},
+{
     "10": {
         "name": "Hexagram Lv",
         "chineseName": "履",
@@ -754,7 +771,9 @@ export default {
                 "Does my current action align with my long-term goals?"
             ]
         }
-    },
+    }
+},
+{
     "11": {
         "name": "Hexagram Tai",
         "chineseName": "泰",
@@ -826,7 +845,9 @@ export default {
                 "How can I grow during this prosperous period?"
             ]
         }
-    },
+    }
+},
+{
     "12": {
         "name": "Hexagram Pi",
         "chineseName": "否",
@@ -898,7 +919,9 @@ export default {
                 "How can I effectively utilize this stagnant period?"
             ]
         }
-    },
+    }
+},
+{
     "13": {
         "name": "Hexagram Tong Ren",
         "chineseName": "同人",
@@ -970,7 +993,9 @@ export default {
                 "How can I remain authentic in collaboration with others?"
             ]
         }
-    },
+    }
+},
+{
     "14": {
         "name": "Hexagram Da You",
         "chineseName": "大有",
@@ -1044,7 +1069,9 @@ export default {
                 "How can I maintain humility within success?"
             ]
         }
-    },
+    }
+},
+{
     "15": {
         "name": "Hexagram Qian",
         "chineseName": "谦",
@@ -1117,7 +1144,9 @@ export default {
                 "Am I showing enough respect in my interactions with others?"
             ]
         }
-    },
+    }
+},
+{
     "16": {
         "name": "Hexagram Yu",
         "chineseName": "豫",
@@ -1190,7 +1219,9 @@ export default {
                 "Have I found a balance between enjoyment and effort?"
             ]
         }
-    },
+    }
+},
+{
     "17": {
         "name": "Hexagram Sui",
         "chineseName": "随",
@@ -1263,7 +1294,9 @@ export default {
                 "Have I found inner balance in flexibility?"
             ]
         }
-    },
+    }
+},
+{
     "18": {
         "name": "Hexagram Gu",
         "chineseName": "蛊",
@@ -1336,7 +1369,9 @@ export default {
                 "Have I noticed and addressed long-term health issues for improvement?"
             ]
         }
-    },
+    }
+},
+{
     "19": {
         "name": "Hexagram Lin",
         "chineseName": "临",
@@ -1409,7 +1444,9 @@ export default {
                 "Am I aware of the impact of stress on my physical and mental health?"
             ]
         }
-    },
+    }
+},
+{
     "20": {
         "number": 20,
         "name": "Hexagram Guan",
@@ -1483,7 +1520,9 @@ export default {
                 "Am I paying enough attention to warning signals for physical and mental health?"
             ]
         }
-    },
+    }
+},
+{
     "21": {
         "name": "Hexagram Shi Ke",
         "chineseName": "噬嗑",
@@ -1557,7 +1596,9 @@ export default {
                 "Have I paid attention to bodily signals and taken timely health measures?"
             ]
         }
-    },
+    }
+},
+{
     "22": {
         "name": "Hexagram Bi",
         "chineseName": "贲",
@@ -1631,7 +1672,9 @@ export default {
                 "Am I paying attention to internal health as well as external appearance?"
             ]
         }
-    },
+    }
+},
+{
     "23": {
         "name": "Hexagram Bo",
         "chineseName": "剥",
@@ -1705,7 +1748,9 @@ export default {
                 "Do I pay attention to my health and maintain good lifestyle habits?"
             ]
         }
-    },
+    }
+},
+{
     "24": {
         "name": "Hexagram Fu",
         "chineseName": "复",
@@ -1779,7 +1824,9 @@ export default {
                 "Have I maintained good lifestyle habits, exercised moderately, and strengthened physical fitness?"
             ]
         }
-    },
+    }
+},
+{
     "25": {
         "name": "Hexagram Wu Wang",
         "chineseName": "无妄",
@@ -1852,7 +1899,9 @@ export default {
                 "Have I been following natural laws, maintaining good habits, and exercising moderately?"
             ]
         }
-    },
+    }
+},
+{
     "26": {
         "name": "Hexagram Da Xu",
         "chineseName": "大畜",
@@ -1926,7 +1975,9 @@ export default {
                 "Have I maintained good lifestyle habits, exercised moderately, and strengthened physical fitness?"
             ]
         }
-    },
+    }
+},
+{
     "27": {
         "name": "Hexagram Yi",
         "chineseName": "颐",
@@ -2000,7 +2051,9 @@ export default {
                 "Have I maintained good lifestyle habits, controlled diet, and strengthened physical fitness?"
             ]
         }
-    },
+    }
+},
+{
     "28": {
         "name": "Hexagram Da Guo",
         "chineseName": "大过",
@@ -2074,7 +2127,9 @@ export default {
                 "Have I maintained good lifestyle habits, had regular check-ups, and prevented diseases?"
             ]
         }
-    },
+    }
+},
+{
     "29": {
         "name": "Hexagram Kan",
         "chineseName": "坎",
@@ -2148,7 +2203,9 @@ export default {
                 "Am I maintaining good lifestyle habits, regular check-ups, and preventing diseases?"
             ]
         }
-    },
+    }
+},
+{
     "30": {
         "name": "Hexagram Li",
         "chineseName": "离",
@@ -2222,7 +2279,9 @@ export default {
                 "Have I used eyes wisely, avoided excessive fatigue, and ensured sufficient sleep?"
             ]
         }
-    },
+    }
+},
+{
     "31": {
         "name": "Hexagram Xian",
         "chineseName": "咸",
@@ -2296,7 +2355,9 @@ export default {
                 "Have I maintained a positive mindset, exercised moderately, strengthened my body, and maintained physical and mental harmony?"
             ]
         }
-    },
+    }
+},
+{
     "32": {
         "name": "Hexagram Heng",
         "chineseName": "恒",
@@ -2370,7 +2431,9 @@ export default {
                 "Am I maintaining good habits and monitoring my health?"
             ]
         }
-    },
+    }
+},
+{
     "33": {
         "name": "Hexagram Dun",
         "chineseName": "遁",
@@ -2444,7 +2507,9 @@ export default {
                 "Have I rested timely, adjusted daily routines, and maintained physical and mental balance?"
             ]
         }
-    },
+    }
+},
+{
     "34": {
         "name": "Hexagram Da Zhuang",
         "chineseName": "大壮",
@@ -2518,7 +2583,9 @@ export default {
                 "Have I maintained a healthy lifestyle, exercised appropriately, and avoided excessive physical exertion?"
             ]
         }
-    },
+    }
+},
+{
     "35": {
         "name": "Hexagram Jin",
         "chineseName": "晋",
@@ -2592,7 +2659,9 @@ export default {
                 "Have I maintained a healthy lifestyle and avoided overexertion?"
             ]
         }
-    },
+    }
+},
+{
     "36": {
         "name": "Hexagram Ming Yi",
         "chineseName": "明夷",
@@ -2665,7 +2734,9 @@ export default {
                 "Have I rested appropriately and maintained a healthy lifestyle?"
             ]
         }
-    },
+    }
+},
+{
     "37": {
         "name": "Hexagram Jiaren",
         "chineseName": "家人",
@@ -2738,7 +2809,9 @@ export default {
                 "Have I focused on maintaining a healthy lifestyle and the well-being of family members?"
             ]
         }
-    },
+    }
+},
+{
     "38": {
         "name": "Hexagram Kui",
         "chineseName": "睽",
@@ -2811,7 +2884,9 @@ export default {
                 "Have I taken proper rest to maintain physical and mental balance?"
             ]
         }
-    },
+    }
+},
+{
     "39": {
         "name": "Hexagram Jian",
         "chineseName": "蹇",
@@ -2884,7 +2959,9 @@ export default {
                 "Have I taken adequate rest and maintained a healthy lifestyle?"
             ]
         }
-    },
+    }
+},
+{
     "40": {
         "name": "Hexagram Xie",
         "chineseName": "解",
@@ -2957,7 +3034,9 @@ export default {
                 "Have I maintained a healthy lifestyle and exercised appropriately?"
             ]
         }
-    },
+    }
+},
+{
     "41": {
         "name": "Hexagram Sun",
         "chineseName": "损",
@@ -3034,7 +3113,9 @@ export default {
                 "Can I find true abundance in simplicity?"
             ]
         }
-    },
+    }
+},
+{
     "42": {
         "name": "Hexagram Yi",
         "chineseName": "益",
@@ -3111,7 +3192,9 @@ export default {
                 "How can I achieve a balance between helping others and my own growth?"
             ]
         }
-    },
+    }
+},
+{
     "43": {
         "name": "Hexagram Guai",
         "chineseName": "夬",
@@ -3188,7 +3271,9 @@ export default {
                 "How can I maintain wisdom and rationality amidst firmness?"
             ]
         }
-    },
+    }
+},
+{
     "44": {
         "name": "Hexagram Gou",
         "chineseName": "姤",
@@ -3265,7 +3350,9 @@ export default {
                 "Do I possess the capacity to seize this opportunity?"
             ]
         }
-    },
+    }
+},
+{
     "45": {
         "name": "Hexagram Cui",
         "chineseName": "萃",
@@ -3342,7 +3429,9 @@ export default {
                 "How can I maintain individuality within the group?"
             ]
         }
-    },
+    }
+},
+{
     "46": {
         "name": "Hexagram Sheng",
         "chineseName": "升",
@@ -3419,7 +3508,9 @@ export default {
                 "How can I make growth more natural and enduring?"
             ]
         }
-    },
+    }
+},
+{
     "47": {
         "name": "Hexagram Kun",
         "chineseName": "困",
@@ -3496,7 +3587,9 @@ export default {
                 "How does this experience make me stronger?"
             ]
         }
-    },
+    }
+},
+{
     "48": {
         "name": "Hexagram Jing",
         "chineseName": "井",
@@ -3575,7 +3668,9 @@ export default {
                 "How to nurture others while maintaining self-growth?"
             ]
         }
-    },
+    }
+},
+{
     "49": {
         "name": "Hexagram Ge",
         "chineseName": "革",
@@ -3654,7 +3749,9 @@ export default {
                 "How to seize opportunities amidst change?"
             ]
         }
-    },
+    }
+},
+{
     "50": {
         "name": "Hexagram Ding",
         "chineseName": "鼎",
@@ -3733,7 +3830,9 @@ export default {
                 "How can I give back the results of transformation to others?"
             ]
         }
-    },
+    }
+},
+{
     "51": {
         "name": "Hexagram Zhen",
         "chineseName": "震",
@@ -3812,7 +3911,9 @@ export default {
                 "How can I turn the awe-inspiring presence into a driving force for growth?"
             ]
         }
-    },
+    }
+},
+{
     "52": {
         "name": "Hexagram Gen",
         "chineseName": "艮",
@@ -3891,7 +3992,9 @@ export default {
                 "What insights does this stillness offer me?"
             ]
         }
-    },
+    }
+},
+{
     "53": {
         "name": "Hexagram Jian",
         "chineseName": "渐",
@@ -3970,7 +4073,9 @@ export default {
                 "Is the balance between goals and process maintained?"
             ]
         }
-    },
+    }
+},
+{
     "54": {
         "name": "Hexagram GuiMei",
         "chineseName": "归妹",
@@ -4049,7 +4154,9 @@ export default {
                 "What impact will the changes bring?"
             ]
         }
-    },
+    }
+},
+{
     "55": {
         "number": 55,
         "name": "Hexagram Feng",
@@ -4129,7 +4236,9 @@ export default {
                 "Do you understand the importance of being prepared for challenges?"
             ]
         }
-    },
+    }
+},
+{
     "56": {
         "name": "Hexagram Lu",
         "chineseName": "旅",
@@ -4208,7 +4317,9 @@ export default {
                 "Can I create value while in motion?"
             ]
         }
-    },
+    }
+},
+{
     "57": {
         "name": "Hexagram Xun",
         "chineseName": "巽",
@@ -4287,7 +4398,9 @@ export default {
                 "How to maintain strength within mildness?"
             ]
         }
-    },
+    }
+},
+{
     "58": {
         "name": "Hexagram Dui",
         "chineseName": "兑",
@@ -4360,7 +4473,9 @@ export default {
                 "Have I maintained a healthy lifestyle?"
             ]
         }
-    },
+    }
+},
+{
     "59": {
         "name": "Hexagram Huan",
         "chineseName": "涣",
@@ -4442,7 +4557,9 @@ export default {
                 "What should the pattern look like after reorganization?"
             ]
         }
-    },
+    }
+},
+{
     "60": {
         "hexagram": {
             "number": 60,
@@ -4530,7 +4647,9 @@ export default {
                 ]
             }
         }
-    },
+    }
+},
+{
     "61": {
         "name": "Hexagram Zhong Fu",
         "chineseName": "中孚",
@@ -4609,7 +4728,9 @@ export default {
                 "How to balance integrity and precaution?"
             ]
         }
-    },
+    }
+},
+{
     "62": {
         "name": "Hexagram Xiao Guo",
         "chineseName": "小过",
@@ -4687,7 +4808,9 @@ export default {
                 "Is my daily accumulation solid?"
             ]
         }
-    },
+    }
+},
+{
     "63": {
         "number": 63,
         "name": "Hexagram Ji Ji",
@@ -4771,4 +4894,89 @@ export default {
             ]
         }
     }
+},
+{
+    "64": {
+        "name": "Hexagram Wei Ji",
+        "chineseName": "未济",
+        "pronunciation": "wèi jì",
+        "keywords": [
+            "incompletion",
+            "transition",
+            "potential",
+            "preparation",
+            "turning point",
+            "hope"
+        ],
+        "interpretation": {
+            "general": {
+                "overview": "Hexagram Wei Ji is the last hexagram in the I Ching, symbolizing a state of incompleteness. Like fire over water, with the disorder of yin and yang, it appears chaotic but holds great potential for transformation. Wei Ji signifies not an end but a new beginning, brimming with infinite possibilities.",
+                "principle": "Wei Ji, progress and success. The small fox crossing the water, its tail nearly submerged, with no place to go. While unfinished, Wei Ji indicates that a turning point is imminent. It teaches us to maintain confidence in adversity and seize opportunities.",
+                "warning": "Although the path ahead may be unclear, one must not passively wait. Embrace challenges with a positive attitude and seek breakthroughs amidst change."
+            },
+            "structure": {
+                "upperTrigram": "Fire",
+                "lowerTrigram": "Water",
+                "image": "Fire over water, uncompleted; the superior man is cautious and discriminates in his choice of residence.",
+                "meaning": "Fire is above, which is out of place, disrupting the order of yin and yang. The upper trigram represents Li as fire and the lower trigram represents Kan as water. Fire naturally rises while in the upper position, and water naturally descends while in the lower position, each following its own nature but failing to interact. Observing this image, the superior man understands: in a state of incompleteness, clear discrimination is required in handling matters, assessing the situation, and choosing wisely."
+            },
+            "lifeAspects": {
+                "career": {
+                    "title": "Career",
+                    "situation": "Career development has not reached the desired state, facing challenges but full of opportunities.",
+                    "guidance": "Maintain initiative, seize opportunities, and actively break through.",
+                    "advice": "Adjust strategy direction and prepare for the turning point.",
+                    "warning": "Do not rush for success, proceed step by step."
+                },
+                "wealth": {
+                    "title": "Wealth",
+                    "situation": "Financial status needs improvement, with opportunities and challenges.",
+                    "guidance": "Make rational investments and financial planning, seize market opportunities.",
+                    "advice": "Perfect financial planning, lay a solid foundation for the future.",
+                    "warning": "Avoid rash decisions, do not rush for immediate success."
+                },
+                "relationships": {
+                    "title": "Interpersonal Relationships",
+                    "situation": "Interpersonal relationships need deepening and patient cultivation.",
+                    "guidance": "Treat others with sincerity, foster deep friendships.",
+                    "advice": "Proactively maintain relationships and create opportunities for communication.",
+                    "warning": "Do not force immediate returns, give relationships time to develop."
+                },
+                "health": {
+                    "title": "Health",
+                    "situation": "Health condition requires adjustment, but there is room for improvement.",
+                    "guidance": "Adhere to the path of health, maintain an optimistic attitude.",
+                    "advice": "Create a health plan, gradually improve health.",
+                    "warning": "Avoid excessive worry, maintain a positive mindset."
+                }
+            },
+            "suggestions": {
+                "actions": [
+                    "Clarify the direction of goals",
+                    "Seize opportunities in due time",
+                    "Perfect preparation work",
+                    "Adjust action strategies",
+                    "Cultivate core capabilities",
+                    "Maintain a positive attitude"
+                ],
+                "cautions": [
+                    "Avoid passive waiting",
+                    "Do not rush for success",
+                    "Beware of blind actions",
+                    "Guard against impulsive mentality",
+                    "Beware of premature actions",
+                    "Do not underestimate oneself"
+                ]
+            },
+            "reflections": [
+                "What insights does the current dilemma provide me?",
+                "How can I seize potential opportunities?",
+                "What preparations are needed?",
+                "Where is the breakthrough point?",
+                "How to maintain momentum for progress?",
+                "What is the future direction?"
+            ]
+        }
+    }
 }
+

@@ -1,4 +1,6 @@
-export default {
+
+
+{
     "1": {
         "name": "Hexagram Qian",
         "chineseName": "乾",
@@ -74,7 +76,9 @@ export default {
                 "Comment puis-je maintenir l'humilité au sein de ma force ?"
             ]
         }
-    },
+    }
+},
+{
     "2": {
         "name": "Hexagram Kun",
         "chineseName": "坤",
@@ -149,7 +153,9 @@ export default {
                 "De quoi ai-je besoin de nourrir et de soutenir dans mon environnement actuel ?"
             ]
         }
-    },
+    }
+},
+{
     "3": {
         "name": "Hexagram Zhun",
         "chineseName": "屯",
@@ -225,7 +231,9 @@ export default {
                 "Comment maintenir une attitude positive face à l'adversité ?"
             ]
         }
-    },
+    }
+},
+{
     "4": {
         "name": "Hexagram Meng",
         "chineseName": "蒙",
@@ -301,7 +309,9 @@ export default {
                 "Est-ce que ma direction d'apprentissage actuelle est correcte ?"
             ]
         }
-    },
+    }
+},
+{
     "5": {
         "name": "Hexagram Xu",
         "chineseName": "需",
@@ -377,7 +387,9 @@ export default {
                 "Comment maintenir une attitude d'attente positive ?"
             ]
         }
-    },
+    }
+},
+{
     "6": {
         "name": "Hexagram Song",
         "chineseName": "讼",
@@ -453,7 +465,9 @@ export default {
                 "Comment prévenir l'émergence de controverses ?"
             ]
         }
-    },
+    }
+},
+{
     "7": {
         "name": "Hexagram Shi",
         "chineseName": "师",
@@ -529,7 +543,9 @@ export default {
                 "Mon équipe a-t-elle des objectifs communs ?"
             ]
         }
-    },
+    }
+},
+{
     "8": {
         "name": "Hexagram Bi",
         "chineseName": "比",
@@ -605,7 +621,9 @@ export default {
                 "Suis-je authentique dans chaque relation que j'entretiens ?"
             ]
         }
-    },
+    }
+},
+{
     "9": {
         "name": "Hexagram Xiao Chu",
         "chineseName": "小畜",
@@ -681,7 +699,9 @@ export default {
                 "Comment puis-je cultiver mes vertus et mes compétences à ce stade ?"
             ]
         }
-    },
+    }
+},
+{
     "10": {
         "name": "Hexagram Lǚ",
         "chineseName": "履",
@@ -753,7 +773,9 @@ export default {
                 "Mes actions actuelles sont-elles en accord avec mes objectifs à long terme ?"
             ]
         }
-    },
+    }
+},
+{
     "11": {
         "name": "Hexagram Tai",
         "chineseName": "泰",
@@ -825,7 +847,9 @@ export default {
                 "Comment puis-je grandir pendant cette période de prospérité ?"
             ]
         }
-    },
+    }
+},
+{
     "12": {
         "name": "Hexagram Pi",
         "chineseName": "否",
@@ -897,7 +921,9 @@ export default {
                 "Comment puis-je tirer parti de cette période de stagnation de manière efficace ?"
             ]
         }
-    },
+    }
+},
+{
     "13": {
         "name": "Hexagram Tong Ren",
         "chineseName": "同人",
@@ -969,7 +995,9 @@ export default {
                 "Comment rester authentique dans la collaboration avec autrui ?"
             ]
         }
-    },
+    }
+},
+{
     "14": {
         "name": "Hexagram Da You",
         "chineseName": "大有",
@@ -1043,7 +1071,9 @@ export default {
                 "Comment maintenir l'humilité au sein de la réussite ?"
             ]
         }
-    },
+    }
+},
+{
     "15": {
         "name": "Hexagram Qian",
         "chineseName": "谦",
@@ -1116,7 +1146,9 @@ export default {
                 "Suis-je assez respectueux dans mes interactions avec les autres ?"
             ]
         }
-    },
+    }
+},
+{
     "16": {
         "name": "Hexagram Yu",
         "chineseName": "豫",
@@ -1190,7 +1222,9 @@ export default {
                 "Comment puis-je rester humble tout en étant fort ?"
             ]
         }
-    },
+    }
+},
+{
     "17": {
         "name": "Hexagram Sui",
         "chineseName": "随",
@@ -1264,7 +1298,9 @@ export default {
                 "Comment préserver ma propre identité tout en étant flexible ?"
             ]
         }
-    },
+    }
+},
+{
     "18": {
         "name": "Hexagram Gu",
         "chineseName": "蛊",
@@ -1337,7 +1373,9 @@ export default {
                 "Ai-je pris conscience des problèmes de santé à long terme et cherché à les améliorer ?"
             ]
         }
-    },
+    }
+},
+{
     "19": {
         "name": "Hexagram Lin",
         "chineseName": "临",
@@ -1410,7 +1448,9 @@ export default {
                 "Ai-je conscience de l'impact du stress sur ma santé mentale et physique ?"
             ]
         }
-    },
+    }
+},
+{
     "20": {
         "name": "Hexagram Guan",
         "chineseName": "观",
@@ -1483,7 +1523,9 @@ export default {
                 "Suis-je assez attentif aux signaux d'alerte de ma santé mentale et physique ?"
             ]
         }
-    },
+    }
+},
+{
     "21": {
         "name": "Hexagram Shi Ke",
         "chineseName": "噬嗑",
@@ -1557,7 +1599,9 @@ export default {
                 "Est-ce que je surveille les signaux de mon corps et prends des mesures pour maintenir ma santé ?"
             ]
         }
-    },
+    }
+},
+{
     "22": {
         "name": "Hexagram Bi",
         "chineseName": "贲",
@@ -1631,7 +1675,9 @@ export default {
                 "Est-ce que je prends soin de ma santé intérieure en plus de mon apparence extérieure ?"
             ]
         }
-    },
+    }
+},
+{
     "23": {
         "name": "Hexagram Bo",
         "chineseName": "剥",
@@ -1705,7 +1751,9 @@ export default {
                 "Ai-je pris en compte ma santé et adopté de bonnes habitudes de vie ?"
             ]
         }
-    },
+    }
+},
+{
     "24": {
         "name": "Hexagram Fu",
         "chineseName": "复",
@@ -1779,7 +1827,9 @@ export default {
                 "Ai-je maintenu de bonnes habitudes de vie, faire de l'exercice modéré et renforcé ma santé ?"
             ]
         }
-    },
+    }
+},
+{
     "25": {
         "name": "Hexagram Wu Wang",
         "chineseName": "无妄",
@@ -1852,7 +1902,9 @@ export default {
                 "Ai-je suivi les lois naturelles, maintenu de bonnes habitudes de vie et fait de l'exercice modéré ?"
             ]
         }
-    },
+    }
+},
+{
     "26": {
         "name": "Hexagram Da Xu",
         "chineseName": "大畜",
@@ -1926,7 +1978,9 @@ export default {
                 "Est-ce que je maintiens de bonnes habitudes de vie, faisant de l'exercice modéré pour renforcer ma santé ?"
             ]
         }
-    },
+    }
+},
+{
     "27": {
         "name": "Hexagram Yi",
         "chineseName": "颐",
@@ -2000,7 +2054,9 @@ export default {
                 "Suis-je attentif à maintenir de bonnes habitudes de vie, contrôlant mon alimentation pour renforcer ma santé ?"
             ]
         }
-    },
+    }
+},
+{
     "28": {
         "name": "Hexagram Daguo",
         "chineseName": "大过",
@@ -2074,7 +2130,9 @@ export default {
                 "Est-ce que je maintiens de bonnes habitudes de vie, consulte régulièrement des professionnels de santé pour prévenir les maladies ?"
             ]
         }
-    },
+    }
+},
+{
     "29": {
         "name": "Hexagram Kan",
         "chineseName": "坎",
@@ -2148,7 +2206,9 @@ export default {
                 "Ais-je maintenu de bonnes habitudes de vie, passé des examens réguliers et prévenu les maladies ?"
             ]
         }
-    },
+    }
+},
+{
     "30": {
         "name": "Hexagram Li",
         "chineseName": "离",
@@ -2222,7 +2282,9 @@ export default {
                 "Ai-je une bonne hygiène oculaire, évite la fatigue excessive et assure un sommeil suffisant ?"
             ]
         }
-    },
+    }
+},
+{
     "31": {
         "name": "Hexagram Xian",
         "chineseName": "咸",
@@ -2296,7 +2358,9 @@ export default {
                 "Ai-je maintenu une attitude positive, fait de l'exercice modéré pour renforcer ma constitution et maintenir l'harmonie physique et mentale ?"
             ]
         }
-    },
+    }
+},
+{
     "32": {
         "name": "Hexagram Heng",
         "chineseName": "恒",
@@ -2370,7 +2434,9 @@ export default {
                 "Suis-je conscient de mes habitudes de vie et de santé, et comment puis-je maintenir une discipline personnelle ?"
             ]
         }
-    },
+    }
+},
+{
     "33": {
         "name": "Hexagram Dun",
         "chineseName": "遁",
@@ -2444,7 +2510,9 @@ export default {
                 "Ai-je pris le temps de me reposer, d'équilibrer ma vie et de préserver mon bien-être ?"
             ]
         }
-    },
+    }
+},
+{
     "34": {
         "name": "Hexagram Da Zhuang",
         "chineseName": "大壮",
@@ -2518,7 +2586,9 @@ export default {
                 "Ai-je maintenu un mode de vie sain, fait de l'exercice régulièrement, évitant de trop solliciter mon corps ?"
             ]
         }
-    },
+    }
+},
+{
     "35": {
         "name": "Hexagram Jin",
         "chineseName": "晋",
@@ -2592,7 +2662,9 @@ export default {
                 "Ai-je maintenu un mode de vie sain pour éviter la fatigue excessive ?"
             ]
         }
-    },
+    }
+},
+{
     "36": {
         "name": "Hexagram Ming Yi",
         "chineseName": "明夷",
@@ -2665,7 +2737,9 @@ export default {
                 "Ai-je bien pris soin de ma santé en me reposant suffisamment et en adoptant un mode de vie sain ?"
             ]
         }
-    },
+    }
+},
+{
     "37": {
         "name": "Hexagram Jiā Rén",
         "chineseName": "家人",
@@ -2738,7 +2812,9 @@ export default {
                 "Ai-je prêté attention à la santé des membres de ma famille en maintenant un mode de vie sain ?"
             ]
         }
-    },
+    }
+},
+{
     "38": {
         "name": "Hexagram Kuí",
         "chineseName": "睽",
@@ -2811,7 +2887,9 @@ export default {
                 "Ai-je pris suffisamment de repos pour maintenir un équilibre physique et mental ?"
             ]
         }
-    },
+    }
+},
+{
     "39": {
         "name": "Hexagram Jian",
         "chineseName": "蹇",
@@ -2884,7 +2962,9 @@ export default {
                 "Ai-je suffisamment reposé et adopté un mode de vie sain pour ma santé ?"
             ]
         }
-    },
+    }
+},
+{
     "40": {
         "name": "Hexagram Xie",
         "chineseName": "解",
@@ -2957,7 +3037,9 @@ export default {
                 "Est-ce que je maintiens un mode de vie sain en faisant de l'exercice régulièrement ?"
             ]
         }
-    },
+    }
+},
+{
     "41": {
         "name": "Hexagram Sun",
         "chineseName": "损",
@@ -3034,7 +3116,9 @@ export default {
                 "Puis-je trouver une véritable richesse dans la simplicité ?"
             ]
         }
-    },
+    }
+},
+{
     "42": {
         "name": "Hexagram Yi",
         "chineseName": "益",
@@ -3111,7 +3195,9 @@ export default {
                 "Comment trouver un équilibre entre aider les autres et mon propre développement ?"
             ]
         }
-    },
+    }
+},
+{
     "43": {
         "name": "Hexagram Guai",
         "chineseName": "夬",
@@ -3188,7 +3274,9 @@ export default {
                 "Comment conserver sagesse et rationalité dans ma détermination ?"
             ]
         }
-    },
+    }
+},
+{
     "44": {
         "name": "Hexagram Gou",
         "chineseName": "姤",
@@ -3264,7 +3352,9 @@ export default {
                 "Ai-je les compétences nécessaires pour saisir cette opportunité ?"
             ]
         }
-    },
+    }
+},
+{
     "45": {
         "name": "Hexagram Cuì",
         "chineseName": "萃",
@@ -3341,7 +3431,9 @@ export default {
                 "Comment préserver son individualité au sein du collectif ?"
             ]
         }
-    },
+    }
+},
+{
     "46": {
         "name": "Hexagram Sheng",
         "chineseName": "升",
@@ -3418,7 +3510,9 @@ export default {
                 "Comment rendre la croissance plus naturelle et durable ?"
             ]
         }
-    },
+    }
+},
+{
     "47": {
         "name": "Hexagram Kun",
         "chineseName": "困",
@@ -3495,7 +3589,9 @@ export default {
                 "En quoi cette expérience me rend-elle plus fort ?"
             ]
         }
-    },
+    }
+},
+{
     "48": {
         "name": "Hexagram Jing",
         "chineseName": "井",
@@ -3574,7 +3670,9 @@ export default {
                 "Comment nourrir les autres tout en continuant ma propre croissance ?"
             ]
         }
-    },
+    }
+},
+{
     "49": {
         "name": "Hexagram Ge",
         "chineseName": "革",
@@ -3653,7 +3751,9 @@ export default {
                 "Comment saisir les opportunités dans le processus de réforme ?"
             ]
         }
-    },
+    }
+},
+{
     "50": {
         "name": "Hexagram Ding",
         "chineseName": "鼎",
@@ -3732,7 +3832,9 @@ export default {
                 "Comment puis-je partager les fruits de ma transformation avec les autres ?"
             ]
         }
-    },
+    }
+},
+{
     "51": {
         "name": "Hexagram Zhen",
         "chineseName": "震",
@@ -3811,7 +3913,9 @@ export default {
                 "Comment transformer l'avertissement en une force de croissance ?"
             ]
         }
-    },
+    }
+},
+{
     "52": {
         "name": "Hexagram Gen",
         "chineseName": "艮",
@@ -3890,7 +3994,9 @@ export default {
                 "Quelles révélations m'apporte cet arrêt et cette quiétude?"
             ]
         }
-    },
+    }
+},
+{
     "53": {
         "name": "Hexagram Jian",
         "chineseName": "渐",
@@ -3969,7 +4075,9 @@ export default {
                 "Suis-je en équilibre entre objectifs et processus ?"
             ]
         }
-    },
+    }
+},
+{
     "54": {
         "name": "Hexagram Gui Mei",
         "chineseName": "归妹",
@@ -4048,7 +4156,9 @@ export default {
                 "Quels effets le changement apportera-t-il ?"
             ]
         }
-    },
+    }
+},
+{
     "55": {
         "name": "Hexagram Feng",
         "chineseName": "丰",
@@ -4127,7 +4237,9 @@ export default {
                 "Saisissez-vous le principe de rester vigilant malgré le succès ?"
             ]
         }
-    },
+    }
+},
+{
     "56": {
         "name": "Hexagram Lü",
         "chineseName": "旅",
@@ -4206,7 +4318,9 @@ export default {
                 "Est-il possible de créer de la valeur en étant en mouvement ?"
             ]
         }
-    },
+    }
+},
+{
     "57": {
         "name": "Hexagram Xun",
         "chineseName": "巽",
@@ -4285,7 +4399,9 @@ export default {
                 "Comment conserver la force dans la douceur ?"
             ]
         }
-    },
+    }
+},
+{
     "58": {
         "name": "Hexagram Dui",
         "chineseName": "兑",
@@ -4358,7 +4474,9 @@ export default {
                 "Ai-je maintenu un mode de vie sain ?"
             ]
         }
-    },
+    }
+},
+{
     "59": {
         "hexagram": {
             "number": 60,
@@ -4446,95 +4564,78 @@ export default {
                 ]
             }
         }
-    },
-    "60": {
-        "hexagram": {
-            "number": 60,
-            "name": "Hexagram Jie",
-            "chineseName": "节",
-            "pronunciation": "jié",
-            "overview": {
-                "description": "L'hexagramme Jie symbolise les limitations et la modération nécessaires, enseignant aux gens la sagesse de trouver un équilibre modéré dans la vie. Comme l'eau stockée dans l'étang, il faut maintenir la plénitude sans débordement. Trop de restrictions peuvent causer de la douleur, la clé est de comprendre la sagesse du 'juste milieu'.",
-                "keywords": [
-                    "modération",
-                    "limitation",
-                    "équilibre",
-                    "norme"
-                ],
-                "structure": {
-                    "upperTrigram": "Eau",
-                    "lowerTrigram": "Étang",
-                    "image": "L'eau dans l'étang"
+    }
+},
+{
+   "60": { "hexagram": {
+        "number": 60,
+        "name": "Hexagram Jie",
+        "chineseName": "节",
+        "pronunciation": "jié",
+        "overview": {
+            "description": "L'hexagramme Jie symbolise les limitations et la modération nécessaires, enseignant aux gens la sagesse de trouver un équilibre modéré dans la vie. Comme l'eau stockée dans l'étang, il faut maintenir la plénitude sans débordement. Trop de restrictions peuvent causer de la douleur, la clé est de comprendre la sagesse du 'juste milieu'.",
+            "keywords": ["modération", "limitation", "équilibre", "norme"],
+            "structure": {
+                "upperTrigram": "Eau",
+                "lowerTrigram": "Étang",
+                "image": "L'eau dans l'étang"
+            }
+        },
+        "interpretation": {
+            "basic": {
+                "title": "Signification de base",
+                "content": "L'eau dans l'étang symbolise la modération; les personnes de qualité doivent réguler les quantités et mesurer la moralité. L'image de l'eau limitée par l'étang nous enseigne la valeur des limitations constructives."
+            },
+            "reality": {
+                "situation": {
+                    "title": "Analyse de la situation",
+                    "content": "Actuellement, il est nécessaire d'établir de l'ordre et des normes. L'environnement extérieur nous avertit que l'indulgence excessive et la répression extrême sont toutes deux imprudentes; la clé est de trouver un point d'équilibre modéré, comme l'eau dans l'étang ayant son propre seuil de tolérance."
+                },
+                "trend": {
+                    "title": "Tendance de développement",
+                    "content": "Une modération raisonnable apportera un développement à long terme. En établissant des normes et des limites, on peut éviter des situations de l'excès et créer un espace de croissance continu et stable. La modération est à la fois la sagesse et une forme de culture."
                 }
             },
-            "interpretation": {
-                "basic": {
-                    "title": "Signification de base",
-                    "content": "L'eau dans l'étang symbolise la modération; les personnes de qualité doivent réguler les quantités et mesurer la moralité. L'image de l'eau limitée par l'étang nous enseigne la valeur des limitations constructives."
+            "lifeAspects": {
+                "career": {
+                    "title": "Développement professionnel",
+                    "situation": "Évaluation de la situation",
+                    "guidance": "Dans le développement professionnel, il est important de suivre le rythme, ne pas être téméraire et ne pas manquer d'opportunités.",
+                    "advice": "Respecter les principes de l'intégrité, avancer de manière stable dans une modération raisonnable.",
+                    "warning": "Ne pas poursuivre de façon excessive, maintenir l'équilibre dans le développement."
                 },
-                "reality": {
-                    "situation": {
-                        "title": "Analyse de la situation",
-                        "content": "Actuellement, il est nécessaire d'établir de l'ordre et des normes. L'environnement extérieur nous avertit que l'indulgence excessive et la répression extrême sont toutes deux imprudentes; la clé est de trouver un point d'équilibre modéré, comme l'eau dans l'étang ayant son propre seuil de tolérance."
-                    },
-                    "trend": {
-                        "title": "Tendance de développement",
-                        "content": "Une modération raisonnable apportera un développement à long terme. En établissant des normes et des limites, on peut éviter des situations de l'excès et créer un espace de croissance continu et stable. La modération est à la fois la sagesse et une forme de culture."
-                    }
+                "wealth": {
+                    "title": "Gestion de la richesse",
+                    "situation": "Principes financiers",
+                    "guidance": "Il faut savoir s'arrêter dans la gestion financière, saisir les opportunités.",
+                    "advice": "Maintenir une gestion honnête, dépenser selon ses moyens, obtenir des gains stables.",
+                    "warning": "Éviter la cupidité, savoir se modérer."
                 },
-                "lifeAspects": {
-                    "career": {
-                        "title": "Développement professionnel",
-                        "situation": "Évaluation de la situation",
-                        "guidance": "Dans le développement professionnel, il est important de suivre le rythme, ne pas être téméraire et ne pas manquer d'opportunités.",
-                        "advice": "Respecter les principes de l'intégrité, avancer de manière stable dans une modération raisonnable.",
-                        "warning": "Ne pas poursuivre de façon excessive, maintenir l'équilibre dans le développement."
-                    },
-                    "wealth": {
-                        "title": "Gestion de la richesse",
-                        "situation": "Principes financiers",
-                        "guidance": "Il faut savoir s'arrêter dans la gestion financière, saisir les opportunités.",
-                        "advice": "Maintenir une gestion honnête, dépenser selon ses moyens, obtenir des gains stables.",
-                        "warning": "Éviter la cupidité, savoir se modérer."
-                    },
-                    "relationships": {
-                        "title": "Relations sentimentales",
-                        "situation": "État des relations",
-                        "guidance": "Dans les relations sentimentales, il faut s'exprimer avec modération, éviter l'excès d'enthousiasme.",
-                        "advice": "Maintenir une distance appropriée, les relations basées sur le respect sont plus durables.",
-                        "warning": "Ne pas se laisser emporter par le sentiment, garder la rationalité."
-                    },
-                    "health": {
-                        "title": "Santé et bien-être",
-                        "situation": "État de santé",
-                        "guidance": "La santé réside dans la modération, l'alimentation et le repos doivent être équilibrés.",
-                        "advice": "Avoir des habitudes de vie régulières, contrôler son alimentation, maintenir une activité physique.",
-                        "warning": "Faire attention à modérer l'alimentation et les horaires de sommeil."
-                    }
+                "relationships": {
+                    "title": "Relations sentimentales",
+                    "situation": "État des relations",
+                    "guidance": "Dans les relations sentimentales, il faut s'exprimer avec modération, éviter l'excès d'enthousiasme.",
+                    "advice": "Maintenir une distance appropriée, les relations basées sur le respect sont plus durables.",
+                    "warning": "Ne pas se laisser emporter par le sentiment, garder la rationalité."
                 },
-                "suggestions": {
-                    "actions": [
-                        "Suivre les principes avec intégrité dans le développement professionnel",
-                        "Saisir les opportunités en matière de finances",
-                        "Maintenir une distance appropriée dans les relations interpersonnelles",
-                        "Préserver des habitudes de vie régulières"
-                    ],
-                    "cautions": [
-                        "Éviter de poursuivre de façon excessive et de vouloir des résultats immédiats",
-                        "Se méfier du déséquilibre causé par la cupidité",
-                        "Ne pas tomber dans une répression excessive",
-                        "Garder une attitude mentale sereine"
-                    ]
-                },
-                "reflections": [
-                    "Dans quels domaines de ma vie ai-je besoin de plus de modération?",
-                    "Ma modération m'aide-t-elle à grandir ou me limite-t-elle?",
-                    "Comment trouver le bon équilibre dans tous les aspects de ma vie?",
-                    "Suis-je trop indulgent ou trop répressif dans certains aspects de ma vie?"
-                ]
-            }
+                "health": {
+                    "title": "Santé et bien-être",
+                    "situation": "État de santé",
+                    "guidance": "La santé réside dans la modération, l'alimentation et le repos doivent être équilibrés.",
+                    "advice": "Avoir des habitudes de vie régulières, contrôler son alimentation, maintenir une activité physique.",
+                    "warning": "Faire attention à modérer l'alimentation et les horaires de sommeil."
+                }
+            },
+            "suggestions": {
+                "actions": ["Suivre les principes avec intégrité dans le développement professionnel", "Saisir les opportunités en matière de finances", "Maintenir une distance appropriée dans les relations interpersonnelles", "Préserver des habitudes de vie régulières"],
+                "cautions": ["Éviter de poursuivre de façon excessive et de vouloir des résultats immédiats", "Se méfier du déséquilibre causé par la cupidité", "Ne pas tomber dans une répression excessive", "Garder une attitude mentale sereine"]
+            },
+            "reflections": ["Dans quels domaines de ma vie ai-je besoin de plus de modération?", "Ma modération m'aide-t-elle à grandir ou me limite-t-elle?", "Comment trouver le bon équilibre dans tous les aspects de ma vie?", "Suis-je trop indulgent ou trop répressif dans certains aspects de ma vie?"]
         }
-    },
+    }
+}
+},
+{
     "61": {
         "name": "Hexagram Zhong Fu",
         "chineseName": "中孚",
@@ -4613,7 +4714,9 @@ export default {
                 "Comment trouver l'équilibre entre sincérité et vigilance ?"
             ]
         }
-    },
+    }
+},
+{
     "62": {
         "name": "Hexagram Xiao Guo",
         "chineseName": "小过",
@@ -4691,7 +4794,9 @@ export default {
                 "Ma construction quotidienne est-elle solide ?"
             ]
         }
-    },
+    }
+},
+{
     "63": {
         "name": "Hexagram Ji Ji",
         "chineseName": "既济",
@@ -4774,4 +4879,1617 @@ export default {
             ]
         }
     }
+},
+{
+    "64": {
+        "name": "Hexagram Wei Ji",
+        "chineseName": "未济",
+        "pronunciation": "wèi jì",
+        "keywords": [
+            "incomplete",
+            "transition",
+            "potential",
+            "preparation",
+            "opportunity",
+            "hope"
+        ],
+        "interpretation": {
+            "general": {
+                "overview": "L'hexagramme Wei Ji symbolise l'état d'inachèvement des choses. Comme le feu sur l'eau, le désordre des forces yin et yang semble chaotique, mais regorge de possibilités. Wei Ji n'est pas la fin, mais un nouveau commencement, avec des possibilités infinies.",
+                "principle": "Wei Ji, prospérité. Une petite renarde s'approche de l'eau pour en être trempée la queue, aucun avantage. Bien que non achevé, Wei Ji annonce des changements à venir. Cela nous enseigne de maintenir la foi dans les moments difficiles et de saisir les opportunités.",
+                "warning": "Bien que le chemin à venir ne soit pas clair, il ne faut pas attendre passivement. Adoptez une attitude proactive face aux défis, cherchez des percées dans les changements."
+            },
+            "structure": {
+                "upperTrigram": "Feu",
+                "lowerTrigram": "Eau",
+                "image": "Le feu sur l'eau, inachevé ; l'homme distingué doit discerner les choses et se comporter prudemment.",
+                "meaning": "Le feu sur l'eau, position incorrecte, perturbation de l'harmonie yin-yang. Le trigramme supérieur Li représente le feu, le trigramme inférieur Kan représente l'eau, le feu étant actif vers le haut et donc en position supérieure, et l'eau passif vers le bas et en position inférieure, chacun suivant sa nature sans se compléter mutuellement. Un homme distingué observe ce symbole et sait : alors qu'il se trouve dans un état d'inachèvement, il doit discerner clairement les choses, évaluer la situation, choisir la voie juste."
+            },
+            "lifeAspects": {
+                "career": {
+                    "title": "Carrière",
+                    "situation": "Le développement professionnel n'a pas encore atteint l'idéal, avec des défis et des opportunités. ",
+                    "guidance": "Gardez votre esprit entreprenant, saisissez les chances et agissez de manière proactive.",
+                    "advice": "Adaptez vos stratégies, préparez-vous pour les changements à venir.",
+                    "warning": "N'essayez pas de précipiter les choses, avancez pas à pas."
+                },
+                "wealth": {
+                    "title": "Richesse",
+                    "situation": "Votre situation financière a besoin d'amélioration, entre opportunités et défis.",
+                    "guidance": "Investissez de manière rationnelle, saisissez les opportunités du marché.",
+                    "advice": "Développez votre plan financier, construisez des bases solides pour l'avenir.",
+                    "warning": "Évitez les précipitations, ne soyez pas pressé de réussir."
+                },
+                "relationships": {
+                    "title": "Relations interpersonnelles",
+                    "situation": "Vos relations personnelles nécessitent approfondissement, demandant une patience continue.",
+                    "guidance": "Soyez sincère avec les autres, cultivez des amitiés solides.",
+                    "advice": "Entretenez activement vos relations, créez des occasions de communication.",
+                    "warning": "N'insistez pas sur des retours immédiats, laissez le temps au développement des relations."
+                },
+                "health": {
+                    "title": "Santé",
+                    "situation": "Votre santé a besoin d'ajustements, mais il y a de l'espace pour l'amélioration.",
+                    "guidance": "Restez sur la voie de la santé, maintenez une attitude optimiste.",
+                    "advice": "Élaborez un plan de santé, progressez de manière progressive vers l'amélioration.",
+                    "warning": "N'angoissez pas excessivement, gardez une attitude positive."
+                }
+            },
+            "suggestions": {
+                "actions": [
+                    "Clarifiez vos objectifs",
+                    "Saisissez les opportunités",
+                    "Préparez-vous méticuleusement",
+                    "Ajustez vos stratégies d'action",
+                    "Développez vos compétences essentielles",
+                    "Maintenez une attitude positive"
+                ],
+                "cautions": [
+                    "Évitez l'attente passive",
+                    "Ne soyez pas pressé de voir les résultats",
+                    "Gardez-vous des actions impulsives",
+                    "Méfiez-vous de la précipitation",
+                    "Soyez vigilant face à l'impulsivité",
+                    "Évitez l'autodénigrement"
+                ]
+            },
+            "reflections": [
+                "Quelles leçons puis-je tirer des difficultés actuelles ?",
+                "Comment puis-je saisir les opportunités potentielles ?",
+                "Quelles préparations sont nécessaires ?",
+                "Où se trouve la percée ?",
+                "Comment maintenir ma motivation pour avancer ?",
+                "Quel est le chemin à suivre pour l'avenir ?"
+            ]
+        }
+    }
+},
+{
+    "1": {
+        "name": "Hexagramme Qian",
+        "chineseName": "乾",
+        "pronunciation": "qián",
+        "keywords": [
+            "création",
+            "puissance",
+            "leadership",
+            "persévérance",
+            "force",
+            "initiative"
+        ],
+        "interpretation": {
+            "general": {
+                "overview": "L'hexagramme Qian symbolise l'énergie créatrice pure et le pouvoir des débuts. Comme le mouvement du Ciel, il représente la force créative la plus pure et la plus forte.",
+                "principle": "Le mouvement du Ciel est fort et incessant. Tout comme le fonctionnement continu du Ciel, il nous rappelle de progresser constamment et de nous améliorer.",
+                "warning": "Atteindre le sommet entraîne inévitablement le déclin. Méfiez-vous de l'arrogance et restez humble même dans des circonstances favorables."
+            },
+            "structure": {
+                "upperTrigram": "Ciel",
+                "lowerTrigram": "Ciel",
+                "image": "Le mouvement du Ciel est fort. L'homme supérieur s'efforce constamment de s'améliorer.",
+                "meaning": "Le mouvement ininterrompu du ciel nous enseigne à nous efforcer constamment de nous améliorer et de nous élever."
+            },
+            "lifeAspects": {
+                "career": {
+                    "title": "Carrière",
+                    "situation": "Développement situationnel de la carrière",
+                    "guidance": "Grande prospérité et succès, tout se déroule harmonieusement, la carrière fleurit avec des opportunités d'expansion",
+                    "advice": "Utilisez pleinement vos talents, gardez une attitude humble et avancez avec constance",
+                    "warning": "Méfiez-vous de l'arrogance et de la complaisance, et soyez sur vos gardes contre le déclin inévitable"
+                },
+                "wealth": {
+                    "title": "Richesse",
+                    "situation": "État financier",
+                    "guidance": "Il existe de grandes opportunités de développement positif, la fortune financière est prospère",
+                    "advice": "Donner est meilleur que recevoir, saisissez les opportunités d'investissement",
+                    "warning": "Évitez la cupidité et les actions imprudentes, respectez l'éthique commerciale"
+                },
+                "relationships": {
+                    "title": "Relations interpersonnelles",
+                    "situation": "État des relations interpersonnelles",
+                    "guidance": "Leadership fort, avec charisme et influence",
+                    "advice": "Traitez les autres avec une attitude humble, construisez des relations harmonieuses",
+                    "warning": "Soyez prudent de ne pas devenir trop autoritaire et de perdre en douceur, efforcez-vous d'équilibrer le yin et le yang"
+                },
+                "health": {
+                    "title": "Santé",
+                    "situation": "État physique",
+                    "guidance": "Énergique et physiquement fort",
+                    "advice": "Maintenez des habitudes d'exercice, concentrez-vous sur la préservation de la santé",
+                    "warning": "Soyez prudent face à la surmenage, faites attention au repos et à la régénération"
+                }
+            },
+            "suggestions": {
+                "actions": [
+                    "Saisir les opportunités et être proactif",
+                    "Cultiver la vertu et accumuler la sagesse",
+                    "Suivre le bon chemin et se développer de manière stable",
+                    "Maintenir l'humilité et éviter l'arrogance"
+                ],
+                "cautions": [
+                    "Méfiez-vous du déclin inévitable après la prospérité",
+                    "Évitez d'être excessivement têtu et égocentrique",
+                    "Ne soyez pas arrogant et suffisant",
+                    "Soyez attentif à la surmenage"
+                ]
+            },
+            "reflections": [
+                "Comment puis-je utiliser constructivement ma créativité ?",
+                "Est-ce que j'agis avec l'autorité de la nature ou avec une force excessive ?",
+                "Quelles responsabilités mon poste actuel implique-t-il ?",
+                "Comment puis-je maintenir l'humilité au sein de ma force ?"
+            ]
+        }
+    }
+},
+{
+    "2": {
+        "name": "Hexagramme Kun",
+        "chineseName": "坤",
+        "pronunciation": "kūn",
+        "keywords": [
+            "soumission",
+            "tolérance",
+            "nourrissant",
+            "docile",
+            "vertu profonde",
+            "porteuse"
+        ],
+        "interpretation": {
+            "general": {
+                "overview": "L'hexagramme Kun symbolise la puissance de base de la terre, avec des qualités de tolérance et de nourrissage. C'est le complément parfait de l'hexagramme Qian, démontrant le pouvoir de la douce soumission et de la tolérance.",
+                "principle": "La position de la terre est soumise et les gens nobles portent une vertu profonde pour tout. Comme la terre qui accueille toutes choses, cela nous enseigne à accueillir toutes choses avec une moralité généreuse.",
+                "warning": "Une soumission excessive peut entraîner une perte de discernement, il est important de maintenir son jugement personnel au sein de la soumission."
+            },
+            "structure": {
+                "upperTrigram": "Terre",
+                "lowerTrigram": "Terre",
+                "image": "La position de la terre est soumise, les gens nobles portent une vertu profonde.",
+                "meaning": "La forme de la terre s'étend régulièrement, suivant la voie du ciel. Cela nous rappelle de porter de profondes vertus pour assumer de grandes responsabilités."
+            },
+            "lifeAspects": {
+                "career": {
+                    "title": "Carrière",
+                    "situation": "Situation de développement professionnel",
+                    "guidance": "Utilisez la douceur pour surmonter la force, utilisez le calme pour maîtriser l'agitation, de grandes réalisations peuvent être accomplies par la coopération",
+                    "advice": "Mettre l'accent sur la collaboration d'équipe, maintenir une attitude humble",
+                    "warning": "Évitez de faire cavalier seul, évitez les confrontations individuelles"
+                },
+                "wealth": {
+                    "title": "Richesse",
+                    "situation": "Situation financière",
+                    "guidance": "Gestion stable, gestion équilibrée des dépenses, retour fructueux",
+                    "advice": "Privilégier la stabilité, accumuler la richesse",
+                    "warning": "Évitez les risques, soyez prudent dans l'avancement progressif"
+                },
+                "relationships": {
+                    "title": "Relations interpersonnelles",
+                    "situation": "État des relations interpersonnelles",
+                    "guidance": "Traiter les autres avec un cœur tolérant, agir dans une attitude douce et modérée",
+                    "advice": "Maintenir une approche douce et humble, construire des relations harmonieuses",
+                    "warning": "Attention à ne pas céder trop facilement, maintenir un équilibre approprié"
+                },
+                "health": {
+                    "title": "Santé",
+                    "situation": "État physique",
+                    "guidance": "Prêter attention à l'entretien, pratiquer des mouvements doux",
+                    "advice": "Maintenir une routine régulière, se concentrer sur la vitalité",
+                    "warning": "Éviter la surcharge de travail, être attentif au repos et à la récupération"
+                }
+            },
+            "suggestions": {
+                "actions": [
+                    "Cultiver un cœur tolérant",
+                    "Développer l'esprit de coopération",
+                    "Maintenir une attitude humble",
+                    "Progresser de manière stable et pragmatique"
+                ],
+                "cautions": [
+                    "Éviter de se soumettre excessivement",
+                    "Se méfier de la perte de discernement",
+                    "Ne pas suivre aveuglément, se méfier des tromperies"
+                ]
+            },
+            "reflections": [
+                "Comment puis-je mieux servir la situation actuelle ?",
+                "Ai-je maintenu un juste équilibre entre tolérance et principes ?",
+                "Comment trouver l'équilibre entre la soumission et l'affirmation de soi ?",
+                "Que dois-je nourrir et soutenir dans mon environnement actuel ?"
+            ]
+        }
+    }
+},
+{
+    "3": {
+        "name": "Hexagramme Zhūn",
+        "chineseName": "屯",
+        "pronunciation": "zhūn",
+        "keywords": [
+            "début",
+            "chaos",
+            "difficulté",
+            "croissance",
+            "percée",
+            "accumulation de force"
+        ],
+        "interpretation": {
+            "general": {
+                "overview": "L'hexagramme Zhūn symbolise l'état initial du chaos, tel un germe perçant la terre. C'est le moment où toutes choses commencent à prendre forme, malgré les obstacles, une vitalité bouillonnante est présente.",
+                "principle": "Nuages et tonnerre au début : l'homme sage se conduit avec sagesse et prévoyance. Les difficultés initiales sont inévitables, il faut les surmonter avec sagesse et patience.",
+                "warning": "Au commencement, évitez la hâte et avancez prudemment, pas à pas, de manière progressive."
+            },
+            "structure": {
+                "upperTrigram": "Eau",
+                "lowerTrigram": "Tonnerre",
+                "image": "Nuages et tonnerre au début : l'homme sage se conduit avec sagesse et prévoyance.",
+                "meaning": "Les nuages dominent le ciel, le tonnerre gronde en dessous, symbolisant le chaos et l'agitation du début, nous enseignant à gouverner les troubles avec sagesse."
+            },
+            "lifeAspects": {
+                "career": {
+                    "title": "Carrière",
+                    "situation": "Début du développement professionnel",
+                    "guidance": "La prudence est de mise pour ce démarrage, la progression graduelle est la meilleure stratégie",
+                    "advice": "Restez ancré dans la réalité, avancez avec stabilité",
+                    "warning": "Ne précipitez pas les choses, l'accumulation patiente est requise"
+                },
+                "wealth": {
+                    "title": "Richesse",
+                    "situation": "Situation financière",
+                    "guidance": "Les débuts sont difficiles, une gestion prudente est nécessaire",
+                    "advice": "Avancez en fonction de vos capacités, investissez avec discernement",
+                    "warning": "Évitez les actions impulsives, soyez vigilant face aux risques"
+                },
+                "relationships": {
+                    "title": "Relations interpersonnelles",
+                    "situation": "Début des relations",
+                    "guidance": "Soyez sincère, construisez une base de confiance",
+                    "advice": "Gardez une attitude ouverte et inclusive",
+                    "warning": "Méfiez-vous des personnes mal intentionnées, veillez à entretenir des relations saines"
+                },
+                "health": {
+                    "title": "Santé",
+                    "situation": "État physique",
+                    "guidance": "Favorisez la santé, conservez votre vitalité",
+                    "advice": "Adoptez de bonnes habitudes, établissez des bases solides",
+                    "warning": "Ne vous surmenez pas, veillez à garder des forces intactes"
+                }
+            },
+            "suggestions": {
+                "actions": [
+                    "Commencez prudemment, avancez graduellement",
+                    "Établissez des fondations solides, accumulez de la force",
+                    "Cherchez des conseils, obtenez du soutien",
+                    "Soyez patient, préparez-vous à agir quand le moment sera venu"
+                ],
+                "cautions": [
+                    "Évitez la précipitation et l'imprudence",
+                    "Gardez un œil sur les obstacles et les difficultés",
+                    "Ne combattez pas seul, restez ouvert aux collaborations",
+                    "Attention à ne pas tomber dans l'inertie et le découragement"
+                ]
+            },
+            "reflections": [
+                "Comment transformer les obstacles actuels en opportunités de croissance ?",
+                "Possédez-vous suffisamment de patience et de persévérance ?",
+                "Quel type de système de soutien devez-vous mettre en place ?",
+                "Comment maintenir une attitude positive face aux difficultés ?"
+            ]
+        }
+    }
+},
+{
+    "4": {
+        "name": "Hexagramme Meng",
+        "chineseName": "蒙",
+        "pronunciation": "méng",
+        "keywords": [
+            "éducation",
+            "apprentissage",
+            "guidance",
+            "éveil",
+            "croissance"
+        ],
+        "interpretation": {
+            "general": {
+                "overview": "L'hexagramme Meng symbolise le processus d'éducation et d'éveil, tel une source jaillissant en bas de la montagne, montrant la vitalité assoiffée de connaissance. L'éducation et la guidance sont des thèmes importants actuellement.",
+                "principle": "Une source jaillit en bas de la montagne, c'est Meng ; l'homme de qualité cultive la vertu avec dévouement. L'eau jaillissant de la montagne évoque l'illumination de la connaissance et la culture de la vertu.",
+                "warning": "Évitez l'ambition démesurée, restez les pieds sur terre et avancez progressivement."
+            },
+            "structure": {
+                "upperTrigram": "Montagne",
+                "lowerTrigram": "Eau",
+                "image": "Une source jaillit en bas de la montagne, c'est Meng.",
+                "meaning": "L'image de l'eau jaillissant en bas de la montagne nous rappelle que même dans l'ignorance réside un potentiel de sagesse qui doit émerger progressivement par l'éducation et la guidance."
+            },
+            "lifeAspects": {
+                "career": {
+                    "title": "Carrière",
+                    "situation": "En phase d'apprentissage et de construction",
+                    "guidance": "Apprenez humblement, étudiez avec diligence, établissez des bases solides",
+                    "advice": "Recherchez des mentors, établissez la bonne direction",
+                    "warning": "Ne soyez pas pressé de réussir, apprenez avec sérieux"
+                },
+                "wealth": {
+                    "title": "Richesse",
+                    "situation": "Besoin d'améliorer la connaissance financière",
+                    "guidance": "Étudiez les finances, démarrez de manière prudente",
+                    "advice": "Apprenez par la pratique, accumulez de l'expérience",
+                    "warning": "N'investissez pas impulsivement, cherchez d'abord à comprendre"
+                },
+                "relationships": {
+                    "title": "Relations interpersonnelles",
+                    "situation": "En phase d'apprentissage des interactions sociales",
+                    "guidance": "Adoptez une attitude humble dans vos interactions",
+                    "advice": "Apprenez des personnes expérimentées",
+                    "warning": "Ne soyez pas autoproclamé, soyez ouvert à l'apprentissage"
+                },
+                "health": {
+                    "title": "Santé",
+                    "situation": "Besoin d'apprendre des connaissances en santé",
+                    "guidance": "Cultivez de bonnes habitudes de vie",
+                    "advice": "Apprenez les voies de la santé, régulez votre rythme de vie",
+                    "warning": "Attention à la prévention plutôt qu'à la guérison"
+                }
+            },
+            "suggestions": {
+                "actions": [
+                    "Apprendre humblement, étudier avec diligence",
+                    "Établir les bonnes valeurs",
+                    "Cultiver de bonnes habitudes",
+                    "Apprécier les opportunités d'éveil"
+                ],
+                "cautions": [
+                    "Éviter l'impatience et la précipitation",
+                    "Se méfier de la stagnation et de l'auto-limitation",
+                    "Ne pas s'auto-proclamer",
+                    "Prendre garde à ne pas s'égarer"
+                ]
+            },
+            "reflections": [
+                "De quoi ai-je le plus besoin d'apprendre en ce moment ?",
+                "Qui peut me fournir la bonne guidance ?",
+                "Comment maintenir un esprit d'apprentissage ouvert ?",
+                "Mon orientation d'apprentissage actuelle est-elle correcte ?"
+            ]
+        }
+    }
+},
+{
+    "5": {
+        "name": "Hexagramme Xu",
+        "chineseName": "需",
+        "pronunciation": "xū",
+        "keywords": [
+            "attente",
+            "opportunité",
+            "préparation",
+            "accumulation",
+            "nourriture",
+            "modération"
+        ],
+        "interpretation": {
+            "general": {
+                "overview": "L'hexagramme Xu symbolise le moment d'attente et de préparation, tel les nuages dans le ciel attendant la pluie bienfaitrice. Il nous enseigne la sagesse de savoir attendre.",
+                "principle": "Les nuages dans le ciel attendent la pluie; un homme de bien se nourrit, se désaltère, festoie et s'amuse. Les nuages s'accumulent dans le ciel en attente de pluie, nous rappelant la nécessité de patience et de préparation.",
+                "warning": "L'attente n'est pas une rêverie, il faut se préparer activement et se renforcer."
+            },
+            "structure": {
+                "upperTrigram": "Eau",
+                "lowerTrigram": "Ciel",
+                "image": "Les nuages dans le ciel attendent la pluie, c'est le moment d'attente",
+                "meaning": "Les nuages qui s'accumulent dans le ciel nous enseignent la valeur de la patience, de l'attente et de la saisie des opportunités, tout en conservant une attitude joyeuse."
+            },
+            "lifeAspects": {
+                "career": {
+                    "title": "Carrière",
+                    "situation": "Les opportunités ne sont pas encore mûres",
+                    "guidance": "Se préparer activement, attendre patiemment l'occasion",
+                    "advice": "Se renforcer, augmenter sa puissance",
+                    "warning": "Ne pas agir précipitamment, attendre le bon moment"
+                },
+                "wealth": {
+                    "title": "Richesse",
+                    "situation": "Ce n'est pas encore le moment d'investir",
+                    "guidance": "Accumuler du capital, attendre l'opportunité",
+                    "advice": "Une gestion financière prudente, renforcer ses bases",
+                    "warning": "Ne pas prendre de risques, se méfier des pertes"
+                },
+                "relationships": {
+                    "title": "Relations interpersonnelles",
+                    "situation": "Les relations nécessitent du temps pour se développer",
+                    "guidance": "Gérer les relations avec une attitude pacifique",
+                    "advice": "Faire preuve de patience, attendre le destin",
+                    "warning": "Ne pas forcer les choses, laisser faire naturellement"
+                },
+                "health": {
+                    "title": "Santé",
+                    "situation": "Besoin de repos et de rétablissement",
+                    "guidance": "Surveiller l'alimentation et le repos",
+                    "advice": "Maintenir une routine de vie régulière, harmoniser le corps et l'esprit",
+                    "warning": "Prévenir vaut mieux que guérir, prendre soin de sa santé à temps"
+                }
+            },
+            "suggestions": {
+                "actions": [
+                    "Se renforcer, améliorer ses capacités",
+                    "Faire preuve de patience, attendre le bon moment",
+                    "Ajuster son état d'esprit, rester joyeux",
+                    "Accumuler des ressources, renforcer ses bases"
+                ],
+                "cautions": [
+                    "Éviter l'impatience et les actions impulsives",
+                    "Se méfier de l'attente passive",
+                    "Ne pas se perdre dans des rêveries vaines",
+                    "Garder confiance et éviter la défaite"
+                ]
+            },
+            "reflections": [
+                "Comment puis-je utiliser au mieux le temps d'attente ?",
+                "De quoi ai-je besoin de me préparer en ce moment ?",
+                "Quelles compétences puis-je développer pendant cette période d'attente ?",
+                "Comment maintenir une attitude positive d'attente ?"
+            ]
+        }
+    }
+},
+{
+    "6": {
+        "name": "Hexagramme Song",
+        "chineseName": "讼",
+        "pronunciation": "sòng",
+        "keywords": [
+            "contentieux",
+            "médiation",
+            "justice",
+            "compromis",
+            "prudence",
+            "paix"
+        ],
+        "interpretation": {
+            "general": {
+                "overview": "L'hexagramme Song symbolise une situation de conflit nécessitant une résolution juste. Comme le ciel et l'eau en opposition, il nous rappelle de traiter avec prudence les divers litiges et de rechercher des moyens appropriés de médiation.",
+                "principle": "Le ciel et l'eau sont en opposition, c'est un contentieux; l'homme de qualité commence par bien penser à ses actions. Comme le ciel et l'eau vont à l'opposé l'un de l'autre, cela nous enseigne à agir prudemment dès le début, évitant ainsi les conflits.",
+                "warning": "S'engager dans des litiges entraînera inévitablement une perte d'énergie, il est donc préférable d'éviter autant que possible les conflits et de chercher des solutions de réconciliation."
+            },
+            "structure": {
+                "upperTrigram": "Ciel",
+                "lowerTrigram": "Eau",
+                "image": "Le ciel et l'eau sont en opposition, contentieux.",
+                "meaning": "L'image du ciel et de l'eau allant à l'encontre l'un de l'autre nous enseigne à agir avec prudence dès le début, à éviter l'aggravation des conflits et à résoudre les tensions de façon invisible."
+            },
+            "lifeAspects": {
+                "career": {
+                    "title": "Carrière",
+                    "situation": "Confrontation ou obstacles dans la carrière",
+                    "guidance": "Résoudre les conflits avec sagesse et patience",
+                    "advice": "Agir avec prudence, éviter les conflits",
+                    "warning": "Éviter de s'engager dans des disputes inutiles"
+                },
+                "wealth": {
+                    "title": "Richesse",
+                    "situation": "Risques de litiges financiers",
+                    "guidance": "Gérer prudemment les relations financières",
+                    "advice": "La vertu de la conciliation est précieuse, rechercher un bénéfice mutuel",
+                    "warning": "Éviter les poursuites pour des gains égoïstes, qui peuvent nuire aux finances"
+                },
+                "relationships": {
+                    "title": "Relations interpersonnelles",
+                    "situation": "Tensions dans les relations interpersonnelles",
+                    "guidance": "Gérer les divergences avec rationalité",
+                    "advice": "Rechercher la médiation et maintenir la cordialité",
+                    "warning": "Éviter les confrontations directes, privilégier la communication"
+                },
+                "health": {
+                    "title": "Santé",
+                    "situation": "Émotivité fluctuante",
+                    "guidance": "Maintenir la paix intérieure",
+                    "advice": "Équilibrer le corps et l'esprit, éviter le stress excessif",
+                    "warning": "Être vigilant contre l'impact émotionnel sur le corps"
+                }
+            },
+            "suggestions": {
+                "actions": [
+                    "Résoudre les divergences de manière rationnelle",
+                    "Rechercher une médiation juste",
+                    "Maintenir la paix intérieure",
+                    "Agir avec prudence en tout premier lieu"
+                ],
+                "cautions": [
+                    "Éviter d'aggraver les conflits",
+                    "Se méfier des poursuites et des litiges",
+                    "Ne pas s'entêter dans ses opinions",
+                    "Prendre garde aux intrigues malveillantes"
+                ]
+            },
+            "reflections": [
+                "Comment puis-je résoudre les conflits de manière constructive ?",
+                "Ai-je pris en compte les positions et les intérêts de toutes les parties ?",
+                "Quelles solutions alternatives pourraient être envisagées ?",
+                "Comment prévenir l'émergence de disputes ?"
+            ]
+        }
+    }
+},
+{
+    "7": {
+        "name": "Hexagram Shī",
+        "chineseName": "师",
+        "pronunciation": "shi",
+        "keywords": [
+            "discipline",
+            "organization",
+            "strategy",
+            "leadership",
+            "unity",
+            "benevolence"
+        ],
+        "interpretation": {
+            "general": {
+                "overview": "L'hexagramme Shī symbolise la force organisée et la discipline, mettant l'accent sur la réalisation des objectifs à travers des stratégies et un leadership dans des actions collectives. Comme une armée bien entraînée, avançant de manière unie et stable, il représente la coopération d'équipe et une planification prudente.",
+                "principle": "La terre avec de l'eau, Shī; Le sage doit être tolérant envers le peuple et protéger les masses. Comme la terre portant toutes choses, un leader doit inclure et guider les autres.",
+                "warning": "Le pouvoir doit être juste, l'abus de force peut entraîner la résistance, maintenir la bienveillance et la justice pour gagner l'approbation des autres."
+            },
+            "structure": {
+                "upperTrigram": "Terre",
+                "lowerTrigram": "Eau",
+                "image": "La terre avec de l'eau, Shī",
+                "meaning": "La terre avec de l'eau symbolise la discipline et la stratégie, nous rappelant de mettre l'accent sur l'organisation et l'esprit humanitaire dans la gestion d'équipe."
+            },
+            "lifeAspects": {
+                "career": {
+                    "title": "Carrière",
+                    "situation": "La carrière nécessite une gestion organisée et stratégique.",
+                    "guidance": "Utilisez le leadership pour mobiliser les ressources, assurez-vous que les objectifs sont alignés et progressent de manière stable.",
+                    "advice": "Traitez les gens avec bienveillance en menant une discipline stricte.",
+                    "warning": "Évitez la gestion sous pression pour prévenir les sentiments de résistance chez les employés ou les subordonnés."
+                },
+                "wealth": {
+                    "title": "Richesse",
+                    "situation": "Les finances nécessitent une gestion rigoureuse et des décisions prudentes.",
+                    "guidance": "Maintenez une stratégie bien ordonnée dans les investissements et la gestion pour une croissance stable.",
+                    "advice": "Adoptez l'intégrité morale, évitez les tentations de gains à court terme.",
+                    "warning": "Ne précipitez pas les succès, la poursuite excessive de la richesse peut entraîner des pertes."
+                },
+                "relationships": {
+                    "title": "Relations interpersonnelles",
+                    "situation": "Maintenir des relations interpersonnelles harmonieuses en traitant les conflits avec discipline et stratégie.",
+                    "guidance": "Traitez les autres avec respect et justice pour gagner leur confiance.",
+                    "advice": "Jouez un rôle d'organisation et de leadership dans l'équipe, en donnant l'exemple.",
+                    "warning": "Évitez le style autoritaire, la clé de la collaboration d'équipe réside dans la confiance."
+                },
+                "health": {
+                    "title": "Santé",
+                    "situation": "La santé est stable mais nécessite une régularité.",
+                    "guidance": "Accordez de l'importance à la routine et à l'exercice, maintenez une énergie vigoureuse.",
+                    "advice": "Suivez les règles de santé, maintenez de bonnes habitudes de vie.",
+                    "warning": "Évitez la fatigue excessive, soyez vigilant face à la négligence de la santé due à l'occupation."
+                }
+            },
+            "suggestions": {
+                "actions": [
+                    "Établir une structure organisationnelle claire",
+                    "Gagner le respect par la bienveillance et l'inclusion",
+                    "Maintenir la discipline, être un modèle",
+                    "Avancer avec des objectifs alignés"
+                ],
+                "cautions": [
+                    "Éviter la gestion autoritaire",
+                    "Ne pas abuser du pouvoir",
+                    "Surveiller les conflits internes",
+                    "Ne pas relâcher la discipline"
+                ]
+            },
+            "reflections": [
+                "Comment puis-je organiser les ressources de manière plus efficace ?",
+                "Mon style de leadership est-il respecté ?",
+                "Comment trouver l'équilibre entre la discipline et l'inclusion ?",
+                "Mon équipe a-t-elle des objectifs communs ?"
+            ]
+        }
+    }
+},
+{
+    "8": {
+        "name": "Hexagram Bi",
+        "chineseName": "比",
+        "pronunciation": "bi",
+        "keywords": [
+            "proximité",
+            "alliance",
+            "unité",
+            "harmonie",
+            "confiance",
+            "entraide"
+        ],
+        "interpretation": {
+            "general": {
+                "overview": "L'hexagramme Bi symbolise l'union et la coopération étroite, tel l'écoulement de l'eau se rassemblant sur terre. C'est un moment pour construire et consolider des relations, où la force du groupe est renforcée par la confiance et la coopération.",
+                "principle": "L'eau sur la terre, Bi ; les anciens rois en utilisant cela pour fonder de grands pays, ont traité avec les seigneurs en personne. Comme l'eau se rassemble sur terre, cela nous rappelle l'importance de l'union et de l'harmonie.",
+                "warning": "Les alliances doivent être basées sur la confiance et l'égalité, évitez de poursuivre des intérêts unilatéraux dans la coopération."
+            },
+            "structure": {
+                "upperTrigram": "Eau",
+                "lowerTrigram": "Terre",
+                "image": "L'eau sur la terre, Bi",
+                "meaning": "L'eau coule et se rassemble sur terre, symbolisant l'union et l'harmonie. Il nous rappelle d'établir des relations avec une mentalité égalitaire."
+            },
+            "lifeAspects": {
+                "career": {
+                    "title": "Carrière",
+                    "situation": "Il est opportun de collaborer ou de former des alliances avec d'autres.",
+                    "guidance": "Renforcez l'unité et la coopération, il faut un effort commun pour atteindre les objectifs.",
+                    "advice": "Établissez la cohésion de l'équipe par une communication sincère.",
+                    "warning": "Évitez de faire cavalier seul, la coopération en équipe nécessite égalité et respect."
+                },
+                "wealth": {
+                    "title": "Richesse",
+                    "situation": "La chance financière est présente, mais nécessite une coopération avec autrui.",
+                    "guidance": "Unissez vos ressources et investissez ensemble pour un bénéfice mutuel.",
+                    "advice": "Gérez vos finances avec un œil à long terme, ne soyez pas pressé de réussir.",
+                    "warning": "Méfiez-vous des conflits d'intérêts dans la coopération, établissez des termes clairs."
+                },
+                "relationships": {
+                    "title": "Relations interpersonnelles",
+                    "situation": "Favorable pour développer des relations intimes et chercher un consensus.",
+                    "guidance": "Établissez des relations avec une attitude sincère, la confiance est essentielle.",
+                    "advice": "Renforcez la communication pour résoudre les malentendus.",
+                    "warning": "Ne mettez pas en avant vos propres intérêts dans les relations, mettez l'accent sur le soutien mutuel."
+                },
+                "health": {
+                    "title": "Santé",
+                    "situation": "Trouver du soutien dans un groupe est bénéfique.",
+                    "guidance": "Partagez vos idées de vie saine avec d'autres pour progresser ensemble.",
+                    "advice": "Maintenez des interactions avec des amis et la famille pour améliorer votre santé mentale.",
+                    "warning": "Évitez de vous isoler, maintenir des liens sociaux est bénéfique pour la santé."
+                }
+            },
+            "suggestions": {
+                "actions": [
+                    "Renforcer la communication et la confiance mutuelle",
+                    "Rechercher des relations gagnant-gagnant",
+                    "Valoriser l'esprit de coopération",
+                    "Traiter les partenaires avec égalité"
+                ],
+                "cautions": [
+                    "Éviter l'égoïsme",
+                    "Se méfier des conflits d'intérêts",
+                    "Ne pas négliger les besoins des autres",
+                    "Éviter de profiter unilatéralement de l'alliance"
+                ]
+            },
+            "reflections": [
+                "Avec qui devrais-je renforcer mes liens?",
+                "Ma coopération est-elle basée sur l'égalité et la confiance?",
+                "Comment renforcer la cohésion de l'équipe?",
+                "Suis-je sincère dans chaque relation que j'entretiens?"
+            ]
+        }
+    }
+},
+{
+    "9": {
+        "name": "Hexagramme Xiao Chu",
+        "chineseName": "小畜",
+        "pronunciation": "xiǎo chù",
+        "keywords": [
+            "accumulation",
+            "modération",
+            "cultivation",
+            "progression",
+            "stockpiling",
+            "attente"
+        ],
+        "interpretation": {
+            "general": {
+                "overview": "L'hexagramme Xiao Chu symbolise l'accumulation progressive de la force, tel le vent brassant les nuages mais sans encore produire de pluie. Il met l'accent sur l'accumulation à petite échelle et l'attente préalable à l'action, soulignant la nécessité d'une préparation adéquate.",
+                "principle": "Le vent souffle dans le ciel, accumulation progressive ; un homme de qualité cultive la vertu littéraire. Comme le vent qui se déplace dans le ciel, accumulant les nuages mais sans pluie, symbolisant l'accumulation de force et l'attente du bon moment.",
+                "warning": "L'impatience excessive peut conduire à l'échec, il est important d'attendre patiemment, d'accumuler la force et d'éviter la précipitation."
+            },
+            "structure": {
+                "upperTrigram": "Vent",
+                "lowerTrigram": "Ciel",
+                "image": "Le vent souffle dans le ciel, accumulation progressive ; un homme de qualité cultive la vertu littéraire.",
+                "meaning": "Comme le vent qui se déplace dans le ciel, accumulant les nuages mais sans pluie, il nous rappelle l'importance d'accumuler la force, d'attendre le bon moment et de cultiver la vertu."
+            },
+            "lifeAspects": {
+                "career": {
+                    "title": "Carrière",
+                    "situation": "Le développement professionnel est à un stade d'accumulation, sans percée majeure.",
+                    "guidance": "Il est temps de se concentrer sur le renforcement de ses compétences, l'accumulation de ressources et l'attente patiente des opportunités.",
+                    "advice": "Gardez patience, travaillez assidûment et évitez la précipitation.",
+                    "warning": "Évitez de précipiter les choses et risquer l'échec par manque de préparation."
+                },
+                "wealth": {
+                    "title": "Richesse",
+                    "situation": "La situation financière est stable, favorisant l'accumulation plutôt que les investissements à grande échelle.",
+                    "guidance": "Concentrez-vous sur l'épargne et les petits investissements, en évitant les projets à haut risque.",
+                    "advice": "Gérez vos finances avec prudence, de petits pas mènent à un grand succès.",
+                    "warning": "Évitez la cupidité et les prises de risque, pour éviter des pertes financières."
+                },
+                "relationships": {
+                    "title": "Relations interpersonnelles",
+                    "situation": "Les relations se développent lentement, nécessitant du temps pour construire la confiance.",
+                    "guidance": "Traitez les autres avec sincérité et patience, construisez des relations solides progressivement.",
+                    "advice": "Communiquez efficacement, comprenez les autres et évitez la précipitation.",
+                    "warning": "Ne soyez pas pressé, pour prévenir une rupture inutile des relations."
+                },
+                "health": {
+                    "title": "Santé",
+                    "situation": "La santé est stable, mais les petits problèmes nécessitent une attention particulière.",
+                    "guidance": "Maintenez de bonnes habitudes de vie, prévenez les maladies avant qu'elles ne surviennent.",
+                    "advice": "Consultez régulièrement, surveillez votre alimentation et faites de l'exercice pour préserver votre santé.",
+                    "warning": "Évitez d'ignorer les petits maux, pour éviter des problèmes futurs plus graves."
+                }
+            },
+            "suggestions": {
+                "actions": [
+                    "Se concentrer sur l'amélioration personnelle, accumuler des connaissances et des compétences.",
+                    "Garder patience, attendre le bon moment.",
+                    "Agir avec prudence, éviter la précipitation.",
+                    "Cultiver la vertu, améliorer son caractère."
+                ],
+                "cautions": [
+                    "Éviter l'impatience, pour éviter l'échec par manque de préparation.",
+                    "Méfiez-vous de la cupidité et des comportements risqués.",
+                    "Ne pas négliger les petits problèmes, pour éviter qu'ils ne deviennent importants.",
+                    "Prendre garde à ne pas briser des relations à cause d'une attitude trop impatiente."
+                ]
+            },
+            "reflections": [
+                "Est-ce que je suis en train d'accumuler suffisamment de force pour un succès futur ?",
+                "Ai-je la patience d'attendre le bon moment ?",
+                "Suis-je suffisamment prudent et modéré dans les petites choses ?",
+                "Comment puis-je cultiver mon caractère et mes compétences à ce stade ?"
+            ]
+        }
+    }
+},
+{
+    "10": {
+        "name": "Hexagramme Lǚ",
+        "chineseName": "履",
+        "pronunciation": "lǚ",
+        "keywords": [
+            "comportement",
+            "prudence",
+            "avancer et reculer",
+            "étiquette"
+        ],
+        "interpretation": {
+            "general": {
+                "overview": "L'hexagramme Lǚ symbolise une progression prudente et correcte, comme marcher sur la queue d'un tigre. C'est une période qui nécessite de la prudence et de la finesse.",
+                "principle": "Avancer avec prudence, agir de manière opportune, maintenir un équilibre dans l'avancement et le recul.",
+                "warning": "Trop de prudence peut entraîner des hésitations et faire perdre des opportunités."
+            },
+            "structure": {
+                "upperTrigram": "Ciel",
+                "lowerTrigram": "Marais",
+                "image": "Le ciel au-dessus, le marais en dessous, c'est Lǚ. L'homme de qualité distingue le haut du bas et stabilise la volonté du peuple.",
+                "meaning": "L'image de marcher prudemment nous enseigne l'importance de discerner le bien du mal et d'agir de manière appropriée."
+            },
+            "lifeAspects": {
+                "career": {
+                    "title": "Développement professionnel",
+                    "situation": "Progression professionnelle positive, mais nécessite une prudence dans l'avancée.",
+                    "guidance": "Rester prudent, éviter les excès, la réussite nécessite une progression stable.",
+                    "advice": "Maintenir la politesse et le professionnalisme, avancer pas à pas.",
+                    "warning": "Éviter de manquer des opportunités en étant trop conservateur."
+                },
+                "wealth": {
+                    "title": "Situation financière",
+                    "situation": "Stabilité financière, mais éviter les investissements risqués.",
+                    "guidance": "Investir de manière raisonnable, gérer ses finances avec prudence.",
+                    "advice": "Respecter la discipline financière, gérer ses finances avec précaution.",
+                    "warning": "Se méfier de la cupidité et des prises de risque."
+                },
+                "relationships": {
+                    "title": "Relations interpersonnelles",
+                    "situation": "Maintenir l'étiquette et l'humilité dans les relations.",
+                    "guidance": "Être poli envers les autres pour des relations harmonieuses.",
+                    "advice": "Maintenir une certaine distance dans les interactions avec autrui.",
+                    "warning": "Un excès de familiarité ou de distance peut causer des malentendus."
+                },
+                "health": {
+                    "title": "État de santé",
+                    "situation": "Bonne santé, exercice modéré.",
+                    "guidance": "Maintenir de bonnes habitudes de vie, rester équilibré.",
+                    "advice": "Faire régulièrement de l'exercice, prendre soin de l'équilibre physique et mental.",
+                    "warning": "Éviter de trop s'épuiser, être vigilant à la gestion de son énergie."
+                }
+            },
+            "suggestions": {
+                "actions": [
+                    "Avancer avec prudence, maintenir la politesse.",
+                    "Observer la situation environnante et agir en conséquence.",
+                    "Rester calme dans les décisions.",
+                    "Être attentif à chaque action."
+                ],
+                "cautions": [
+                    "Méfiance envers une prudence excessive entraînant des hésitations.",
+                    "Éviter l'impulsivité, rester stable.",
+                    "Ne pas laisser l'étiquette devenir une contrainte."
+                ]
+            },
+            "reflections": [
+                "Ai-je trouvé un équilibre entre prudence et action ?",
+                "Comment maintenir un équilibre dans mes avancées et mes reculs ?",
+                "Mes actions actuelles sont-elles en ligne avec mes objectifs à long terme ?"
+            ]
+        }
+    }
+},
+{
+    "11": {
+        "name": "Hexagram Tai",
+        "chineseName": "泰",
+        "pronunciation": "tài",
+        "keywords": [
+            "harmonie",
+            "prospérité",
+            "communication",
+            "paix"
+        ],
+        "interpretation": {
+            "general": {
+                "overview": "L'hexagramme Tai symbolise un état harmonieux de communication entre le ciel et la terre, où ils circulent librement. C'est une période de prospérité, d'échanges fluides et de paix.",
+                "principle": "Vivre en harmonie, communiquer les uns avec les autres, construire la prospérité.",
+                "warning": "Ne vous laissez pas aveugler par le succès et restez vigilant."
+            },
+            "structure": {
+                "upperTrigram": "Terre",
+                "lowerTrigram": "Ciel",
+                "image": "Le ciel et la terre communiquent librement ; plus tard, les richesses nourrissent la voie du ciel et de la terre, soutenant ce qui est approprié à chaque cas.",
+                "meaning": "L'image de l'harmonie et de la communication entre le ciel et la terre nous enseigne la valeur de l'échange et de l'équilibre."
+            },
+            "lifeAspects": {
+                "career": {
+                    "title": "Développement professionnel",
+                    "situation": "Le travail progresse sans encombre, profitez de l'élan pour évoluer.",
+                    "guidance": "Maintenez la collaboration, soyez bon en communication.",
+                    "advice": "Établissez un réseau de relations solide.",
+                    "warning": "Méfiez-vous de la complaisance due aux succès."
+                },
+                "wealth": {
+                    "title": "Situation financière",
+                    "situation": "La chance financière est au rendez-vous, les revenus augmentent.",
+                    "guidance": "Investissez judicieusement pour faire fructifier vos richesses.",
+                    "advice": "Partagez vos succès pendant les périodes de prospérité.",
+                    "warning": "Évitez les investissements imprudents."
+                },
+                "relationships": {
+                    "title": "Relations interpersonnelles",
+                    "situation": "Harmonie dans les relations, stabilité des liens.",
+                    "guidance": "Maintenez la communication, partagez la joie.",
+                    "advice": "Cultivez la confiance au sein des relations.",
+                    "warning": "Soyez vigilant pour ne pas négliger l'entretien des relations en raison de leur harmonie."
+                },
+                "health": {
+                    "title": "État de santé",
+                    "situation": "Bien-être physique et mental, pleine énergie.",
+                    "guidance": "Maintenez une attitude mentale positive.",
+                    "advice": "Pratiquez une activité physique régulière, veillez à votre santé.",
+                    "warning": "Évitez la négligence de votre santé en relâchant vos efforts."
+                }
+            },
+            "suggestions": {
+                "actions": [
+                    "Profitez de votre succès actuel et avancez.",
+                    "Partagez vos réussites et vos joies avec les autres.",
+                    "Restez humble et continuez vos efforts.",
+                    "Établissez des relations interpersonnelles durables."
+                ],
+                "cautions": [
+                    "Soyez vigilant contre la complaisance et évitez de baisser votre garde.",
+                    "Contrôlez vos investissements de manière appropriée, agissez avec prudence.",
+                    "Gardez votre modestie, ne vous reposez pas excessivement sur vos réalisations extérieures."
+                ]
+            },
+            "reflections": [
+                "Comment maintenir cet état d'harmonie actuel ?",
+                "Est-ce que j'apprécie cette période de succès et d'aisance ?",
+                "Comment puis-je grandir pendant cette période de prospérité ?"
+            ]
+        }
+    }
+},
+{
+    "12": {
+        "name": "Hexagramme Pi",
+        "chineseName": "否",
+        "pronunciation": "pǐ",
+        "keywords": [
+            "fermeture",
+            "obstruction",
+            "adversité",
+            "retenue"
+        ],
+        "interpretation": {
+            "general": {
+                "overview": "L'hexagramme Pi symbolise une période de communication bloquée, comme si le ciel et la terre ne se rencontraient pas. C'est un moment qui nécessite patience et persévérance.",
+                "principle": "Apprenez à maintenir une force intérieure en période d'adversité, en restant fidèle à vos convictions.",
+                "warning": "Ne perdez pas espoir, continuez à chercher une issue favorable."
+            },
+            "structure": {
+                "upperTrigram": "Ciel",
+                "lowerTrigram": "Terre",
+                "image": "Ciel et terre ne se rencontrent pas, c'est Pi ; l'homme de qualité se protège des difficultés par la modestie et la vertu, sans chercher la gloire par des récompenses.",
+                "meaning": "L'image de ciel et terre non communicants nous enseigne comment maintenir une force intérieure en temps d'adversité."
+            },
+            "lifeAspects": {
+                "career": {
+                    "title": "Carrière",
+                    "situation": "Progrès professionnel lent, nécessitant une prudence particulière.",
+                    "guidance": "Rester calme et trouver progressivement des solutions.",
+                    "advice": "Patience et persévérance sont nécessaires en période difficile.",
+                    "warning": "Évitez de vous précipiter par anxiété avant d'agir."
+                },
+                "wealth": {
+                    "title": "Richesse",
+                    "situation": "La situation financière peut stagner.",
+                    "guidance": "Contrôlez les dépenses et investissez de manière raisonnée.",
+                    "advice": "Faites preuve de prudence dans la gestion financière.",
+                    "warning": "Méfiez-vous des pertes financières causées par la précipitation."
+                },
+                "relationships": {
+                    "title": "Relations interpersonnelles",
+                    "situation": "Communication difficile, potentielles divergences.",
+                    "guidance": "Résoudre les malentendus patiemment, éviter les conflits.",
+                    "advice": "Écoutez davantage, favorisez la compréhension mutuelle.",
+                    "warning": "Ne forcez pas l'harmonie."
+                },
+                "health": {
+                    "title": "Santé",
+                    "situation": "Besoin d'une attention particulière à la santé.",
+                    "guidance": "Renforcez le repos, évitez la surcharge.",
+                    "advice": "Cherchez l'équilibre intérieur, restez calme.",
+                    "warning": "Soyez attentif à réguler vos émotions."
+                }
+            },
+            "suggestions": {
+                "actions": [
+                    "Chercher la croissance personnelle en période d'adversité.",
+                    "Attendre patiemment le bon moment.",
+                    "Gérer les finances avec précaution.",
+                    "Maintenir le calme intérieur."
+                ],
+                "cautions": [
+                    "Éviter l'anxiété et l'impulsivité.",
+                    "Ne pas abandonner, rester confiant.",
+                    "Faire preuve de rationalité en situation de crise."
+                ]
+            },
+            "reflections": [
+                "Comment puis-je maintenir ma force intérieure en période d'adversité?",
+                "Quelles opportunités se cachent dans les difficultés actuelles?",
+                "Comment puis-je tirer profit de cette période de stagnation de manière efficace?"
+            ]
+        }
+    }
+},
+{
+    "13": {
+        "name": "Hexagramme T'ung jen",
+        "chineseName": "同人",
+        "pronunciation": "tóng rén",
+        "keywords": [
+            "harmonie",
+            "unité",
+            "consensus",
+            "union"
+        ],
+        "interpretation": {
+            "general": {
+                "overview": "L'hexagramme T'ung jen symbolise l'harmonie et la coexistence pacifique entre les gens, telles les lumières du feu dans le ciel.",
+                "principle": "Coopération mutuellement bénéfique, développement commun.",
+                "warning": "Gardez votre individualité au sein de l'unité."
+            },
+            "structure": {
+                "upperTrigram": "Ciel",
+                "lowerTrigram": "Feu",
+                "image": "Le ciel et le feu en harmonie, gens unis ; l'homme de bien classe et différencie les choses.",
+                "meaning": "L'image du feu montant vers le ciel nous enseigne à trouver l'unité au sein des différences."
+            },
+            "lifeAspects": {
+                "career": {
+                    "title": "Développement professionnel",
+                    "situation": "Propice à la collaboration en équipe, bon élan de développement.",
+                    "guidance": "Établir de bonnes relations de coopération.",
+                    "advice": "Jouez un rôle actif au sein de l'équipe.",
+                    "warning": "Méfiez-vous des possibles conflits d'intérêts."
+                },
+                "wealth": {
+                    "title": "Situation financière",
+                    "situation": "Stabilité financière, possibilité de coopération.",
+                    "guidance": "Créer des gains partagés avec autrui.",
+                    "advice": "Faire des répartitions de ressources justes.",
+                    "warning": "Veiller à une répartition équitable."
+                },
+                "relationships": {
+                    "title": "Relations interpersonnelles",
+                    "situation": "Harmonie relationnelle, propice à la collaboration.",
+                    "guidance": "Respectez les différences dans les interactions.",
+                    "advice": "Cultivez des relations sincères et harmonieuses.",
+                    "warning": "Évitez les disputes inutiles."
+                },
+                "health": {
+                    "title": "État de santé",
+                    "situation": "Bien-être physique et mental, favorable à la santé.",
+                    "guidance": "Maintenez un équilibre social sain.",
+                    "advice": "Participez à des activités collectives.",
+                    "warning": "Évitez que les fluctuations émotionnelles n'affectent votre santé."
+                }
+            },
+            "suggestions": {
+                "actions": [
+                    "Valoriser l'esprit d'équipe dans la coopération.",
+                    "Respecter les différences au sein de l'équipe.",
+                    "Bâtir des relations de confiance.",
+                    "Maintenir un équilibre dans les activités sociales."
+                ],
+                "cautions": [
+                    "Veiller à l'équité dans la répartition des intérêts.",
+                    "Préserver votre individualité.",
+                    "Éviter de dépendre excessivement des autres."
+                ]
+            },
+            "reflections": [
+                "Comment puis-je contribuer dans la collaboration ?",
+                "Comment trouver l'équilibre entre l'individu et le collectif dans l'équipe ?",
+                "Comment rester authentique dans la coopération avec autrui ?"
+            ]
+        }
+    }
+},
+{
+    "14": {
+        "name": "Hexagramme Da You",
+        "chineseName": "大有",
+        "pronunciation": "da you",
+        "keywords": [
+            "abondance",
+            "posséder",
+            "pouvoir",
+            "responsabilité"
+        ],
+        "interpretation": {
+            "general": {
+                "overview": "L'hexagramme Da You symbolise une période d'abondance et de prospérité extrêmes, telles des flammes s'élevant vers le ciel, c'est un moment rempli de lumière et de richesse.",
+                "principle": "Pendant une période d'abondance, il est important de rester humble, de bien utiliser les ressources et de bénéficier aux autres.",
+                "warning": "Après l'apogée vient inévitablement le déclin, il est essentiel de se garder de l'arrogance et d'agir avec prudence."
+            },
+            "structure": {
+                "upperTrigram": "Feu",
+                "lowerTrigram": "Ciel",
+                "image": "Le feu brille dans le ciel, un grand accomplissement ; l'homme supérieur réprime le mal et promeut le bien, suivant le cours des cieux.",
+                "meaning": "L'image de la lumière du feu illuminant le ciel rappelle que le succès apporte avec lui des responsabilités, il faut réprimer le mal, promouvoir les actions vertueuses et suivre le destin."
+            },
+            "lifeAspects": {
+                "career": {
+                    "title": "Carrière",
+                    "situation": "La carrière est à son apogée, en pleine croissance et avec des perspectives lumineuses.",
+                    "guidance": "Exprimez pleinement vos talents, restez humble et avancez avec assurance.",
+                    "advice": "Utilisez vos ressources judicieusement, guidez votre équipe vers la progression commune.",
+                    "warning": "Méfiez-vous de l'orgueil excessif et préparez-vous au déclin après l'apogée."
+                },
+                "wealth": {
+                    "title": "Richesse",
+                    "situation": "La prospérité financière est grande et la richesse s'accumule rapidement.",
+                    "guidance": "Donner est plus gratifiant que recevoir, saisissez les opportunités d'investissement.",
+                    "advice": "Planifiez vos finances de manière judicieuse, évitez les dépenses inutiles et accumulez des richesses.",
+                    "warning": "Évitez la cupidité et les prises de risque inconsidérées, respectez les principes éthiques commerciaux."
+                },
+                "relationships": {
+                    "title": "Relations interpersonnelles",
+                    "situation": "Les relations interpersonnelles sont harmonieuses, avec un leadership fort, charismatique et influent.",
+                    "guidance": "Traitez les autres avec humilité, construisez des relations harmonieuses.",
+                    "advice": "Favorisez la collaboration d'équipe, respectez les opinions des autres et favorisez le gain mutuel.",
+                    "warning": "Soyez attentif à ne pas perdre en douceur en étant excessivement rigide, cherchez l'équilibre entre le yin et le yang."
+                },
+                "health": {
+                    "title": "Santé",
+                    "situation": "Énergie abondante, physiquement fort.",
+                    "guidance": "Maintenez une routine d'exercice, focalisez-vous sur le bien-être physique.",
+                    "advice": "Effectuez des contrôles réguliers, préservez votre santé et votre bien-être.",
+                    "warning": "Faites attention à ne pas vous épuiser, prenez soin de vous reposer et de récupérer."
+                }
+            },
+            "suggestions": {
+                "actions": [
+                    "Saisir les opportunités, être proactive.",
+                    "Cultiver la vertu, accumuler la sagesse.",
+                    "Suivre la voie juste, se développer de manière stable.",
+                    "Maintenir l'humilité, éviter l'arrogance."
+                ],
+                "cautions": [
+                    "Méfiez-vous du déclin après l'apogée.",
+                    "Évitez d'être excessivement têtu.",
+                    "Ne soyez pas arrogant et présomptueux.",
+                    "Soyez prudent face à la fatigue excessive."
+                ]
+            },
+            "reflections": [
+                "Comment puis-je utiliser mes réussites de manière responsable ?",
+                "Suis-je suffisamment généreuse dans l'abondance ?",
+                "Quelles sont mes responsabilités envers les autres à ce stade ?",
+                "Comment maintenir l'humilité tout en étant fortuné ?"
+            ]
+        }
+    }
+},
+{
+    "15": {
+        "name": "Hexagramme Qian",
+        "chineseName": "乾",
+        "pronunciation": "qián",
+        "keywords": [
+            "création",
+            "puissance",
+            "leadership",
+            "persévérance",
+            "force",
+            "initiative"
+        ],
+        "interpretation": {
+            "general": {
+                "overview": "L'hexagramme Qian symbolise l'énergie créatrice pure et le pouvoir des débuts. Comme le mouvement du Ciel, il représente la force créative la plus pure et la plus forte.",
+                "principle": "Le mouvement du Ciel est fort et incessant. Tout comme le fonctionnement continu du Ciel, il nous rappelle de progresser constamment et de nous améliorer.",
+                "warning": "Atteindre le sommet entraîne inévitablement le déclin. Méfiez-vous de l'arrogance et restez humble même dans des circonstances favorables."
+            },
+            "structure": {
+                "upperTrigram": "Ciel",
+                "lowerTrigram": "Ciel",
+                "image": "Le mouvement du Ciel est fort. L'homme supérieur s'efforce constamment de s'améliorer.",
+                "meaning": "Le mouvement ininterrompu du ciel nous enseigne à nous efforcer constamment de nous améliorer et de nous élever."
+            },
+            "lifeAspects": {
+                "career": {
+                    "title": "Carrière",
+                    "situation": "Développement situationnel de la carrière",
+                    "guidance": "Grande prospérité et succès, tout se déroule harmonieusement, la carrière fleurit avec des opportunités d'expansion",
+                    "advice": "Utilisez pleinement vos talents, gardez une attitude humble et avancez avec constance",
+                    "warning": "Méfiez-vous de l'arrogance et de la complaisance, et soyez sur vos gardes contre le déclin inévitable"
+                },
+                "wealth": {
+                    "title": "Richesse",
+                    "situation": "État financier",
+                    "guidance": "Il existe de grandes opportunités de développement positif, la fortune financière est prospère",
+                    "advice": "Donner est meilleur que recevoir, saisissez les opportunités d'investissement",
+                    "warning": "Évitez la cupidité et les actions imprudentes, respectez l'éthique commerciale"
+                },
+                "relationships": {
+                    "title": "Relations interpersonnelles",
+                    "situation": "État des relations interpersonnelles",
+                    "guidance": "Leadership fort, avec charisme et influence",
+                    "advice": "Traitez les autres avec une attitude humble, construisez des relations harmonieuses",
+                    "warning": "Soyez prudent de ne pas devenir trop autoritaire et de perdre en douceur, efforcez-vous d'équilibrer le yin et le yang"
+                },
+                "health": {
+                    "title": "Santé",
+                    "situation": "État physique",
+                    "guidance": "Énergique et physiquement fort",
+                    "advice": "Maintenez des habitudes d'exercice, concentrez-vous sur la préservation de la santé",
+                    "warning": "Soyez prudent face à la surmenage, faites attention au repos et à la régénération"
+                }
+            },
+            "suggestions": {
+                "actions": [
+                    "Saisir les opportunités et être proactif",
+                    "Cultiver la vertu et accumuler la sagesse",
+                    "Suivre le bon chemin et se développer de manière stable",
+                    "Maintenir l'humilité et éviter l'arrogance"
+                ],
+                "cautions": [
+                    "Méfiez-vous du déclin inévitable après la prospérité",
+                    "Évitez d'être excessivement têtu et égocentrique",
+                    "Ne soyez pas arrogant et suffisant",
+                    "Soyez attentif à la surmenage"
+                ]
+            },
+            "reflections": [
+                "Comment puis-je utiliser constructivement ma créativité ?",
+                "Est-ce que j'agis avec l'autorité de la nature ou avec une force excessive ?",
+                "Quelles responsabilités mon poste actuel implique-t-il ?",
+                "Comment puis-je maintenir l'humilité au sein de ma force ?"
+            ]
+        }
+    }
+},
+{
+    "16": {
+        "name": "Hexagramme Yu",
+        "chineseName": "豫",
+        "pronunciation": "yù",
+        "keywords": [
+            "joie",
+            "harmonie",
+            "préparation",
+            "enthousiasme"
+        ],
+        "interpretation": {
+            "general": {
+                "overview": "L'hexagramme Yu symbolise la joie stimulante de l'énergie, comme le tonnerre émergeant de la terre, une force qui inspire et propulse en avant.",
+                "principle": "Le tonnerre sort de la terre avec enthousiasme ; les anciens rois pratiquaient la musique pour honorer la vertu, offrant des sacrifices à Dieu. Mettant l'accent sur le maintien de l'optimisme, de l'enthousiasme et de l'initiative positive.",
+                "warning": "La recherche excessive de plaisir peut entraîner la négligence, il est nécessaire de faire preuve de modération."
+            },
+            "structure": {
+                "upperTrigram": "Tonnerre",
+                "lowerTrigram": "Terre",
+                "image": "Le tonnerre sort de la terre avec enthousiasme ; les anciens rois pratiquaient la musique pour honorer la vertu, offrant des sacrifices à Dieu.",
+                "meaning": "Symbole du tonnerre émergeant de la terre, nous incitant à maintenir la joie tout en avançant activement."
+            },
+            "lifeAspects": {
+                "career": {
+                    "title": "Carrière",
+                    "situation": "Le travail progresse bien et est plein de dynamisme.",
+                    "guidance": "Faites preuve de passion et affrontez les défis professionnels de manière proactive.",
+                    "advice": "Maintenez une attitude positive, inspirez l'équipe et explorez de nouvelles opportunités.",
+                    "warning": "Évitez de vous relâcher en recherchant excessivement le plaisir."
+                },
+                "wealth": {
+                    "title": "Richesse",
+                    "situation": "La fortune est prospère, les investissements sont fructueux.",
+                    "guidance": "Adoptez une attitude positive lors des investissements, saisissez les opportunités.",
+                    "advice": "Planifiez vos dépenses de manière rationnelle, évitez le gaspillage.",
+                    "warning": "Évitez l'instabilité financière due à une recherche excessive de plaisir."
+                },
+                "relationships": {
+                    "title": "Relations interpersonnelles",
+                    "situation": "Les relations interpersonnelles sont harmonieuses et la communication est fluide.",
+                    "guidance": "Montrez de la passion et entretenez des relations amicales avec les autres.",
+                    "advice": "Adoptez une attitude positive envers les autres pour favoriser des relations harmonieuses.",
+                    "warning": "Un enthousiasme excessif peut entraîner des malentendus, il est important de rester modéré."
+                },
+                "health": {
+                    "title": "Santé",
+                    "situation": "La santé est bonne, l'énergie est abondante.",
+                    "guidance": "Maintenez une attitude optimiste et pratiquez régulièrement de l'exercice.",
+                    "advice": "Continuez à faire de l'exercice, adoptez une alimentation saine.",
+                    "warning": "Évitez les risques de surmenage dus à une vie trop active, veillez à vous reposer."
+                }
+            },
+            "suggestions": {
+                "actions": [
+                    "Maintenir une attitude optimiste et affronter les défis de la vie de manière proactive.",
+                    "Inspirer l'équipe avec enthousiasme pour renforcer la motivation au travail.",
+                    "Partager la joie avec autrui pour promouvoir des relations harmonieuses.",
+                    "Continuer à faire de l'exercice pour préserver sa santé."
+                ],
+                "cautions": [
+                    "La recherche excessive de plaisir peut entraîner la négligence, il est nécessaire de faire preuve de modération.",
+                    "Planifiez de manière rationnelle vos finances pour éviter le gaspillage.",
+                    "Maintenez une modération dans vos interactions pour éviter les malentendus.",
+                    "Prévenir les risques pour la santé dus à une fatigue excessive."
+                ]
+            },
+            "reflections": [
+                "Suis-je en train de maintenir une attitude positive et optimiste dans ma vie ?",
+                "Comment puis-je m'inspirer moi-même et les autres dans mon travail ?",
+                "Ai-je trouvé un équilibre entre le plaisir et l'effort dans ma vie ?",
+                "Comment puis-je maintenir la joie tout en restant fort ?"
+            ]
+        }
+    }
+},
+{
+    "17": {
+        "name": "Hexagramme Suí",
+        "chineseName": "随",
+        "pronunciation": "suí",
+        "keywords": [
+            "adaptation",
+            "flexibilité",
+            "suivi",
+            "changement"
+        ],
+        "interpretation": {
+            "general": {
+                "overview": "L'hexagramme Suí symbolise l'adaptation flexible et fluide. Comme le tonnerre dans le marais, il met en évidence la capacité à s'adapter de manière aléatoire tout en restant authentique.",
+                "principle": "Le tonnerre dans le marais s'adapte ; l'homme noble se retire pour se reposer. Il rappelle de maintenir la stabilité intérieure tout en s'adaptant aux changements extérieurs.",
+                "warning": "Un suivi excessif des autres ou de l'environnement peut entraîner une perte de soi."
+            },
+            "structure": {
+                "upperTrigram": "Marais",
+                "lowerTrigram": "Tonnerre",
+                "image": "Le tonnerre dans le marais s'adapte ; l'homme noble se retire pour se reposer.",
+                "meaning": "Le tonnerre dans le marais nous rappelle d'être flexible face aux défis tout en restant fidèle à notre essence."
+            },
+            "lifeAspects": {
+                "career": {
+                    "title": "Carrière",
+                    "situation": "S'adapter aux changements environnementaux, être flexible.",
+                    "guidance": "S'adapter aux changements tout en maintenant le cap professionnel.",
+                    "advice": "Renforcer la capacité d'adaptation, saisir les opportunités.",
+                    "warning": "Éviter de suivre aveuglément les autres et de perdre son discernement."
+                },
+                "wealth": {
+                    "title": "Richesse",
+                    "situation": "Bonne fortune financière, nécessité d'investir de manière flexible.",
+                    "guidance": "Ajuster sa stratégie d'investissement en fonction des fluctuations du marché.",
+                    "advice": "Ajuster en temps opportun, accumuler progressivement la richesse.",
+                    "warning": "Éviter la poursuite excessive des tendances pouvant entraîner des pertes."
+                },
+                "relationships": {
+                    "title": "Relations interpersonnelles",
+                    "situation": "Gérer les relations interpersonnelles avec souplesse, élargir son cercle social.",
+                    "guidance": "Interagir avec les autres avec une attitude calme, rester flexible.",
+                    "advice": "Maintenir son identité tout en s'adaptant aux autres.",
+                    "warning": "Éviter de trop se plier aux autres au détriment de son identité."
+                },
+                "health": {
+                    "title": "Santé",
+                    "situation": "Bonne santé, équilibre physique et mental.",
+                    "guidance": "S'adapter aux changements saisonniers, ajuster ses habitudes de vie.",
+                    "advice": "Maintenir la flexibilité, faire de l'exercice modérément.",
+                    "warning": "Éviter de négliger sa propre santé en s'adaptant excessivement aux autres."
+                }
+            },
+            "suggestions": {
+                "actions": [
+                    "Être flexible face aux changements professionnels.",
+                    "Surveiller les tendances du marché financier et ajuster votre stratégie.",
+                    "Maintenir son identité tout en s'adaptant aux autres.",
+                    "Adapter ses habitudes de santé aux saisons."
+                ],
+                "cautions": [
+                    "Un suivi excessif des autres ou de l'environnement peut entraîner une perte de soi.",
+                    "Garder un œil sur les orientations d'investissement et éviter de suivre aveuglément.",
+                    "Ne pas perdre son identité dans les relations interpersonnelles.",
+                    "Maintenir sa santé et éviter de s'adapter excessivement aux autres."
+                ]
+            },
+            "reflections": [
+                "Ai-je maintenu mon authenticité en m'adaptant aux changements ?",
+                "Comment saisir les opportunités tout en étant flexible ?",
+                "Ai-je trouvé un équilibre intérieur dans ma flexibilité ?"
+            ]
+        }
+    }
+},
+{
+    "18": {
+        "number": "18",
+        "name": "Hexagramme Gu",
+        "chineseName": "蛊",
+        "pronunciation": "gǔ",
+        "keywords": [
+            "réforme",
+            "innovation",
+            "reconstruction",
+            "restructuration"
+        ],
+        "interpretation": {
+            "general": {
+                "overview": "L'hexagramme Gu symbolise une situation nécessitant une réforme et une mise à jour, comme le vent soufflant sous la montagne, c'est le moment de corriger les négligences passées.",
+                "principle": "Sous la montagne, il y a du vent, Gu ; l'homme sage revitalise le peuple et cultive la vertu. Cela rappelle qu'il faut corriger les abus, et rétablir l'ordre.",
+                "warning": "Évitez que les problèmes s'aggravent en raison de retards, agissez dès que possible."
+            },
+            "structure": {
+                "upperTrigram": "Montagne",
+                "lowerTrigram": "Vent",
+                "image": "Sous la montagne, il y a du vent, Gu ; l'homme sage revitalise le peuple et cultive la vertu.",
+                "meaning": "Symbolise le vent soufflant sous la montagne, nous rappelant de corriger les problèmes à temps et de rétablir l'ordre."
+            },
+            "lifeAspects": {
+                "career": {
+                    "title": "Carrière",
+                    "situation": "Besoin de réorganiser les processus de travail et d'améliorer l'efficacité.",
+                    "guidance": "Résolvez les problèmes à temps et apportez les ajustements nécessaires.",
+                    "advice": "Traitez les problèmes à la source, améliorez les processus.",
+                    "warning": "Le retard dans le traitement peut entraîner une accumulation de travail."
+                },
+                "wealth": {
+                    "title": "Richesse",
+                    "situation": "La situation financière est instable, nécessite une réorganisation.",
+                    "guidance": "Réexaminez les plans financiers, optimisez les dépenses.",
+                    "advice": "Investissez prudemment, réduisez les dépenses inutiles.",
+                    "warning": "Ignorer les problèmes financiers peut entraîner des pertes plus importantes."
+                },
+                "relationships": {
+                    "title": "Relations interpersonnelles",
+                    "situation": "Besoin de résoudre les conflits accumulés et de restaurer l'harmonie.",
+                    "guidance": "Communiquez ouvertement avec les autres, résolvez les conflits.",
+                    "advice": "Réparez activement les relations, éliminez les malentendus.",
+                    "warning": "La procrastination dans la communication peut entraîner une détérioration des relations."
+                },
+                "health": {
+                    "title": "Santé",
+                    "situation": "Besoin de prêter attention aux problèmes de santé à long terme, améliorer les habitudes de vie.",
+                    "guidance": "Traitez rapidement les risques pour la santé, évitez les complications.",
+                    "advice": "Maintenez un mode de vie sain, des examens médicaux réguliers.",
+                    "warning": "Ignorer de petits problèmes de santé peut entraîner une accumulation de problèmes de santé."
+                }
+            },
+            "suggestions": {
+                "actions": [
+                    "Réorganiser le flux de travail à temps pour améliorer l'efficacité.",
+                    "Réexaminer les plans financiers pour optimiser les dépenses.",
+                    "Résoudre les conflits accumulés pour restaurer les relations interpersonnelles.",
+                    "Améliorer les habitudes de vie et traiter les problèmes de santé à long terme."
+                ],
+                "cautions": [
+                    "Évitez que les problèmes s'aggravent en raison de retards, agissez dès que possible.",
+                    "Ignorer les problèmes financiers peut entraîner des pertes plus importantes.",
+                    "La procrastination dans la communication peut entraîner une détérioration des relations.",
+                    "Ignorer de petits problèmes de santé peut entraîner une accumulation de problèmes de santé."
+                ]
+            },
+            "reflections": [
+                "Est-ce que je résous les problèmes à temps et évite la procrastination ?",
+                "Comment maintenir l'harmonie tout en corrigeant les abus ?",
+                "Suis-je conscient des problèmes de santé à long terme et travaille à les améliorer ?"
+            ]
+        }
+    }
+},
+{
+    "19": {
+        "name": "Hexagramme Lin",
+        "chineseName": "临",
+        "pronunciation": "lín",
+        "keywords": [
+            "surveillance",
+            "proximité",
+            "influence",
+            "existence"
+        ],
+        "interpretation": {
+            "general": {
+                "overview": "L'hexagramme Lin symbolise une influence croissante, comme la terre surplombant l'eau, supervisant avec un cœur bienveillant.",
+                "principle": "La terre surplombe l'eau, surveillance ; le sage enseigne de manière illimitée, protégeant les gens sans limite. Il rappelle de maintenir la bienveillance et la patience en exerçant l'autorité.",
+                "warning": "Évitez l'orgueil lié au pouvoir, agissez avec compassion."
+            },
+            "structure": {
+                "upperTrigram": "Terre",
+                "lowerTrigram": "Eau",
+                "image": "La terre surplombe l'eau, surveillance ; le sage enseigne de manière illimitée, protégeant les gens sans limite.",
+                "meaning": "Symbolisant la terre surplombant l'eau, il rappelle de conserver un cœur bienveillant en exerçant l'autorité."
+            },
+            "lifeAspects": {
+                "career": {
+                    "title": "Carrière",
+                    "situation": "Influence renforcée, position de leadership.",
+                    "guidance": "Surveillez l'équipe avec bienveillance, renforcez la cohésion.",
+                    "advice": "Adoptez la tolérance et la patience face aux défis professionnels.",
+                    "warning": "Évitez l'orgueil, respectez les opinions de l'équipe."
+                },
+                "wealth": {
+                    "title": "Richesse",
+                    "situation": "Amélioration de la fortune, accumulation de richesse.",
+                    "guidance": "Gérez la richesse pour le bien des autres, pratiquez la vertu.",
+                    "advice": "Restez vigilent, investissez prudemment.",
+                    "warning": "Ne tombez pas dans la vanité avec l'accumulation de richesse."
+                },
+                "relationships": {
+                    "title": "Relations interpersonnelles",
+                    "situation": "Influence interpersonnelle en hausse, respect des autres.",
+                    "guidance": "Traitez les autres avec tolérance pour des relations saines.",
+                    "advice": "Faites attention à la communication, évitez la condescendance.",
+                    "warning": "N'abusez pas du pouvoir, respectez autrui."
+                },
+                "health": {
+                    "title": "Santé",
+                    "situation": "Bonne santé, mais gardez un esprit calme.",
+                    "guidance": "Maintenez un équilibre physique et émotionnel, évitez de perdre le contrôle sous pression.",
+                    "advice": "Reposez-vous suffisamment, gardez une bonne humeur.",
+                    "warning": "Évitez les impacts sur la santé dus au surmenage ou aux déséquilibres émotionnels."
+                }
+            },
+            "suggestions": {
+                "actions": [
+                    "Surveiller l'équipe avec bienveillance, renforcer la cohésion.",
+                    "Gérer la richesse pour le bien des autres, pratiquer la vertu.",
+                    "Communiquer de manière équilibrée, respecter les opinions.",
+                    "Reposer suffisamment, surveiller la santé mentale."
+                ],
+                "cautions": [
+                    "Éviter l'orgueil lié au pouvoir, agir avec compassion.",
+                    "Ne pas tomber dans la vanité avec l'accumulation de richesse.",
+                    "Ne pas abuser du pouvoir, respecter autrui.",
+                    "Éviter l'impact du stress sur l'humeur et la santé."
+                ]
+            },
+            "reflections": [
+                "Ai-je conservé la bienveillance et l'humilité en exerçant mon autorité ?",
+                "Comment garder l'esprit clair face à l'accumulation de richesse ?",
+                "Ai-je pris en compte l'impact du stress sur la santé mentale et physique ?"
+            ]
+        }
+    }
+},
+{
+    "20": {
+        "name": "Hexagramme Guan",
+        "chineseName": "观",
+        "pronunciation": "guān",
+        "keywords": [
+            "observation",
+            "point of view",
+            "reflection",
+            "demonstration"
+        ],
+        "interpretation": {
+            "general": {
+                "overview": "L'hexagramme Guan symbolise l'observation minutieuse et la réflexion profonde, comme le vent soufflant sur la terre, il est temps de prendre du recul pour une compréhension plus claire.",
+                "principle": "Le vent souffle sur la terre, observer ; les anciens royautés observaient les gens et enseignaient avec prudence. Il rappelle de voir avec objectivité et d'analyser patiemment la situation.",
+                "warning": "Évitez les jugements hâtifs, restez objectif et calme."
+            },
+            "structure": {
+                "upperTrigram": "Vent",
+                "lowerTrigram": "Terre",
+                "image": "Le vent souffle sur la terre, observer ; les anciens royautés observaient les gens et enseignaient avec prudence.",
+                "meaning": "Symbolise le vent balayant la terre, rappelant d'observer patiemment le tableau d'ensemble et d'éviter des décisions hâtives."
+            },
+            "lifeAspects": {
+                "career": {
+                    "title": "Carrière",
+                    "situation": "Phase propice à l'observation et à l'analyse.",
+                    "guidance": "Évaluer objectivement la situation, élaborer des plans raisonnables.",
+                    "advice": "Observer patiemment, éviter les décisions précipitées.",
+                    "warning": "Évitez les actions impulsives qui conduisent à des erreurs."
+                },
+                "wealth": {
+                    "title": "Richesse",
+                    "situation": "Gestion financière nécessitant prudence, investissements avisés.",
+                    "guidance": "Évaluer soigneusement les plans financiers, éviter les investissements risqués.",
+                    "advice": "Faire des recherches approfondies, choisir judicieusement les opportunités d'investissement.",
+                    "warning": "Ne pas prendre des risques inconsidérés pour des gains rapides."
+                },
+                "relationships": {
+                    "title": "Relations interpersonnelles",
+                    "situation": "Observation des interactions interpersonnelles, analyse des émotions.",
+                    "guidance": "Rester calme, éviter les réactions émotionnelles excessives.",
+                    "advice": "Écouter patiemment, comprendre objectivement les intentions des autres.",
+                    "warning": "Éviter que des malentendus affectent les relations à cause d'une incompréhension momentanée."
+                },
+                "health": {
+                    "title": "Santé",
+                    "situation": "Stabilité de la santé, propice à l'auto-observation.",
+                    "guidance": "Observer l'état physique, ne pas négliger les petits signes de maladie.",
+                    "advice": "Surveiller les changements corporels et mentaux, maintenir un bon état.",
+                    "warning": "Ne pas ignorer les avertissements du corps, éviter les problèmes de santé dus à la négligence."
+                }
+            },
+            "suggestions": {
+                "actions": [
+                    "Observer calmement dans la carrière, prendre des décisions rationnelles.",
+                    "Maintenir une prudence financière, éviter les investissements à haut risque.",
+                    "Observer patiemment dans les relations interpersonnelles, éviter les malentendus.",
+                    "Être attentif aux signes du corps, maintenir la santé."
+                ],
+                "cautions": [
+                    "Éviter les jugements hâtifs, rester objectif et calme.",
+                    "Ne pas rechercher des gains à court terme dans les décisions financières.",
+                    "S'efforcer de garder son calme émotionnel pour prévenir les malentendus dans les relations interpersonnelles.",
+                    "Prendre au sérieux les avertissements de santé pour éviter les problèmes de santé dus à la négligence."
+                ]
+            },
+            "reflections": [
+                "Suis-je resté calme et objectif dans mes observations et réflexions ?",
+                "Comment évaluer de manière plus efficace les opportunités d'investissement ?",
+                "Est-ce que je prête suffisamment d'attention aux signes de santé mentale et physique ?",
+                "Comment maintenir l'humilité tout en manifestant ma force ?"
+            ]
+        }
+    }
 }
+

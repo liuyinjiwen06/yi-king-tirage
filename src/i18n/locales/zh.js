@@ -70,6 +70,42 @@ export default {
         }
       }
     },
+
+    results: {
+      hexagramNumber: '第 {number} 卦',
+      generalReading: '总体解读',
+      structures: '结构分析',
+      lifeAspects: '生活指引',
+      career: '事业',
+      wealth: '财富',
+      relationships: '人际关系',
+      health: '健康',
+      suggestions: '建议',
+      actions: '推荐行动',
+      cautions: '注意事项',
+      reflections: '反思问题',
+      structure: {
+        title: '结构分析',
+        upperTrigram: '上卦',
+        lowerTrigram: '下卦',
+        image: '卦象'
+      },
+      interpretation: {
+        title: '卦象详解',
+        basicMeaning: '基本含义',
+        realityImplications: '现实启示',
+        situationAnalysis: '处境解析',
+        developmentTrend: '发展趋势'
+      },
+      lifeGuidance: {
+        title: '生活指引',
+        situation: '形势',
+        guidance: '指引',
+        advice: '建议',
+        warning: '警示'
+      }
+    },
+
     information: {
       history: {
         title: '易经：源远流长的智慧',
