@@ -7,7 +7,7 @@
         
         <!-- 占卦区域 -->
         <div class="bg-white rounded-2xl shadow-lg p-8 mb-8">
-          <div class="w-60 mx-auto mb-12"><img src="/Users/liuyinjiwen/Documents/coding/Yi_King_Tirage/asset/yiking.png"></div>
+          <div class="w-60 mx-auto mb-12"><img src="@/assets/yiking.png"></div>
           <div class="text-center">
             <h2 class="text-2xl font-semibold mb-6 text-[#2C1810]">
               {{ $t('divination.title') }}
@@ -37,7 +37,7 @@
                   @click="performReading"
                 >
               <img 
-    src="../asset/coin.png" 
+    src="@/assets/coin.png" 
     :alt="$t('divination.coinAlt')"
     class="w-full h-full object-cover"
   />
