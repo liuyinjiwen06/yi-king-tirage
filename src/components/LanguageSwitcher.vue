@@ -40,8 +40,11 @@
 <script setup>
 import { ref } from 'vue'
 import { useI18n } from 'vue-i18n'
+import { useRouter, useRoute } from 'vue-router'  // 添加这行
 
 const { locale } = useI18n()
+const router = useRouter()  // 添加这行
+const route = useRoute()    // 添加这行
 
 const languages = [
   { code: 'en', name: 'English' },
@@ -54,5 +57,15 @@ const isOpen = ref(false)
 const switchLanguage = (langCode) => {
   locale.value = langCode
   isOpen.value = false
+  
+  // 添加这部分：更新 URL 中的语言参数
+  const currentRoute = router.currentRoute.value
+  router.push({
+    ...currentRoute,
+    params: { 
+      ...currentRoute.params, 
+      locale: langCode 
+    }
+  })
 }
 </script>

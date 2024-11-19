@@ -8,3 +8,4 @@ dist/
 echo "api.js" >> .gitignore
 echo "api2.js" >> .gitignore
 echo "translation_prompt1.js" >> .gitignore
+translation/
