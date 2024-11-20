@@ -3,9 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yi King Tirage - Consultation Authentique de l'Oracle Chinois | I-Ching</title>
+    <title>Yi King Tirage</title>
     <meta name="description" content="Découvrez votre avenir avec notre Yi King tirage en ligne gratuit. Consultez l'oracle millénaire du I-Ching pour obtenir des conseils précis et une guidance spirituelle authentique.">
     
+
+       <!-- 更新移动设备支持 -->
+       <meta name="mobile-web-app-capable" content="yes">
+       <meta name="apple-mobile-web-app-capable" content="yes">
+       
+       <!-- 其他 meta 标签 -->
+       <link rel="manifest" href="/manifest.json">
+
     <!-- 添加多语言支持 -->
     <link rel="alternate" hreflang="fr" href="https://yikingtirage.com/fr">
     <link rel="alternate" hreflang="zh-CN" href="https://yikingtirage.com/zh">
@@ -13,16 +21,16 @@
     <link rel="canonical" href="https://yikingtirage.com">
 
     <!-- 添加 favicon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="public/yikingfavicon/16_16.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="public/yikingfavicon/32_32.png">
-    <link rel="icon" type="image/png" sizes="48x48" href="public/yikingfavicon/48_48.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="public/yikingfavicon/96_96.png">
-    <link rel="icon" type="image/png" sizes="120x120" href="public/yikingfavicon/120_120.png">
-    <link rel="icon" type="image/png" sizes="152x152" href="public/yikingfavicon/152_152.png">
-    <link rel="icon" type="image/png" sizes="167x167" href="public/yikingfavicon/167_167.png">
-    <link rel="icon" type="image/png" sizes="180x180" href="public/yikingfavicon/180_180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="public/yikingfavicon/192_192.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="public/yikingfavicon/180_180.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/yikingfavicon/16_16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/yikingfavicon/32_32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="/yikingfavicon/48_48.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/yikingfavicon/96_96.png">
+    <link rel="icon" type="image/png" sizes="120x120" href="/yikingfavicon/120_120.png">
+    <link rel="icon" type="image/png" sizes="152x152" href="/yikingfavicon/152_152.png">
+    <link rel="icon" type="image/png" sizes="167x167" href="/yikingfavicon/167_167.png">
+    <link rel="icon" type="image/png" sizes="180x180" href="/yikingfavicon/180_180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/yikingfavicon/192_192.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/yikingfavicon/180_180.png">
     
     <!-- 添加 Open Graph 标签 -->
     <meta property="og:title" content="Yi King Tirage - Consultation Authentique de l'Oracle Chinois">
@@ -49,12 +57,11 @@
     
     <!-- 预连接到重要的第三方域名 -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
 </head>
 <body>
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
-    
     <!-- 添加 noscript 标签 -->
     <noscript>
         <p>Pour utiliser cette application, veuillez activer JavaScript dans votre navigateur.</p>

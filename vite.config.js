@@ -6,35 +6,24 @@ export default defineConfig({
   plugins: [
     vue(),
     {
-      name: 'xml-content-type',
+      name: 'content-type-handler',
       configureServer(server) {
         return () => {
           server.middlewares.use((req, res, next) => {
+            // 处理 sitemap.xml
             if (req.url.endsWith('sitemap.xml')) {
               res.setHeader('Content-Type', 'application/xml; charset=utf-8')
-              // 强制设置正确的内容类型
-              res.writeHead(200, { 'Content-Type': 'application/xml; charset=utf-8' })
+            }
+            // 处理 JavaScript 模块
+            else if (req.url.endsWith('.js')) {
+              res.setHeader('Content-Type', 'text/javascript; charset=utf-8')
+            }
+            // 处理 HTML
+            else if (req.url === '/' || req.url.endsWith('.html')) {
+              res.setHeader('Content-Type', 'text/html; charset=utf-8')
             }
             next()
           })
-        }
-      },
-      // 添加 transformIndexHtml 钩子
-      transformIndexHtml(html, ctx) {
-        if (ctx.path.endsWith('sitemap.xml')) {
-          return {
-            html,
-            tags: [
-              {
-                tag: 'meta',
-                attrs: {
-                  'http-equiv': 'Content-Type',
-                  content: 'application/xml; charset=utf-8'
-                },
-                injectTo: 'head'
-              }
-            ]
-          }
         }
       }
     }
@@ -56,8 +45,12 @@ export default defineConfig({
   },
   server: {
     headers: {
-      'Access-Control-Allow-Origin': '*',
-      'Content-Type': 'application/xml; charset=utf-8'
-    }
+      'Access-Control-Allow-Origin': '*'
+    },
+    // 开发服务器配置
+    middlewareMode: false,
+    cors: true,
+    open: true, // 自动打开浏览器
+    port: 5173  // 指定端口
   }
 })
