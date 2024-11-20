@@ -16,9 +16,9 @@ const routes = [
               en: "I Ching Reading Free- I Ching Divination Online"
             },
             description: {
-              fr: "Découvrez votre avenir avec notre Yi King tirage en ligne gratuit...",
+              fr: "Découvrez votre avenir avec notre Yi King tirage en ligne gratuit. Consultez l'oracle millénaire du I-Ching pour obtenir des conseils précis et une guidance spirituelle authentique.",
               'zh-CN': "在线易经占卜与卦象解读，探索易经的智慧。获得生活指引，洞察未来。立即开始您的易经之旅！",
-              en: "Discover your future with our free online I Ching reading..."
+              en: "Discover your future with our free online I Ching reading. Consult the ancient Chinese oracle for accurate guidance and authentic spiritual insights."
             }
           }
         },
