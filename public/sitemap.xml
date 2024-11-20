@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://yikingtirage.com/</loc>
+    <lastmod>2024-11-19T20:02:19+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://yikingtirage.com/fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yikingtirage.com/en"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://yikingtirage.com/zh"/>
+  </url>
+  <url>
+    <loc>https://yikingtirage.com/hexagrams_center</loc>
+    <lastmod>2024-11-19T20:02:19+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://yikingtirage.com/fr/hexagrams_center"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yikingtirage.com/en/hexagrams_center"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://yikingtirage.com/zh/hexagrams_center"/>
+  </url>
+  <url>
+    <loc>https://yikingtirage.com/about</loc>
+    <lastmod>2024-11-19T20:02:19+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://yikingtirage.com/fr/about"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yikingtirage.com/en/about"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://yikingtirage.com/zh/about"/>
+  </url>
+</urlset>

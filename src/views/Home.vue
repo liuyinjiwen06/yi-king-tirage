@@ -33,7 +33,7 @@
                 <div 
                   v-for="i in 3" 
                   :key="i" 
-                  class="relative w-32 h-32 rounded-full  overflow-hidden transition-transform duration-500 hover:scale-110 cursor-pointer"
+                  class="relative md:w-32 md:h-32 w-24 h-24 rounded-full  overflow-hidden transition-transform duration-500 hover:scale-110 cursor-pointer"
                   @click="performReading"
                 >
               <img 
@@ -250,17 +250,17 @@
         <div v-if="!isReading" class="bg-[#F5F5F0] pt-8 pb-16 max-w-4xl mx-auto">
           <!-- 历史与传统 -->
           <section class="max-w-4xl mx-auto px-4 py-12 bg-white rounded-2xl shadow-lg mb-8">
-            <h2 class="text-2xl font-bold mb-6 text-[#2C1810] px-12">{{ $t('information.history.title') }}</h2>
-            <p class="text-gray-700 leading-relaxed px-12">{{ $t('information.history.content1') }}</p>
+            <h2 class="text-2xl font-bold mb-6 text-[#2C1810] px-4 md:px-12">{{ $t('information.history.title') }}</h2>
+            <p class="text-gray-700 leading-relaxed px-4 md:px-12">{{ $t('information.history.content1') }}</p>
             <br>
-            <p class="text-gray-700 leading-relaxed px-12">{{ $t('information.history.content2') }}</p>
+            <p class="text-gray-700 leading-relaxed px-4 md:px-12">{{ $t('information.history.content2') }}</p>
             <br>
-            <p class="text-gray-700 leading-relaxed px-12">{{ $t('information.history.content3') }}</p>
+            <p class="text-gray-700 leading-relaxed px-4 md:px-12">{{ $t('information.history.content3') }}</p>
           </section>
   
           <!-- 算卦方法说明 -->
           <section class="max-w-4xl mx-auto px-4 py-12 bg-white rounded-2xl shadow-lg mb-8">
-            <div class="px-12">
+            <div class="px-4 md:px-12">
             <h2 class="text-2xl font-bold mb-6 text-[#2C1810]">{{ $t('information.method.title') }}</h2>
             <p class="text-gray-700 leading-relaxed mb-6">{{ $t('information.method.description') }}</p>
             <div class="bg-[#2C1810]/5 p-6 rounded-lg">
@@ -289,7 +289,7 @@
   
           <!-- 使用指南 -->
           <section class="max-w-4xl mx-auto px-4 py-12 bg-white rounded-2xl shadow-lg mb-8">
-            <div class="px-12">
+            <div class="px-4 md:px-12">
             <h2 class="text-2xl font-bold mb-6 text-[#2C1810]">{{ $t('information.guide.title') }}</h2>
             <div class="grid md:grid-cols-3 gap-6">
               <div class="bg-[#2C1810]/5 p-6 rounded-lg">
@@ -313,7 +313,7 @@
   
           <!-- FAQ -->
           <section class="max-w-4xl mx-auto px-4 py-12 bg-white rounded-2xl shadow-lg">
-            <div class="px-12">
+            <div class="px-4 md:px-12">
     <h2 class="text-2xl font-bold mb-6 text-[#2C1810]">{{ $t('information.faq.title') }}</h2>
     <div class="space-y-6">
       <div class="border-b border-gray-200 pb-6">

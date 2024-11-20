@@ -1,42 +1,105 @@
 <template>
-  <!-- 顶部导航 -->
   <nav class="bg-white shadow-md">
     <div class="max-w-7xl mx-auto px-4">
-      <div class="flex justify-between h-16">
-        <div class="flex items-center space-x-28">
-        <div class="flex items-center space-x-4">
-          <img src="/yikingfavicon/96_96.png" alt="Yi King Tirage" class="w-9 h-9">
-          <router-link to="/">
-            <h1 class="text-xl font-bold text-[#2C1810]">{{ $t('header.title') }}</h1>
+      <!-- 主导航容器 -->
+      <div class="relative flex justify-between h-16">
+        <!-- Logo 和标题 -->
+        <div class="flex items-center">
+          <router-link to="/" class="flex items-center space-x-2">
+            <img src="/yikingfavicon/96_96.png" alt="Yi King Tirage" class="w-9 h-9">
+            <h1 class="hidden md:block text-xl font-bold text-[#2C1810]">
+              {{ $t('header.title') }}
+            </h1>
           </router-link>
         </div>
-          <!-- 导航链接 -->
-          <div class="flex items-center space-x-8 ">
-            <router-link 
-              to="/" 
-              class="text-[#2C1810] hover:text-[#4A3728] transition-colors"
-            >
-              {{ $t('nav.home') }}
-            </router-link>
-            
-            <router-link 
-              to="/hexagrams_center" 
-              class="text-[#2C1810] hover:text-[#4A3728] transition-colors"
-            >
-              {{ $t('nav.hexagramsCenter') }}
-            </router-link>
 
-            <router-link 
-              to="/about" 
-              class="text-[#2C1810] hover:text-[#4A3728] transition-colors"
-            >
-              {{ $t('nav.about') }}
-            </router-link>
-          </div>
+        <!-- 中间导航链接 - 桌面端 -->
+        <div class="hidden md:flex items-center justify-center space-x-8 mx-4">
+          <router-link 
+            to="/" 
+            class="text-[#2C1810] hover:text-[#4A3728] transition-colors whitespace-nowrap"
+          >
+            {{ $t('nav.home') }}
+          </router-link>
+          
+          <router-link 
+            to="/hexagrams_center" 
+            class="text-[#2C1810] hover:text-[#4A3728] transition-colors whitespace-nowrap"
+          >
+            {{ $t('nav.hexagramsCenter') }}
+          </router-link>
+
+          <router-link 
+            to="/about" 
+            class="text-[#2C1810] hover:text-[#4A3728] transition-colors whitespace-nowrap"
+          >
+            {{ $t('nav.about') }}
+          </router-link>
         </div>
-        
-        <div class="flex items-center space-x-4">
+
+        <!-- 语言切换器 -->
+        <div class="flex items-center">
           <LanguageSwitcher />
+        </div>
+
+        <!-- 移动端菜单按钮 -->
+        <button 
+          @click="isMenuOpen = !isMenuOpen"
+          class="md:hidden flex items-center p-2 rounded-md text-[#2C1810] hover:text-[#4A3728]"
+        >
+          <svg 
+            class="h-6 w-6" 
+            fill="none" 
+            viewBox="0 0 24 24" 
+            stroke="currentColor"
+          >
+            <path 
+              v-if="!isMenuOpen"
+              stroke-linecap="round" 
+              stroke-linejoin="round" 
+              stroke-width="2" 
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+            <path 
+              v-else
+              stroke-linecap="round" 
+              stroke-linejoin="round" 
+              stroke-width="2" 
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </button>
+      </div>
+
+      <!-- 移动端菜单 -->
+      <div 
+        v-show="isMenuOpen" 
+        class="md:hidden"
+      >
+        <div class="px-2 pt-2 pb-3 space-y-1">
+          <router-link 
+            to="/" 
+            class="block px-3 py-2 rounded-md text-[#2C1810] hover:bg-gray-50"
+            @click="isMenuOpen = false"
+          >
+            {{ $t('nav.home') }}
+          </router-link>
+          
+          <router-link 
+            to="/hexagrams_center" 
+            class="block px-3 py-2 rounded-md text-[#2C1810] hover:bg-gray-50"
+            @click="isMenuOpen = false"
+          >
+            {{ $t('nav.hexagramsCenter') }}
+          </router-link>
+
+          <router-link 
+            to="/about" 
+            class="block px-3 py-2 rounded-md text-[#2C1810] hover:bg-gray-50"
+            @click="isMenuOpen = false"
+          >
+            {{ $t('nav.about') }}
+          </router-link>
         </div>
       </div>
     </div>
@@ -47,5 +110,15 @@
 </template>
 
 <script setup>
+import { ref } from 'vue'
 import LanguageSwitcher from './components/LanguageSwitcher.vue'
+
+const isMenuOpen = ref(false)
 </script>
+
+<style scoped>
+.router-link-active {
+  color: #4A3728;
+  font-weight: 600;
+}
+</style>

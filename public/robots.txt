@@ -1,0 +1,14 @@
+# 允许所有搜索引擎爬虫
+User-agent: *
+Allow: /
+
+# 不允许爬虫访问的目录（如果有的话）
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemap 位置
+Sitemap: https://yikingtirage.com/sitemap.xml
+
+# 针对特定搜索引擎的规则（可选）
+User-agent: Googlebot
+Crawl-delay: 1
