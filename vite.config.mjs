@@ -1,6 +1,11 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import path from 'path'
+import { fileURLToPath } from 'url'
+
+// 添加 ESM 支持的 __dirname 替代方案
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
 
 export default defineConfig({
   plugins: [
@@ -47,10 +52,16 @@ export default defineConfig({
     headers: {
       'Access-Control-Allow-Origin': '*'
     },
-    // 开发服务器配置
     middlewareMode: false,
     cors: true,
-    open: true, // 自动打开浏览器
-    port: 5173  // 指定端口
-  }
+    open: true,
+    port: 5173,
+    proxy: {
+      '/api': {
+        target: 'http://localhost:5173',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api/, '')
+      }
+    }
+}
 })

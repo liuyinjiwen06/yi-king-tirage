@@ -174,7 +174,18 @@ export default {
       warning: 'Avertissement'
     }
   },
-
+  "airesults": {
+    "aiConsultation": {
+      "title": "Analyse Personnalisée par IA",
+      "questionLabel": "Veuillez saisir la question que vous aviez à l'esprit lors de la consultation du Yi King",
+      "placeholder": "Par exemple : Ma carrière professionnelle va-t-elle dans la bonne direction ?",
+      "submit": "Obtenir l'Analyse",
+      "analyzing": "Analyse en cours...",
+      "responseTitle": "Résultat de l'Analyse IA",
+      "errorEmptyQuestion": "Veuillez saisir votre question",
+      "errorGeneric": "Échec de l'analyse, veuillez réessayer plus tard"
+    }
+  },
   "information": {
     "history": {
       "title": "La lecture du Yi King : Une sagesse ancestrale à travers le temps",

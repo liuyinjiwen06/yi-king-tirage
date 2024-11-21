@@ -89,6 +89,18 @@ export default {
         warning: 'Warning'
       }
     },
+    "airesults": {
+      "aiConsultation": {
+        "title": "AI Personalized Analysis",
+        "questionLabel": "Please enter the question you had in mind while consulting the I Ching",
+        "placeholder": "For example: Is my current career path heading in the right direction?",
+        "submit": "Get Analysis",
+        "analyzing": "Analyzing...",
+        "responseTitle": "AI Analysis Result",
+        "errorEmptyQuestion": "Please enter your question",
+        "errorGeneric": "Failed to get analysis, please try again later"
+      }
+    },
     information: {
       history: {
         title: 'I Ching Reading: Ancient Wisdom Through Time',

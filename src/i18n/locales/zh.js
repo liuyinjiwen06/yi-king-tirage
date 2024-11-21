@@ -206,6 +206,18 @@ export default {
       },
 
     },
+    "airesults": {
+      "aiConsultation": {
+        "title": "AI个性化解析",
+        "questionLabel": "请输入您想咨询的具体问题",
+        "placeholder": "例如：我最近的工作发展方向是否正确？",
+        "submit": "获取解析",
+        "analyzing": "解析中...",
+        "responseTitle": "AI解析结果",
+        "errorEmptyQuestion": "请输入您的问题",
+        "errorGeneric": "获取解析失败，请稍后重试"
+      }
+    },
     blog: {  // 确保这里的缩进正确
       title: "博客",
       prevPage: "上一页",

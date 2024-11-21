@@ -27,26 +27,29 @@
               {{ $t('divination.start') }}
             </button>
   
-            <!-- 铜币显示区域 -->
-            <div v-if="showCoins" class="my-8">
-              <div class="grid grid-cols-3 gap-8 justify-items-center items-center">
-                <div 
-                  v-for="i in 3" 
-                  :key="i" 
-                  class="relative md:w-32 md:h-32 w-24 h-24 rounded-full  overflow-hidden transition-transform duration-500 hover:scale-110 cursor-pointer"
-                  @click="performReading"
-                >
-              <img 
-    src="@/assets/coin.webp" 
-    :alt="$t('divination.coinAlt')"
-    class="w-full h-full object-cover"
-  />
-                </div>
-              </div>
-              <p class="mt-4 text-gray-600">
-                {{ $t('divination.coinInstruction') }}
-              </p>
-            </div>
+<!-- 铜币显示区域 -->
+<div v-if="showCoins" class="my-8">
+  <div class="grid grid-cols-3 gap-8 justify-items-center items-center">
+    <div 
+      v-for="i in 3" 
+      :key="i" 
+      class="relative md:w-24 md:h-24 w-20 h-20 rounded-full overflow-visible"
+      :class="{ 'animate-coin': isFlipping[i-1] }"
+      @click="flipCoin(i-1)"
+    >
+      <img 
+        :ref="el => coinRefs[i-1] = el"
+        src="@/assets/coin_fit.webp" 
+        :alt="$t('divination.coinAlt')"
+        class="w-full h-full object-cover transition-transform duration-500" 
+        :class="{ 'coin-flip': isFlipping[i-1] }"
+      />
+    </div>
+  </div>
+  <p class="mt-4 text-gray-600">
+    {{ t('divination.coinInstruction') }}
+  </p>
+</div>
   
             <!-- 卦象显示 -->
             <div class="mt-8 flex justify-center" v-if="readings.length > 0">
@@ -243,6 +246,43 @@
       <li>{{ t(`${currentHexagram.number}.interpretation.reflections[3]`) }}</li>
     </ul>
     </div>
+
+    <!-- AI分析 -->
+<div class="bg-white rounded-2xl p-6 shadow-sm mt-8">
+  <h3 class="text-xl font-semibold text-[#C8503C] mb-4">{{ t('airesults.aiConsultation.title') }}</h3>
+  
+  <!-- 问题输入区域 -->
+  <div class="mb-6">
+    <label class="block text-gray-700 mb-2">{{ t('airesults.aiConsultation.questionLabel') }}</label>
+    <div class="flex gap-4">
+      <input 
+        v-model="userQuestion"
+        type="text"
+        class="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#C8503C]"
+        :placeholder="t('airesults.aiConsultation.placeholder')"
+      />
+      <button 
+        @click="getAIResponse"
+        class="px-6 py-2 bg-[#2C1810] text-white rounded-lg hover:bg-[#3D291D] transition-colors"
+        :disabled="isLoading"
+      >
+        {{ isLoading ? t('airesults.aiConsultation.analyzing') : t('airesults.aiConsultation.submit') }}
+      </button>
+    </div>
+  </div>
+
+<!-- AI 回答区域 -->
+<div v-if="aiResponse" class="bg-gray-50 p-6 rounded-lg">
+  <h4 class="font-medium text-[#C8503C] mb-4">{{ t('results.aiConsultation.responseTitle') }}</h4>
+  <pre class="whitespace-pre-wrap text-gray-700">{{ aiResponse }}</pre>
+</div>
+
+  <!-- 错误提示 -->
+  <div v-if="error" class="text-red-500 mt-2">
+    {{ error }}
+  </div>
+</div>
+
   </div>
          
       
@@ -463,19 +503,19 @@ import { getHexagramData } from '../data/hexagrams'  // 这个也需要修改路
   }
   
   // 执行占卦
-  const performReading = () => {
-    if (readings.value.length < 6) {
-      const lines = ["yin", "yang"]
-      const newReading = lines[Math.floor(Math.random() * 2)]
-      readings.value.push(newReading)
+//   const performReading = () => {
+//     if (readings.value.length < 6) {
+//       const lines = ["yin", "yang"]
+//       const newReading = lines[Math.floor(Math.random() * 2)]
+//       readings.value.push(newReading)
       
-      if (readings.value.length === 6) {
-        calculateHexagram()
-        showResult.value = true
-        showCoins.value = false
-      }
-    }
-  }
+//       if (readings.value.length === 6) {
+//         calculateHexagram()
+//         showResult.value = true
+//         showCoins.value = false
+//       }
+//     }
+//   }
   
   // 计算卦象
   const calculateHexagram = () => {
@@ -484,8 +524,117 @@ import { getHexagramData } from '../data/hexagrams'  // 这个也需要修改路
     hexagram.value = hexagramNumber
     updateHexagramData(hexagramNumber)
   }
+
+
+  // 在 script setup 部分添加
+const userQuestion = ref('')
+const aiResponse = ref('')
+const isLoading = ref(false)
+const error = ref('')
+
+const getAIResponse = async () => {
+  if (!userQuestion.value.trim()) {
+    error.value = t('results.aiConsultation.errorEmptyQuestion')
+    return
+  }
+
+  isLoading.value = true
+  error.value = ''
+
+  try {
+    const response = await fetch('http://localhost:3000/api/ai-consultation', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        question: userQuestion.value,
+        hexagram: currentHexagram.value.number,
+        hexagramName: currentHexagram.value.name,
+        interpretation: currentHexagram.value.interpretation.general.overview,
+        language: locale.value 
+      })
+    })
+
+    if (!response.ok) {
+      throw new Error(t('results.aiConsultation.errorGeneric'))
+    }
+
+    const data = await response.json()
+    // 使用v-html渲染带格式的响应
+    aiResponse.value = data.response
+  } catch (err) {
+    console.error('API error:', err)
+    error.value = err.message || t('results.aiConsultation.errorGeneric')
+  } finally {
+    isLoading.value = false
+  }
+}
+// 硬币动画
+// 删除这些重复的定义
+const isFlipping = ref([false, false, false])
+const coinRefs = ref([])
+
+// 保留这一个版本的 performReading
+const performReading = () => {
+  if (readings.value.length < 6) {
+    const lines = ["yin", "yang"]
+    const newReading = lines[Math.floor(Math.random() * 2)]
+    readings.value.push(newReading)
+    
+    if (readings.value.length === 6) {
+      setTimeout(() => {
+        calculateHexagram()
+        showResult.value = true
+        showCoins.value = false
+        // 滚动到结果区域
+        setTimeout(() => {
+          const resultElement = document.querySelector('.results-section')
+          if (resultElement) {
+            resultElement.scrollIntoView({ behavior: 'smooth' })
+          }
+        }, 500)
+      }, 500) // 给一点延迟让用户看清最后的结果
+    }
+  }
+}
+
+// 保留这一个版本的 flipCoin
+const flipCoin = async (index) => {
+  // 如果有任何硬币正在翻转，则不响应点击
+  if (isFlipping.value.some(flipping => flipping)) return
+
+  // 将所有硬币设置为翻转状态
+  isFlipping.value = [true, true, true]
+  
+  // 为每个硬币设置略微不同的随机延迟，使动画更自然
+  const delays = [
+    Math.random() * 100,
+    Math.random() * 100 + 50,
+    Math.random() * 100 + 100
+  ]
+  
+  // 播放硬币声音
+  const coinSound = new Audio('/coin-flip.mp3')
+  coinSound.play().catch(() => {})
+  
+  // 为每个硬币设置动画结束时间
+  delays.forEach((delay, i) => {
+    setTimeout(() => {
+      setTimeout(() => {
+        isFlipping.value[i] = false
+        
+        // 当所有硬币都完成翻转时执行占卦
+        if (isFlipping.value.every(flipping => !flipping)) {
+          performReading()
+        }
+      }, 1000) // 动画持续时间
+    }, delay) // 开始延迟
+  })
+}
   </script>
   
+
   <style scoped>
   .line-enter-active {
     transition: all 0.5s ease-out;
@@ -530,5 +679,65 @@ import { getHexagramData } from '../data/hexagrams'  // 这个也需要修改路
     backface-visibility: hidden;
     -webkit-font-smoothing: antialiased;
   }
+
+  @keyframes flip {
+  0% {
+    transform: rotateY(0) translateY(0);
+  }
+  25% {
+    transform: rotateY(90deg) translateY(-20px);
+  }
+  75% {
+    transform: rotateY(270deg) translateY(-20px);
+  }
+  100% {
+    transform: rotateY(360deg) translateY(0);
+  }
+}
+
+/* 硬币弹跳动画 */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+/* 应用动画的类 */
+.animate-coin {
+  animation: bounce 0.3s ease-in-out;
+}
+
+.coin-flip {
+  animation: flip 1s ease-in-out;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+
+/* 硬币悬停效果 */
+.rounded-full {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* 只在非翻转状态下显示悬停效果 */
+.rounded-full:not(.animate-coin):hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+}
+
+/* 翻转时禁用鼠标交互 */
+.animate-coin {
+  pointer-events: none;
+}
+
+/* 确保动画性能优化 */
+.coin-flip, .animate-coin {
+  will-change: transform;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
   </style>
   
