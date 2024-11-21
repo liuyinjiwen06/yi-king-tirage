@@ -27,7 +27,7 @@ const zh = {
 }
 
 // 获取浏览器语言
-const getBrowserLanguage = () => {
+export const getBrowserLanguage = () => {
   const browserLang = navigator.language || navigator.userLanguage
   const langMap = {
     'zh': 'zh-CN',

@@ -84,8 +84,12 @@ const router = createRouter({
   routes
 })
 
+import { getBrowserLanguage } from '../i18n'  // 导入现有函数
+
 router.beforeEach((to, from, next) => {
-  const locale = to.params.locale || 'fr'
+  // 使用现有的 getBrowserLanguage 函数
+  const locale = to.params.locale || getBrowserLanguage()
+  
   const currentMeta = to.meta
   
   if (currentMeta?.title?.[locale]) {
