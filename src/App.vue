@@ -5,7 +5,11 @@
       <div class="relative flex justify-between h-16">
         <!-- Logo 和标题 -->
         <div class="flex items-center">
-          <router-link to="/" class="flex items-center space-x-2">
+          <router-link     :to="{ 
+      name: 'Home', 
+      params: { locale: $i18n.locale }, 
+      query: { reset: 'true' } 
+    }"  class="flex items-center space-x-2">
             <img src="/yikingfavicon/96_96.png" alt="Yi King Tirage" class="w-9 h-9">
             <h1 class="hidden md:block text-xl font-bold text-[#2C1810]">
               {{ $t('header.title') }}
@@ -16,9 +20,13 @@
         <!-- 中间导航链接 - 桌面端 -->
         <div class="hidden md:flex items-center justify-center space-x-8 mx-4">
           <router-link 
-            to="/" 
-            class="text-[#2C1810] hover:text-[#4A3728] transition-colors whitespace-nowrap"
-          >
+    :to="{ 
+      name: 'Home', 
+      params: { locale: $i18n.locale }, 
+      query: { reset: 'true' } 
+    }" 
+    class="text-[#2C1810] hover:text-[#4A3728] transition-colors whitespace-nowrap"
+  >
             {{ $t('nav.home') }}
           </router-link>
           
@@ -78,10 +86,13 @@
       >
         <div class="px-2 pt-2 pb-3 space-y-1">
           <router-link 
-            to="/" 
-            class="block px-3 py-2 rounded-md text-[#2C1810] hover:bg-gray-50"
-            @click="isMenuOpen = false"
-          >
+    :to="{ 
+      name: 'Home', 
+      params: { locale: $i18n.locale }, 
+      query: { reset: 'true' } 
+    }" 
+    class="text-[#2C1810] hover:text-[#4A3728] transition-colors whitespace-nowrap"
+  >
             {{ $t('nav.home') }}
           </router-link>
           
@@ -111,9 +122,22 @@
 
 <script setup>
 import { ref } from 'vue'
+import { useRouter } from 'vue-router'  // 添加这行
+import { useI18n } from 'vue-i18n'      // 添加这行
 import LanguageSwitcher from './components/LanguageSwitcher.vue'
 
+const router = useRouter()              // 添加这行
+const { locale } = useI18n()            // 添加这行
 const isMenuOpen = ref(false)
+
+const setLocale = (newLocale) => {
+  locale.value = newLocale;
+  localStorage.setItem('user-locale', newLocale);
+  // 更新 URL
+  const currentPath = router.currentRoute.value.path;
+  const newPath = `/${newLocale}${currentPath.substring(currentPath.indexOf('/', 1))}`;
+  router.push(newPath);
+};
 </script>
 
 <style scoped>

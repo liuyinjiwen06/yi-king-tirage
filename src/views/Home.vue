@@ -403,13 +403,14 @@
   </template>
   
   <script setup>
- import { ref, watch } from 'vue'
+import { ref, watch } from 'vue'
+import { useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
-// 修改导入路径，使用正确的相对路径
 import LanguageSwitcher from '../components/LanguageSwitcher.vue'
-import { getHexagramData } from '../data/hexagrams'  // 这个也需要修改路径
-  
-  const { t, locale } = useI18n()
+import { getHexagramData } from '../data/hexagrams'
+
+const route = useRoute()
+const { t, locale } = useI18n()
   
   // 响应式状态
   const readings = ref([])
@@ -497,18 +498,43 @@ import { getHexagramData } from '../data/hexagrams'  // 这个也需要修改路
   
   
   
-  // 开始占卦
-  const startReading = () => {
-    isReading.value = true
-    readings.value = []
-    showResult.value = false
-    currentHexagram.value = null
-    showCoins.value = true
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    })
-  }
+  // 监听路由查询参数变化
+watch(
+  () => route.query.reset,
+  (newVal) => {
+    if (newVal === 'true') {
+      resetState()
+    }
+  },
+  { immediate: true } // 确保首次加载时也会执行
+)
+
+// 重置状态函数
+const resetState = () => {
+  console.log('Resetting state...') // 调试日志
+  isReading.value = false
+  showCoins.value = false
+  readings.value = []
+  currentHexagram.value = null
+  aiResponse.value = ''
+  userQuestion.value = ''
+  error.value = ''
+  showResult.value = false
+}
+
+// 开始占卦函数
+const startReading = () => {
+  console.log('Starting reading...') // 调试日志
+  isReading.value = true
+  readings.value = []
+  showResult.value = false
+  currentHexagram.value = null
+  showCoins.value = true
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  })
+}
   
   // 执行占卦
 //   const performReading = () => {
@@ -655,6 +681,8 @@ const flipCoin = async (index) => {
     }, delay) // 开始延迟
   })
 }
+
+
   </script>
   
 

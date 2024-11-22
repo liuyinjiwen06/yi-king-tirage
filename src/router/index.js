@@ -87,30 +87,57 @@ const router = createRouter({
 import { getBrowserLanguage } from '../i18n'  // 导入现有函数
 
 router.beforeEach((to, from, next) => {
-  // 使用现有的 getBrowserLanguage 函数
-  const locale = to.params.locale || getBrowserLanguage()
-  
-  const currentMeta = to.meta
-  
-  if (currentMeta?.title?.[locale]) {
-    // 如果是卦象详情页，替换标题中的 {id}
-    let title = currentMeta.title[locale]
-    if (to.params.id) {
-      title = title.replace('{id}', to.params.id)
+    // 1. 获取保存的语言设置
+    const savedLocale = localStorage.getItem('user-locale');
+    
+    // 2. 确定要使用的语言
+    let targetLocale = savedLocale;
+    
+    // 3. 如果 URL 中有语言参数且与保存的语言不同，更新保存的语言
+    if (to.params.locale) {
+      if (to.params.locale !== savedLocale) {
+        localStorage.setItem('user-locale', to.params.locale);
+        targetLocale = to.params.locale;
+      }
+    } else if (!targetLocale) {
+      // 4. 如果没有保存的语言也没有 URL 语言参数，使用浏览器语言
+      targetLocale = getBrowserLanguage();
+      localStorage.setItem('user-locale', targetLocale);
     }
-    document.title = title
-  }
   
-  if (currentMeta?.description?.[locale]) {
-    let description = currentMeta.description[locale]
-    if (to.params.id) {
-      description = description.replace('{id}', to.params.id)
+    // 5. 如果当前路径没有语言前缀，添加语言前缀
+    if (!to.params.locale) {
+      return next(`/${targetLocale}${to.fullPath}`);
     }
-    document.querySelector('meta[name="description"]')
-      ?.setAttribute('content', description)
-  }
   
-  next()
-})
-
-export default router
+    // 6. 如果语言前缀与目标语言不匹配，重定向到正确的语言路径
+    if (to.params.locale !== targetLocale) {
+      const newPath = to.fullPath.replace(`/${to.params.locale}/`, `/${targetLocale}/`);
+      return next(newPath);
+    }
+  
+    const currentMeta = to.meta;
+    
+    // 设置页面标题
+    if (currentMeta?.title?.[targetLocale]) {
+      let title = currentMeta.title[targetLocale];
+      if (to.params.id) {
+        title = title.replace('{id}', to.params.id);
+      }
+      document.title = title;
+    }
+    
+    // 设置页面描述
+    if (currentMeta?.description?.[targetLocale]) {
+      let description = currentMeta.description[targetLocale];
+      if (to.params.id) {
+        description = description.replace('{id}', to.params.id);
+      }
+      document.querySelector('meta[name="description"]')
+        ?.setAttribute('content', description);
+    }
+    
+    next();
+  });
+  
+  export default router;

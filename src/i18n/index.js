@@ -10,23 +10,7 @@ import enHexagrams from './locales/hexagrams/en'
 import frHexagrams from './locales/hexagrams/fr'
 import zhHexagrams from './locales/hexagrams/zh'
 
-// 合并相同语言的翻译内容
-const en = {
-  ...enBase,
-  ...enHexagrams
-}
-
-const fr = {
-  ...frBase,
-  ...frHexagrams
-}
-
-const zh = {
-  ...zhBase,
-  ...zhHexagrams
-}
-
-// 获取浏览器语言
+// 首先声明 getBrowserLanguage 函数
 export const getBrowserLanguage = () => {
   const browserLang = navigator.language || navigator.userLanguage
   const langMap = {
@@ -43,9 +27,29 @@ export const getBrowserLanguage = () => {
   return langMap[browserLang] || langMap[browserLang.split('-')[0]] || 'en'
 }
 
+// 合并相同语言的翻译内容
+const en = {
+  ...enBase,
+  ...enHexagrams
+}
+
+const fr = {
+  ...frBase,
+  ...frHexagrams
+}
+
+const zh = {
+  ...zhBase,
+  ...zhHexagrams
+}
+
+// 从 localStorage 获取语言设置
+const savedLocale = localStorage.getItem('user-locale');
+const defaultLocale = savedLocale || getBrowserLanguage();
+
 const i18n = createI18n({
   legacy: false,
-  locale: getBrowserLanguage(),
+  locale: defaultLocale,
   fallbackLocale: 'en',
   messages: {
     'en': en,
