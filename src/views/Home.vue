@@ -286,9 +286,9 @@
   </div>
 
   <!-- 错误提示 -->
-  <div v-if="error" class="text-red-500 mt-2">
+  <!-- <div v-if="error" class="text-red-500 mt-2">
     {{ error }}
-  </div>
+  </div> -->
 </div>
 
   </div>
@@ -541,16 +541,19 @@ const isLoading = ref(false)
 const error = ref('')
 
 const getAIResponse = async () => {
+  // 检查问题是否为空
   if (!userQuestion.value.trim()) {
     error.value = t('results.aiConsultation.errorEmptyQuestion')
     return
   }
 
+  // 设置加载状态和清除错误
   isLoading.value = true
   error.value = ''
 
   try {
-    const response = await fetch('http://localhost:3000/api/ai-consultation', {
+    const API_URL = import.meta.env.VITE_API_URL
+    const response = await fetch(`${API_URL}/api/ai-consultation`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -569,7 +572,6 @@ const getAIResponse = async () => {
     }
 
     const data = await response.json()
-    // 使用v-html渲染带格式的响应
     aiResponse.value = data.response
   } catch (err) {
     console.error('API error:', err)
@@ -578,6 +580,7 @@ const getAIResponse = async () => {
     isLoading.value = false
   }
 }
+
 // 硬币动画
 // 删除这些重复的定义
 const isFlipping = ref([false, false, false])
