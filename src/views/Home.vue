@@ -555,6 +555,8 @@ const getAIResponse = async () => {
     const API_URL = import.meta.env.VITE_API_URL || '';
     console.log('API URL:', API_URL); // 添加这行来调试
 
+    console.log('Current language:', locale.value); // 检查当前语言设置
+
     // 如果 API_URL 为空，使用当前域名
     const baseUrl = API_URL || window.location.origin;
     console.log('Base URL being used:', baseUrl); // 添加这行来调试
@@ -573,7 +575,7 @@ const getAIResponse = async () => {
         hexagram: currentHexagram.value.number,
         hexagramName: currentHexagram.value.name,
         interpretation: currentHexagram.value.interpretation.general.overview,
-        language: locale.value 
+        language: locale.value.split('-')[0] // 确保只取语言代码的前半部分，如 'zh-CN' 变为 'zh'
       })
     });
 

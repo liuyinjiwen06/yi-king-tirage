@@ -34,7 +34,8 @@ export async function onRequestPost(context) {
     };
 
     const currentLang = prompts[language] || prompts.en;
-
+    console.log('Selected language:', language); // 添加调试日志
+    
     const completion = await openai.chat.completions.create({
       model: "gpt-3.5-turbo",
       messages: [
