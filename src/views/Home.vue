@@ -552,7 +552,9 @@ const getAIResponse = async () => {
   error.value = ''
 
   try {
-    const API_URL = import.meta.env.VITE_API_URL
+    const API_URL = import.meta.env.VITE_API_URL || '';
+    console.log('API URL:', API_URL); // 添加这行来调试
+
     const response = await fetch(`${API_URL}/api/ai-consultation`, {
       method: 'POST',
       headers: {
@@ -565,7 +567,7 @@ const getAIResponse = async () => {
         interpretation: currentHexagram.value.interpretation.general.overview,
         language: locale.value 
       })
-    })
+    });
 
     if (!response.ok) {
       throw new Error(t('results.aiConsultation.errorGeneric'))
