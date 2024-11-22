@@ -555,6 +555,14 @@ const getAIResponse = async () => {
     const API_URL = import.meta.env.VITE_API_URL || '';
     console.log('API URL:', API_URL); // 添加这行来调试
 
+    // 如果 API_URL 为空，使用当前域名
+    const baseUrl = API_URL || window.location.origin;
+    console.log('Base URL being used:', baseUrl); // 添加这行来调试
+
+      // 确保使用正确的 API 地址
+    const apiEndpoint = `${API_URL}/api/ai-consultation`;
+    console.log('Making request to:', apiEndpoint); // 调试用
+
     const response = await fetch(`${API_URL}/api/ai-consultation`, {
       method: 'POST',
       headers: {
