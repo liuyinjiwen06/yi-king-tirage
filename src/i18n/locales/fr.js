@@ -260,5 +260,6 @@ export default {
     "title": "Blog",
     "prevPage": "Précédent",
     "nextPage": "Suivant"
-  }
+  },
+    metaTitle: 'Yi King Tirage'
 }

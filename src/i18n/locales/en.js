@@ -180,5 +180,6 @@ export default {
       title: 'Blog',
       prevPage: 'Previous',
       nextPage: 'Next'
-    }
+    },
+    metaTitle: 'I Ching Reading'
   }

@@ -248,34 +248,42 @@
     </div>
 
     <!-- AI分析 -->
-<div class="bg-white rounded-2xl p-6 shadow-sm mt-8">
-  <h3 class="text-xl font-semibold text-[#C8503C] mb-4">{{ t('airesults.aiConsultation.title') }}</h3>
+<!-- AI分析 -->
+<div class="bg-white rounded-2xl p-4 md:p-6 shadow-sm mt-6 md:mt-8">
+  <h3 class="text-lg md:text-xl font-semibold text-[#C8503C] mb-3 md:mb-4">
+    {{ t('airesults.aiConsultation.title') }}
+  </h3>
   
   <!-- 问题输入区域 -->
-  <div class="mb-6">
-    <label class="block text-gray-700 mb-2">{{ t('airesults.aiConsultation.questionLabel') }}</label>
-    <div class="flex gap-4">
-      <input 
-        v-model="userQuestion"
-        type="text"
-        class="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#C8503C]"
-        :placeholder="t('airesults.aiConsultation.placeholder')"
-      />
-      <button 
-        @click="getAIResponse"
-        class="px-6 py-2 bg-[#2C1810] text-white rounded-lg hover:bg-[#3D291D] transition-colors"
-        :disabled="isLoading"
-      >
-        {{ isLoading ? t('airesults.aiConsultation.analyzing') : t('airesults.aiConsultation.submit') }}
-      </button>
-    </div>
+  <div class="space-y-3 md:space-y-4">
+    <textarea 
+      v-model="userQuestion"
+      :placeholder="t('airesults.aiConsultation.placeholder')"
+      class="w-full p-3 md:p-4 border rounded-lg text-sm md:text-base min-h-[100px] md:min-h-[120px]"
+      :class="{ 'border-red-500': error }"
+    ></textarea>
+    
+    <!-- 错误提示 -->
+    <p v-if="error" class="text-red-500 text-xs md:text-sm">{{ error }}</p>
+    
+    <!-- 提交按钮 -->
+    <button 
+      @click="getAIResponse"
+      :disabled="isLoading"
+      class="w-full md:w-auto px-4 md:px-6 py-2 md:py-3 rounded-lg text-sm md:text-base transition-all duration-300 bg-[#2C1810] text-[#F5F5F0] hover:bg-[#3D291D] disabled:opacity-50"
+    >
+      {{ isLoading ? t('airesults.aiConsultation.analyzing') : t('airesults.aiConsultation.submit') }}
+    </button>
   </div>
 
-<!-- AI 回答区域 -->
-<div v-if="aiResponse" class="bg-gray-50 p-6 rounded-lg">
-  <h4 class="font-medium text-[#C8503C] mb-4">{{ t('results.aiConsultation.responseTitle') }}</h4>
-  <pre class="whitespace-pre-wrap text-gray-700">{{ aiResponse }}</pre>
-</div>
+  <!-- AI 回复区域 -->
+  <div v-if="aiResponse" class="mt-4 md:mt-6 p-3 md:p-4 bg-gray-50 rounded-lg">
+    <div class="prose prose-sm md:prose-base max-w-none">
+      <div class="whitespace-pre-wrap text-sm md:text-base leading-relaxed">
+        {{ aiResponse }}
+      </div>
+    </div>
+  </div>
 
   <!-- 错误提示 -->
   <div v-if="error" class="text-red-500 mt-2">

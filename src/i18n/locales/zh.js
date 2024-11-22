@@ -209,7 +209,7 @@ export default {
     "airesults": {
       "aiConsultation": {
         "title": "AI个性化解析",
-        "questionLabel": "请输入您想咨询的具体问题",
+        "questionLabel": "请输入您刚刚抽卦时思考的问题",
         "placeholder": "例如：我最近的工作发展方向是否正确？",
         "submit": "获取解析",
         "analyzing": "解析中...",
@@ -278,5 +278,6 @@ export default {
           }
         }
       }
-    }
+    },
+    metaTitle: '易经算卦'
   }
