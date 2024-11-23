@@ -96,7 +96,11 @@ export default {
     guide: 'Concentrez-vous sur votre question et commencez le tirage',
     start: 'Commencer le Tirage',
     coinAlt: 'Pièce de monnaie pour le tirage du Yi King',
-    coinInstruction: 'Cliquez sur les pièces pour effectuer votre tirage du Yi King'
+    coinInstruction: 'Cliquez sur les pièces pour effectuer votre tirage du Yi King',
+    "progress": "{current}/6",
+    "remainingClicks": "Veuillez cliquer sur les pièces encore {remaining} fois pour compléter l'hexagramme",
+    "complete": "Hexagramme complet, génération de l'interprétation en cours...",
+     "tapCoinsGuide": "Touchez une pièce pour commencer la divination"
 
   },
   hexagram: {
@@ -261,5 +265,6 @@ export default {
     "prevPage": "Précédent",
     "nextPage": "Suivant"
   },
-    metaTitle: 'Yi King Tirage'
+    metaTitle: 'Yi King Tirage',
+
 }

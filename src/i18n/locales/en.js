@@ -12,7 +12,11 @@ export default {
       guide: 'Focus on your question and begin the consultation',
       start: 'Begin Reading',
       coinAlt: 'Coin',
-      coinInstruction: 'Click the coins to cast your reading'
+      coinInstruction: 'Click the coins to cast your reading',
+      "progress": "{current}/6",
+      "remainingClicks": "Please click the coins {remaining} more times to complete the hexagram",
+      "complete": "Hexagram complete, generating interpretation...",
+       "tapCoinsGuide": "Tap any coin to start divination"
     },
     hexagram: {
       number: 'Hexagram {number}',
@@ -181,5 +185,6 @@ export default {
       prevPage: 'Previous',
       nextPage: 'Next'
     },
-    metaTitle: 'I Ching Reading'
+    metaTitle: 'I Ching Reading',
+
   }

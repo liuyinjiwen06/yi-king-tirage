@@ -12,7 +12,11 @@ export default {
       guide: '请集中精神思考您的问题，然后开始占卦',
       start: '开始占卦',
       coinAlt: '铜钱',
-      coinInstruction: '点击铜钱进行占卦'
+      coinInstruction: '点击铜钱进行占卦',
+      "progress": "{current}/6",
+      "remainingClicks": "请再点击 {remaining} 次硬币来完成卦象",
+      "complete": "卦象已完成,正在生成解读...",
+      "tapCoinsGuide": "点击任意硬币开始占卦",
     },
     "hexagram": {
       "overview": {
@@ -279,5 +283,6 @@ export default {
         }
       }
     },
-    metaTitle: '易经算卦'
+    metaTitle: '易经算卦',
+    
   }

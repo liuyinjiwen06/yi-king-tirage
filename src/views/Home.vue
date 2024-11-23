@@ -29,12 +29,30 @@
   
 <!-- 铜币显示区域 -->
 <div v-if="showCoins" class="my-8">
+
   <div class="grid grid-cols-3 gap-8 justify-items-center items-center">
+   <!-- 首次使用的引导提示 -->
+    <div 
+      v-if="readings.length === 0" 
+      class="absolute -top-12 left-1/2 transform -translate-x-1/2 
+             bg-[#2C1810] text-[#F5F5F0] px-4 py-2 rounded-lg 
+             shadow-lg text-sm animate-bounce z-10"
+    >
+      {{ t('divination.tapCoinsGuide') }}
+      <div class="absolute -bottom-2 left-1/2 transform -translate-x-1/2 
+                 w-0 h-0 border-8 border-transparent border-t-[#2C1810]">
+      </div>
+    </div>
+
+    <!-- 硬币部分添加呼吸效果 -->
     <div 
       v-for="i in 3" 
       :key="i" 
-      class="relative md:w-24 md:h-24 w-20 h-20 rounded-full overflow-visible"
-      :class="{ 'animate-coin': isFlipping[i-1] }"
+      class="relative md:w-24 md:h-24 w-20 h-20 rounded-full overflow-visible cursor-pointer"
+      :class="[
+        { 'animate-coin': isFlipping[i-1] },
+        { 'animate-breathe': !isFlipping[i-1] && readings.length < 6 }
+      ]"
       @click="flipCoin(i-1)"
     >
       <img 
@@ -46,8 +64,37 @@
       />
     </div>
   </div>
-  <p class="mt-4 text-gray-600">
+          <!-- 进度指示器 -->
+          <div class="mb-4 mt-12 flex items-center justify-center">
+    <div class="flex items-center space-x-1">
+      <div 
+        v-for="i in 6" 
+        :key="i"
+        class="w-2 h-2 rounded-full transition-all duration-300"
+        :class="[
+          i <= readings.length ? 'bg-[#C8503C]' : 'bg-gray-300',
+          i === readings.length + 1 ? 'scale-125' : ''
+        ]"
+      ></div>
+    </div>
+    <span class="ml-3 text-sm text-gray-600">
+      {{ t('divination.progress', { current: readings.length, total: 6 }) }}
+    </span>
+  </div>
+
+   <!-- 初始提示，仅在未开始时显示 -->
+   <p v-if="readings.length === 0" class="mt-4 text-gray-600">
     {{ t('divination.coinInstruction') }}
+  </p>
+
+  <!-- 进度提示，仅在开始后且未完成时显示 -->
+  <p v-if="readings.length > 0 && readings.length < 6" class="mt-4 text-gray-600">
+    {{ t('divination.remainingClicks', { remaining: 6 - readings.length }) }}
+  </p>
+
+  <!-- 完成提示 -->
+  <p v-if="readings.length === 6" class="mt-4 text-gray-600">
+    {{ t('divination.complete') }}
   </p>
 </div>
   
@@ -789,6 +836,28 @@ const flipCoin = async (index) => {
   will-change: transform;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+}
+
+/* 添加呼吸动画效果 */
+@keyframes breathe {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.animate-breathe {
+  animation: breathe 2s infinite ease-in-out;
+}
+
+/* 确保动画在hover和翻转时停止 */
+.animate-breathe:hover,
+.animate-coin {
+  animation: none;
 }
   </style>
   
