@@ -219,7 +219,8 @@ export default {
         "analyzing": "解析中...",
         "responseTitle": "AI解析结果",
         "errorEmptyQuestion": "请输入您的问题",
-        "errorGeneric": "获取解析失败，请稍后重试"
+        "errorGeneric": "获取解析失败，请稍后重试",
+        "simpleGuide": "请输入您在算卦时心中所想的问题"
       }
     },
     blog: {  // 确保这里的缩进正确

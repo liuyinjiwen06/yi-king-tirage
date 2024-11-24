@@ -187,7 +187,8 @@ export default {
       "analyzing": "Analyse en cours...",
       "responseTitle": "Résultat de l'Analyse IA",
       "errorEmptyQuestion": "Veuillez saisir votre question",
-      "errorGeneric": "Échec de l'analyse, veuillez réessayer plus tard"
+      "errorGeneric": "Échec de l'analyse, veuillez réessayer plus tard",
+      "simpleGuide": "Veuillez saisir la question que vous aviez à l'esprit pendant la divination"
     }
   },
   "information": {

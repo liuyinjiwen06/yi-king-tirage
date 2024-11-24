@@ -300,7 +300,12 @@
   <h3 class="text-lg md:text-xl font-semibold text-[#C8503C] mb-3 md:mb-4">
     {{ t('airesults.aiConsultation.title') }}
   </h3>
-  
+
+    <!-- 简单提示 -->
+    <p class="mb-4 text-sm text-gray-600">
+    {{ t('airesults.aiConsultation.simpleGuide') }}
+  </p>
+
   <!-- 问题输入区域 -->
   <div class="space-y-3 md:space-y-4">
     <textarea 
@@ -459,13 +464,19 @@ import { getHexagramData } from '../data/hexagrams'
 const route = useRoute()
 const { t, locale } = useI18n()
   
-  // 响应式状态
-  const readings = ref([])
-  const hexagram = ref(null)
-  const currentHexagram = ref(null)
-  const isReading = ref(false)
-  const showResult = ref(false)
-  const showCoins = ref(false)
+// 响应式状态
+const readings = ref([])
+const hexagram = ref(null)
+const currentHexagram = ref(null)
+const isReading = ref(false)
+const showResult = ref(false)
+const showCoins = ref(false)
+const isFlipping = ref([false, false, false])
+const coinRefs = ref([])
+const userQuestion = ref('')
+const aiResponse = ref('')
+const isLoading = ref(false)
+const error = ref('')
   
   // 监听语言变化
   watch(locale, (newLocale) => {
@@ -545,28 +556,29 @@ const { t, locale } = useI18n()
   
   
   
-  // 监听路由查询参数变化
+ // 监听路由查询参数变化
 watch(
   () => route.query.reset,
   (newVal) => {
-    if (newVal === 'true') {
+    if (newVal) {  // 移除了 === 'true' 的判断
       resetState()
     }
-  },
-  { immediate: true } // 确保首次加载时也会执行
+  }
 )
 
 // 重置状态函数
 const resetState = () => {
-  console.log('Resetting state...') // 调试日志
+  console.log('Resetting state...')
   isReading.value = false
   showCoins.value = false
   readings.value = []
   currentHexagram.value = null
+  hexagram.value = null
   aiResponse.value = ''
   userQuestion.value = ''
   error.value = ''
   showResult.value = false
+  isFlipping.value = [false, false, false]
 }
 
 // 开始占卦函数
@@ -607,11 +619,8 @@ const startReading = () => {
   }
 
 
-  // 在 script setup 部分添加
-const userQuestion = ref('')
-const aiResponse = ref('')
-const isLoading = ref(false)
-const error = ref('')
+
+
 
 const getAIResponse = async () => {
   // 检查问题是否为空
@@ -667,9 +676,7 @@ const getAIResponse = async () => {
 }
 
 // 硬币动画
-// 删除这些重复的定义
-const isFlipping = ref([false, false, false])
-const coinRefs = ref([])
+
 
 // 保留这一个版本的 performReading
 const performReading = () => {

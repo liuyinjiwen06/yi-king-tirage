@@ -102,7 +102,8 @@ export default {
         "analyzing": "Analyzing...",
         "responseTitle": "AI Analysis Result",
         "errorEmptyQuestion": "Please enter your question",
-        "errorGeneric": "Failed to get analysis, please try again later"
+        "errorGeneric": "Failed to get analysis, please try again later",
+         "simpleGuide": "Please enter the question you had in mind during the divination"
       }
     },
     information: {
