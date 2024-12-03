@@ -29,7 +29,7 @@
   
   <router-link 
     :to="{ name: 'HexagramsCenter', params: { locale: locale } }"
-    class="text-[#2C1810] hover:text-[#4A3728] transition-colors whitespace-nowrap"
+    class="text-[#2C1810] hover:text-[#4A3728] transition-colors whitespace-nowrap hidden"
   >
     {{ $t('nav.hexagramsCenter') }}
   </router-link>
@@ -60,7 +60,7 @@
     
     <router-link 
       :to="{ name: 'HexagramsCenter', params: { locale: locale } }"
-      class="block px-3 py-2 rounded-md text-[#2C1810] hover:bg-gray-50"
+      class="block px-3 py-2 rounded-md text-[#2C1810] hover:bg-gray-50 hidden"
       @click="isMenuOpen = false"
     >
       {{ $t('nav.hexagramsCenter') }}
