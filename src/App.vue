@@ -17,30 +17,30 @@
   </router-link>
         </div>
 
-        <!-- 中间导航链接 - 桌面端 -->
-        <div class="hidden md:flex items-center justify-center space-x-8 mx-4">
-          <router-link 
+        <!-- 桌面端导航 -->
+<div class="hidden md:flex items-center justify-center space-x-8 mx-4">
+  <router-link 
     :to="homeRoute"
     @click="handleHomeClick"
     class="text-[#2C1810] hover:text-[#4A3728] transition-colors whitespace-nowrap"
   >
     {{ $t('nav.home') }}
   </router-link>
-          
-          <router-link 
-            to="/hexagrams_center" 
-            class="text-[#2C1810] hover:text-[#4A3728] transition-colors whitespace-nowrap"
-          >
-            {{ $t('nav.hexagramsCenter') }}
-          </router-link>
+  
+  <router-link 
+    :to="{ name: 'HexagramsCenter', params: { locale: locale } }"
+    class="text-[#2C1810] hover:text-[#4A3728] transition-colors whitespace-nowrap"
+  >
+    {{ $t('nav.hexagramsCenter') }}
+  </router-link>
 
-          <router-link 
-            to="/about" 
-            class="text-[#2C1810] hover:text-[#4A3728] transition-colors whitespace-nowrap"
-          >
-            {{ $t('nav.about') }}
-          </router-link>
-        </div>
+  <router-link 
+    :to="{ name: 'About', params: { locale: locale } }"
+    class="text-[#2C1810] hover:text-[#4A3728] transition-colors whitespace-nowrap"
+  >
+    {{ $t('nav.about') }}
+  </router-link>
+</div>
 
         <!-- 语言切换器 -->
         <div class="flex items-center">
@@ -48,32 +48,33 @@
         </div>
 
         <!-- 移动端菜单按钮 -->
-        <button 
-          @click="isMenuOpen = !isMenuOpen"
-          class="md:hidden flex items-center p-2 rounded-md text-[#2C1810] hover:text-[#4A3728]"
-        >
-          <svg 
-            class="h-6 w-6" 
-            fill="none" 
-            viewBox="0 0 24 24" 
-            stroke="currentColor"
-          >
-            <path 
-              v-if="!isMenuOpen"
-              stroke-linecap="round" 
-              stroke-linejoin="round" 
-              stroke-width="2" 
-              d="M4 6h16M4 12h16M4 18h16"
-            />
-            <path 
-              v-else
-              stroke-linecap="round" 
-              stroke-linejoin="round" 
-              stroke-width="2" 
-              d="M6 18L18 6M6 6l12 12"
-            />
-          </svg>
-        </button>
+        <div v-show="isMenuOpen" class="md:hidden">
+  <div class="px-2 pt-2 pb-3 space-y-1">
+    <router-link 
+      :to="homeRoute"
+      @click="handleHomeClick"
+      class="block px-3 py-2 rounded-md text-[#2C1810] hover:bg-gray-50"
+    >
+      {{ $t('nav.home') }}
+    </router-link>
+    
+    <router-link 
+      :to="{ name: 'HexagramsCenter', params: { locale: locale } }"
+      class="block px-3 py-2 rounded-md text-[#2C1810] hover:bg-gray-50"
+      @click="isMenuOpen = false"
+    >
+      {{ $t('nav.hexagramsCenter') }}
+    </router-link>
+
+    <router-link 
+      :to="{ name: 'About', params: { locale: locale } }"
+      class="block px-3 py-2 rounded-md text-[#2C1810] hover:bg-gray-50"
+      @click="isMenuOpen = false"
+    >
+      {{ $t('nav.about') }}
+    </router-link>
+  </div>
+</div>
       </div>
 
       <!-- 移动端菜单 -->

@@ -36,7 +36,7 @@ export default {
       }
     },
     "about": {
-      "title": "About the I Ching: Exploring the Essence of Chinese Wisdom",
+      "title": "About the I Ching: What to Do with Your Hexagram Results?",
       "section1": {
         "title": "The Essence of I Ching: Adapting to Natural Laws",
         "paragraph1": "Many of my clients ask if frequent consultation of the I Ching can be harmful. They often worry about 'revealing heaven's secrets' or 'diminishing their good fortune'.",

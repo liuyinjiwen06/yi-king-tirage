@@ -121,7 +121,7 @@ export default {
     }
   },
   "about": {
-    "title": "À propos du Yi Jing : Explorer l'essence de la sagesse chinoise",
+    "title": "À propos du Yi Jing : Que faire des résultats des hexagrammes?",
     "section1": {
       "title": "L'essence du Yi Jing : S'adapter aux lois naturelles",
       "paragraph1": "Beaucoup de mes clients me demandent si la consultation fréquente du Yi Jing peut être néfaste. Ils s'inquiètent souvent de 'révéler les secrets du ciel' ou de 'diminuer leur bonne fortune'.",

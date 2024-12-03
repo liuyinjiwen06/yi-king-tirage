@@ -5,7 +5,7 @@
         
         <div class="bg-white rounded-2xl shadow-lg py-8 px-12 mb-8">
         <section >
-          <h2 class="text-2xl font-semibold text-[#C8503C] mb-4">{{ $t('about.section1.title') }}</h2>
+          <h2 class="text-2xl font-semibold text-[#C8503C] mb-4 hidden">{{ $t('about.section1.title') }}</h2>
           <p class="mb-4 leading-relaxed">
             {{ $t('about.section1.paragraph1') }}
           </p>
